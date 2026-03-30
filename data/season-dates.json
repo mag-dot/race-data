@@ -1,0 +1,292 @@
+[
+  {
+    "date": "2025/09/07",
+    "races": 10,
+    "day": "Sun"
+  },
+  {
+    "date": "2025/09/10",
+    "races": 8,
+    "day": "Wed"
+  },
+  {
+    "date": "2025/09/14",
+    "races": 10,
+    "day": "Sun"
+  },
+  {
+    "date": "2025/09/17",
+    "races": 8,
+    "day": "Wed"
+  },
+  {
+    "date": "2025/09/21",
+    "races": 10,
+    "day": "Sun"
+  },
+  {
+    "date": "2025/09/28",
+    "races": 11,
+    "day": "Sun"
+  },
+  {
+    "date": "2025/10/01",
+    "races": 10,
+    "day": "Wed"
+  },
+  {
+    "date": "2025/10/04",
+    "races": 10,
+    "day": "Sat"
+  },
+  {
+    "date": "2025/10/08",
+    "races": 9,
+    "day": "Wed"
+  },
+  {
+    "date": "2025/10/12",
+    "races": 10,
+    "day": "Sun"
+  },
+  {
+    "date": "2025/10/15",
+    "races": 9,
+    "day": "Wed"
+  },
+  {
+    "date": "2025/10/19",
+    "races": 10,
+    "day": "Sun"
+  },
+  {
+    "date": "2025/10/22",
+    "races": 9,
+    "day": "Wed"
+  },
+  {
+    "date": "2025/10/26",
+    "races": 10,
+    "day": "Sun"
+  },
+  {
+    "date": "2025/10/30",
+    "races": 8,
+    "day": "Thu"
+  },
+  {
+    "date": "2025/11/02",
+    "races": 10,
+    "day": "Sun"
+  },
+  {
+    "date": "2025/11/05",
+    "races": 9,
+    "day": "Wed"
+  },
+  {
+    "date": "2025/11/09",
+    "races": 10,
+    "day": "Sun"
+  },
+  {
+    "date": "2025/11/12",
+    "races": 9,
+    "day": "Wed"
+  },
+  {
+    "date": "2025/11/15",
+    "races": 10,
+    "day": "Sat"
+  },
+  {
+    "date": "2025/11/19",
+    "races": 9,
+    "day": "Wed"
+  },
+  {
+    "date": "2025/11/23",
+    "races": 10,
+    "day": "Sun"
+  },
+  {
+    "date": "2025/11/26",
+    "races": 9,
+    "day": "Wed"
+  },
+  {
+    "date": "2025/11/30",
+    "races": 10,
+    "day": "Sun"
+  },
+  {
+    "date": "2025/12/03",
+    "races": 8,
+    "day": "Wed"
+  },
+  {
+    "date": "2025/12/07",
+    "races": 10,
+    "day": "Sun"
+  },
+  {
+    "date": "2025/12/10",
+    "races": 9,
+    "day": "Wed"
+  },
+  {
+    "date": "2025/12/14",
+    "races": 10,
+    "day": "Sun"
+  },
+  {
+    "date": "2025/12/17",
+    "races": 9,
+    "day": "Wed"
+  },
+  {
+    "date": "2025/12/20",
+    "races": 11,
+    "day": "Sat"
+  },
+  {
+    "date": "2025/12/23",
+    "races": 9,
+    "day": "Tue"
+  },
+  {
+    "date": "2025/12/27",
+    "races": 10,
+    "day": "Sat"
+  },
+  {
+    "date": "2026/01/01",
+    "races": 11,
+    "day": "Thu"
+  },
+  {
+    "date": "2026/01/04",
+    "races": 11,
+    "day": "Sun"
+  },
+  {
+    "date": "2026/01/07",
+    "races": 9,
+    "day": "Wed"
+  },
+  {
+    "date": "2026/01/11",
+    "races": 11,
+    "day": "Sun"
+  },
+  {
+    "date": "2026/01/14",
+    "races": 9,
+    "day": "Wed"
+  },
+  {
+    "date": "2026/01/18",
+    "races": 11,
+    "day": "Sun"
+  },
+  {
+    "date": "2026/01/21",
+    "races": 9,
+    "day": "Wed"
+  },
+  {
+    "date": "2026/01/25",
+    "races": 11,
+    "day": "Sun"
+  },
+  {
+    "date": "2026/01/28",
+    "races": 9,
+    "day": "Wed"
+  },
+  {
+    "date": "2026/02/01",
+    "races": 11,
+    "day": "Sun"
+  },
+  {
+    "date": "2026/02/04",
+    "races": 9,
+    "day": "Wed"
+  },
+  {
+    "date": "2026/02/08",
+    "races": 11,
+    "day": "Sun"
+  },
+  {
+    "date": "2026/02/11",
+    "races": 9,
+    "day": "Wed"
+  },
+  {
+    "date": "2026/02/14",
+    "races": 10,
+    "day": "Sat"
+  },
+  {
+    "date": "2026/02/19",
+    "races": 11,
+    "day": "Thu"
+  },
+  {
+    "date": "2026/02/22",
+    "races": 11,
+    "day": "Sun"
+  },
+  {
+    "date": "2026/02/25",
+    "races": 9,
+    "day": "Wed"
+  },
+  {
+    "date": "2026/03/01",
+    "races": 11,
+    "day": "Sun"
+  },
+  {
+    "date": "2026/03/04",
+    "races": 9,
+    "day": "Wed"
+  },
+  {
+    "date": "2026/03/08",
+    "races": 11,
+    "day": "Sun"
+  },
+  {
+    "date": "2026/03/11",
+    "races": 9,
+    "day": "Wed"
+  },
+  {
+    "date": "2026/03/15",
+    "races": 11,
+    "day": "Sun"
+  },
+  {
+    "date": "2026/03/18",
+    "races": 9,
+    "day": "Wed"
+  },
+  {
+    "date": "2026/03/22",
+    "races": 10,
+    "day": "Sun"
+  },
+  {
+    "date": "2026/03/25",
+    "races": 9,
+    "day": "Wed"
+  },
+  {
+    "date": "2026/03/29",
+    "races": 11,
+    "day": "Sun"
+  }
+]

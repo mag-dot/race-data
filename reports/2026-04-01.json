@@ -1,0 +1,6196 @@
+[
+  {
+    "raceNo": 1,
+    "raceName": "Sha Tin ALL WEATHER TRACK - Class 5 040-000 1200mSHEK KIP MEI HANDICAP, 6:45 PM",
+    "venue": "Sha Tin",
+    "surface": "AWT",
+    "distance": 1200,
+    "class": 5,
+    "runners": 12,
+    "gap": 14.6,
+    "selections": [
+      {
+        "horseName": "ONLY U",
+        "horseNo": 3,
+        "draw": 3,
+        "jockey": "Z Purton",
+        "trainer": "B Crawford",
+        "combined": 78.3,
+        "composite": 75.3,
+        "valueScore": 14.9,
+        "valueBonus": 3.0,
+        "factors": {
+          "form": 43.2,
+          "energy": 54.9,
+          "jockey": 100,
+          "trainer": 62.2,
+          "draw": 97.0,
+          "class": 50.0,
+          "weight": 20,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": 0.0,
+          "flags": 8.0,
+          "value": 3.0
+        },
+        "flags": [
+          "🟢 Elite jockey + improving energy"
+        ],
+        "valueSignals": [
+          "energy 91 (strong) | improving (89→91)",
+          "peak energy 92 in harder company",
+          "NEW ride for Z Purton — jockey upgrade signal"
+        ],
+        "activeSignals": 3,
+        "signals": {
+          "recentForm": [
+            2,
+            4,
+            2,
+            8,
+            5
+          ],
+          "avgEnergy": 89.6,
+          "energyTrend": "improving",
+          "trialSentiment": null,
+          "daysSinceRun": 31,
+          "drawWinPct": 16,
+          "jockeyWinPct": 19.9,
+          "trainerWinPct": 8.8,
+          "gallopCount": 5,
+          "fastWorkCount": 0
+        },
+        "rank": 1
+      },
+      {
+        "horseName": "MACANESE MASTER",
+        "horseNo": 6,
+        "draw": 8,
+        "jockey": "Y L Chung",
+        "trainer": "Y S Tsui",
+        "combined": 63.7,
+        "composite": 62.6,
+        "valueScore": 5.8,
+        "valueBonus": 1.2,
+        "factors": {
+          "form": 71.0,
+          "energy": 30.8,
+          "jockey": 30.0,
+          "trainer": 39.6,
+          "draw": 38.0,
+          "class": 65.0,
+          "weight": 38,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 10.0,
+          "flags": 0.0,
+          "value": 1.2
+        },
+        "flags": [],
+        "valueSignals": [
+          "trial: 'kept on'",
+          "peak energy 90 in harder company"
+        ],
+        "activeSignals": 2,
+        "signals": {
+          "recentForm": [
+            2,
+            1,
+            3,
+            1,
+            11
+          ],
+          "avgEnergy": 81.0,
+          "energyTrend": "dropping",
+          "trialSentiment": "positive",
+          "daysSinceRun": 28,
+          "drawWinPct": 4,
+          "jockeyWinPct": 6.0,
+          "trainerWinPct": 6.1,
+          "gallopCount": 2,
+          "fastWorkCount": 0
+        },
+        "rank": 2
+      },
+      {
+        "horseName": "TAIHANG SCENERY",
+        "horseNo": 11,
+        "draw": 6,
+        "jockey": "E C W Wong",
+        "trainer": "C S Shum",
+        "combined": 50.9,
+        "composite": 50.9,
+        "valueScore": 0.0,
+        "valueBonus": 0.0,
+        "factors": {
+          "form": 22.8,
+          "energy": 28.3,
+          "jockey": 43.0,
+          "trainer": 83.0,
+          "draw": 79.0,
+          "class": 35.0,
+          "weight": 56,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": 2.0,
+          "flags": 0.0,
+          "value": 0.0
+        },
+        "flags": [],
+        "valueSignals": [],
+        "activeSignals": 0,
+        "signals": {
+          "recentForm": [
+            11,
+            2,
+            4,
+            12,
+            9
+          ],
+          "avgEnergy": 80.1,
+          "energyTrend": "dropping",
+          "trialSentiment": "neutral",
+          "daysSinceRun": 14,
+          "drawWinPct": 12,
+          "jockeyWinPct": 8.6,
+          "trainerWinPct": 12.0,
+          "gallopCount": 4,
+          "fastWorkCount": 0
+        },
+        "rank": 3
+      },
+      {
+        "horseName": "VIVA CHALEUR",
+        "horseNo": 12,
+        "draw": 7,
+        "jockey": "A Atzeni",
+        "trainer": "A S Cruz",
+        "combined": 47.0,
+        "composite": 46.4,
+        "valueScore": 3.0,
+        "valueBonus": 0.6,
+        "factors": {
+          "form": 12.2,
+          "energy": 31.9,
+          "jockey": 55.5,
+          "trainer": 47.4,
+          "draw": 56.0,
+          "class": 35.0,
+          "weight": 65,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": 2.0,
+          "flags": 0.0,
+          "value": 0.6
+        },
+        "flags": [],
+        "valueSignals": [
+          "56d layoff (market discount)"
+        ],
+        "activeSignals": 1,
+        "signals": {
+          "recentForm": [
+            13,
+            4,
+            10,
+            8,
+            3
+          ],
+          "avgEnergy": 81.4,
+          "energyTrend": "dropping",
+          "trialSentiment": "neutral",
+          "daysSinceRun": 56,
+          "drawWinPct": 8,
+          "jockeyWinPct": 11.1,
+          "trainerWinPct": 7.3,
+          "gallopCount": 4,
+          "fastWorkCount": 0
+        },
+        "rank": 4
+      },
+      {
+        "horseName": "DOUBLE BINGO",
+        "horseNo": 9,
+        "draw": 9,
+        "jockey": "H Y Yuen",
+        "trainer": "P F Yiu",
+        "combined": 46.7,
+        "composite": 46.7,
+        "valueScore": 0.0,
+        "valueBonus": 0.0,
+        "factors": {
+          "form": 37.4,
+          "energy": 34.3,
+          "jockey": 0.0,
+          "trainer": 60.9,
+          "draw": 33.5,
+          "class": 50.0,
+          "weight": 68,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": 2.0,
+          "flags": 0.0,
+          "value": 0.0
+        },
+        "flags": [],
+        "valueSignals": [],
+        "activeSignals": 0,
+        "signals": {
+          "recentForm": [
+            8,
+            5,
+            1,
+            3,
+            2
+          ],
+          "avgEnergy": 85.1,
+          "energyTrend": "declining",
+          "trialSentiment": "neutral",
+          "daysSinceRun": 11,
+          "drawWinPct": 3,
+          "jockeyWinPct": 0.0,
+          "trainerWinPct": 8.6,
+          "gallopCount": 5,
+          "fastWorkCount": 0
+        },
+        "rank": 5
+      },
+      {
+        "horseName": "TRIUMPHANT WARRIOR",
+        "horseNo": 8,
+        "draw": 10,
+        "jockey": "C Y Ho",
+        "trainer": "J Richards",
+        "combined": 44.1,
+        "composite": 44.1,
+        "valueScore": 0.0,
+        "valueBonus": 0.0,
+        "factors": {
+          "form": 18.4,
+          "energy": 39.2,
+          "jockey": 45.0,
+          "trainer": 39.0,
+          "draw": 69.5,
+          "class": 35.0,
+          "weight": 35,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": 0.0,
+          "flags": 0.0,
+          "value": 0.0
+        },
+        "flags": [],
+        "valueSignals": [],
+        "activeSignals": 0,
+        "signals": {
+          "recentForm": [
+            4,
+            5,
+            5,
+            7,
+            3
+          ],
+          "avgEnergy": 84.0,
+          "energyTrend": "dropping",
+          "trialSentiment": null,
+          "daysSinceRun": 18,
+          "drawWinPct": 11,
+          "jockeyWinPct": 9.0,
+          "trainerWinPct": 6.0,
+          "gallopCount": 4,
+          "fastWorkCount": 0
+        },
+        "rank": 6
+      },
+      {
+        "horseName": "CHEER FOR SOUTH",
+        "horseNo": 10,
+        "draw": 5,
+        "jockey": "M F Poon",
+        "trainer": "F C Lor",
+        "combined": 41.5,
+        "composite": 40.5,
+        "valueScore": 5.0,
+        "valueBonus": 1.0,
+        "factors": {
+          "form": 10.0,
+          "energy": 40.5,
+          "jockey": 33.5,
+          "trainer": 53.3,
+          "draw": 33.5,
+          "class": 35.0,
+          "weight": 44,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": 0.0,
+          "flags": 0.0,
+          "value": 1.0
+        },
+        "flags": [],
+        "valueSignals": [
+          "3-run rising trend (79→80→83)"
+        ],
+        "activeSignals": 1,
+        "signals": {
+          "recentForm": [
+            6,
+            9,
+            12,
+            9,
+            2
+          ],
+          "avgEnergy": 80.9,
+          "energyTrend": "rising",
+          "trialSentiment": null,
+          "daysSinceRun": 13,
+          "drawWinPct": 3,
+          "jockeyWinPct": 6.7,
+          "trainerWinPct": 8.2,
+          "gallopCount": 6,
+          "fastWorkCount": 0
+        },
+        "rank": 7
+      },
+      {
+        "horseName": "ISLAND BREEZES",
+        "horseNo": 4,
+        "draw": 12,
+        "jockey": "C L Chau",
+        "trainer": "P C Ng",
+        "combined": 40.4,
+        "composite": 40.4,
+        "valueScore": 0.0,
+        "valueBonus": 0.0,
+        "factors": {
+          "form": 26.6,
+          "energy": 30.4,
+          "jockey": 51.0,
+          "trainer": 36.4,
+          "draw": 42.5,
+          "class": 35.0,
+          "weight": 29,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 0.0,
+          "flags": 0.0,
+          "value": 0.0
+        },
+        "flags": [],
+        "valueSignals": [],
+        "activeSignals": 0,
+        "signals": {
+          "recentForm": [
+            12,
+            6,
+            3,
+            2,
+            4
+          ],
+          "avgEnergy": 83.7,
+          "energyTrend": "declining",
+          "trialSentiment": null,
+          "daysSinceRun": 28,
+          "drawWinPct": 5,
+          "jockeyWinPct": 10.2,
+          "trainerWinPct": 5.6,
+          "gallopCount": 2,
+          "fastWorkCount": 0
+        },
+        "rank": 8
+      },
+      {
+        "horseName": "NOBLE DELUXE",
+        "horseNo": 5,
+        "draw": 1,
+        "jockey": "K Teetan",
+        "trainer": "J Size",
+        "combined": 27.5,
+        "composite": 27.1,
+        "valueScore": 2.0,
+        "valueBonus": 0.4,
+        "factors": {
+          "form": 21.0,
+          "energy": 0,
+          "jockey": 31.0,
+          "trainer": 56.4,
+          "draw": 56.0,
+          "class": 35.0,
+          "weight": 29,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": -8.0,
+          "flags": 0.0,
+          "value": 0.4
+        },
+        "flags": [],
+        "valueSignals": [
+          "peak energy 92 in harder company"
+        ],
+        "activeSignals": 1,
+        "signals": {
+          "recentForm": [
+            12,
+            13,
+            1,
+            10,
+            5
+          ],
+          "avgEnergy": 72.6,
+          "energyTrend": "declining",
+          "trialSentiment": "negative",
+          "daysSinceRun": 13,
+          "drawWinPct": 8,
+          "jockeyWinPct": 6.2,
+          "trainerWinPct": 7.9,
+          "gallopCount": 4,
+          "fastWorkCount": 0
+        },
+        "rank": 9
+      },
+      {
+        "horseName": "RACINGRACE",
+        "horseNo": 7,
+        "draw": 2,
+        "jockey": "L Hewitson",
+        "trainer": "D J Hall",
+        "combined": 25.0,
+        "composite": 24.2,
+        "valueScore": 4.0,
+        "valueBonus": 0.8,
+        "factors": {
+          "form": 0.0,
+          "energy": 33.6,
+          "jockey": 34.5,
+          "trainer": 55.7,
+          "draw": 70.0,
+          "class": 35.0,
+          "weight": 35,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 4.0,
+          "flags": -15.0,
+          "value": 0.8
+        },
+        "flags": [
+          "🔴 3 runs outside top 6"
+        ],
+        "valueSignals": [
+          "improving (76→79)",
+          "2 recent trials"
+        ],
+        "activeSignals": 2,
+        "signals": {
+          "recentForm": [
+            9,
+            11,
+            10,
+            10,
+            10
+          ],
+          "avgEnergy": 82.0,
+          "energyTrend": "improving",
+          "trialSentiment": "neutral",
+          "daysSinceRun": 21,
+          "drawWinPct": 10,
+          "jockeyWinPct": 6.9,
+          "trainerWinPct": 7.8,
+          "gallopCount": 3,
+          "fastWorkCount": 0
+        },
+        "rank": 10
+      },
+      {
+        "horseName": "SUPERB GUY",
+        "horseNo": 1,
+        "draw": 11,
+        "jockey": "J Orman",
+        "trainer": "K W Lui",
+        "combined": 24.1,
+        "composite": 24.1,
+        "valueScore": 0.0,
+        "valueBonus": 0.0,
+        "factors": {
+          "form": 5.0,
+          "energy": 38.4,
+          "jockey": 41.0,
+          "trainer": 81.0,
+          "draw": 47.0,
+          "class": 35.0,
+          "weight": 17,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 0.0,
+          "flags": -15.0,
+          "value": 0.0
+        },
+        "flags": [
+          "🔴 3 runs outside top 6"
+        ],
+        "valueSignals": [],
+        "activeSignals": 0,
+        "signals": {
+          "recentForm": [
+            9,
+            10,
+            10,
+            9,
+            3
+          ],
+          "avgEnergy": 83.7,
+          "energyTrend": "dropping",
+          "trialSentiment": null,
+          "daysSinceRun": 29,
+          "drawWinPct": 6,
+          "jockeyWinPct": 8.2,
+          "trainerWinPct": 11.7,
+          "gallopCount": 3,
+          "fastWorkCount": 0
+        },
+        "rank": 11
+      },
+      {
+        "horseName": "TAI VICTORY",
+        "horseNo": 2,
+        "draw": 4,
+        "jockey": "K C Leung",
+        "trainer": "K H Ting",
+        "combined": 20.5,
+        "composite": 19.5,
+        "valueScore": 5.0,
+        "valueBonus": 1.0,
+        "factors": {
+          "form": 0.0,
+          "energy": 15.3,
+          "jockey": 32.0,
+          "trainer": 37.1,
+          "draw": 97.0,
+          "class": 35.0,
+          "weight": 17,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 10.0,
+          "barrierTrials": 0.0,
+          "flags": -15.0,
+          "value": 1.0
+        },
+        "flags": [
+          "🔴 3 runs outside top 6"
+        ],
+        "valueSignals": [
+          "3-run rising trend (60→71→77)"
+        ],
+        "activeSignals": 1,
+        "signals": {
+          "recentForm": [
+            14,
+            13,
+            11,
+            11,
+            11
+          ],
+          "avgEnergy": 71.9,
+          "energyTrend": "rising",
+          "trialSentiment": null,
+          "daysSinceRun": 28,
+          "drawWinPct": 16,
+          "jockeyWinPct": 6.4,
+          "trainerWinPct": 5.7,
+          "gallopCount": 5,
+          "fastWorkCount": 1
+        },
+        "rank": 12
+      }
+    ],
+    "bets": [
+      {
+        "type": "PLACE",
+        "horse": "#3 ONLY U",
+        "stake": 1,
+        "reason": "solid pick (14.6pt gap)",
+        "confidence": "MEDIUM"
+      }
+    ]
+  },
+  {
+    "raceNo": 2,
+    "raceName": "Sha Tin ALL WEATHER TRACK - Class 5 040-000 1650mYUE WAN HANDICAP, 7:15 PM",
+    "venue": "Sha Tin",
+    "surface": "AWT",
+    "distance": 1650,
+    "class": 5,
+    "runners": 14,
+    "gap": 4.5,
+    "selections": [
+      {
+        "horseName": "MEEPMEEP",
+        "horseNo": 10,
+        "draw": 8,
+        "jockey": "H Bowman",
+        "trainer": "J Size",
+        "combined": 54.8,
+        "composite": 51.3,
+        "valueScore": 17.8,
+        "valueBonus": 3.6,
+        "factors": {
+          "form": 24.4,
+          "energy": 54.0,
+          "jockey": 63.5,
+          "trainer": 56.4,
+          "draw": 20.0,
+          "class": 35.0,
+          "weight": 41,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": 0.0,
+          "flags": 0.0,
+          "value": 3.6
+        },
+        "flags": [],
+        "valueSignals": [
+          "energy 92 (strong) | 3-run rising trend (84→87→92)",
+          "peak energy 92 in harder company",
+          "NEW ride for H Bowman — jockey upgrade signal"
+        ],
+        "activeSignals": 3,
+        "signals": {
+          "recentForm": [
+            2,
+            5,
+            9,
+            11,
+            6
+          ],
+          "avgEnergy": 85.7,
+          "energyTrend": "rising",
+          "trialSentiment": null,
+          "daysSinceRun": 21,
+          "drawWinPct": 0,
+          "jockeyWinPct": 11.7,
+          "trainerWinPct": 7.9,
+          "gallopCount": 4,
+          "fastWorkCount": 0
+        },
+        "rank": 1
+      },
+      {
+        "horseName": "TELECOM POWER",
+        "horseNo": 4,
+        "draw": 11,
+        "jockey": "C Y Ho",
+        "trainer": "Y S Tsui",
+        "combined": 50.3,
+        "composite": 48.8,
+        "valueScore": 7.2,
+        "valueBonus": 1.5,
+        "factors": {
+          "form": 31.4,
+          "energy": 50.4,
+          "jockey": 45.0,
+          "trainer": 39.6,
+          "draw": 51.5,
+          "class": 50.0,
+          "weight": 20,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 2.0,
+          "flags": 0.0,
+          "value": 1.5
+        },
+        "flags": [],
+        "valueSignals": [
+          "trial: 'comfortably' | 35d since last run",
+          "peak energy 91 in harder company"
+        ],
+        "activeSignals": 2,
+        "signals": {
+          "recentForm": [
+            5,
+            2,
+            3,
+            6,
+            8
+          ],
+          "avgEnergy": 88.0,
+          "energyTrend": "dropping",
+          "trialSentiment": "neutral",
+          "daysSinceRun": 35,
+          "drawWinPct": 7,
+          "jockeyWinPct": 9.0,
+          "trainerWinPct": 6.1,
+          "gallopCount": 2,
+          "fastWorkCount": 0
+        },
+        "rank": 2
+      },
+      {
+        "horseName": "ON THE LASH",
+        "horseNo": 5,
+        "draw": 14,
+        "jockey": "A Atzeni",
+        "trainer": "P C Ng",
+        "combined": 50.1,
+        "composite": 49.1,
+        "valueScore": 5.0,
+        "valueBonus": 1.0,
+        "factors": {
+          "form": 29.0,
+          "energy": 55.9,
+          "jockey": 55.5,
+          "trainer": 36.4,
+          "draw": 29.0,
+          "class": 35.0,
+          "weight": 23,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": 0.0,
+          "flags": 0.0,
+          "value": 1.0
+        },
+        "flags": [],
+        "valueSignals": [
+          "3-run rising trend (85→87→89)"
+        ],
+        "activeSignals": 1,
+        "signals": {
+          "recentForm": [
+            5,
+            8,
+            10,
+            1,
+            1
+          ],
+          "avgEnergy": 86.4,
+          "energyTrend": "rising",
+          "trialSentiment": null,
+          "daysSinceRun": 10,
+          "drawWinPct": 2,
+          "jockeyWinPct": 11.1,
+          "trainerWinPct": 5.6,
+          "gallopCount": 6,
+          "fastWorkCount": 0
+        },
+        "rank": 3
+      },
+      {
+        "horseName": "CELESTIAL HARMONY",
+        "horseNo": 3,
+        "draw": 3,
+        "jockey": "L Hewitson",
+        "trainer": "B Crawford",
+        "combined": 49.7,
+        "composite": 49.3,
+        "valueScore": 2.0,
+        "valueBonus": 0.4,
+        "factors": {
+          "form": 32.0,
+          "energy": 42.8,
+          "jockey": 34.5,
+          "trainer": 62.2,
+          "draw": 56.0,
+          "class": 50.0,
+          "weight": 20,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": 0.0,
+          "flags": 0.0,
+          "value": 0.4
+        },
+        "flags": [],
+        "valueSignals": [
+          "peak energy 93 in harder company"
+        ],
+        "activeSignals": 1,
+        "signals": {
+          "recentForm": [
+            6,
+            1,
+            12,
+            14,
+            3
+          ],
+          "avgEnergy": 85.3,
+          "energyTrend": "dropping",
+          "trialSentiment": null,
+          "daysSinceRun": 53,
+          "drawWinPct": 8,
+          "jockeyWinPct": 6.9,
+          "trainerWinPct": 8.8,
+          "gallopCount": 4,
+          "fastWorkCount": 0
+        },
+        "rank": 4
+      },
+      {
+        "horseName": "PHANTOM CYCLONE",
+        "horseNo": 13,
+        "draw": 10,
+        "jockey": "H Bentley",
+        "trainer": "K H Ting",
+        "combined": 49.2,
+        "composite": 48.6,
+        "valueScore": 3.0,
+        "valueBonus": 0.6,
+        "factors": {
+          "form": 35.8,
+          "energy": 42.8,
+          "jockey": 39.0,
+          "trainer": 37.1,
+          "draw": 42.5,
+          "class": 50.0,
+          "weight": 56,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 2.0,
+          "flags": 0.0,
+          "value": 0.6
+        },
+        "flags": [],
+        "valueSignals": [
+          "53d layoff (market discount)"
+        ],
+        "activeSignals": 1,
+        "signals": {
+          "recentForm": [
+            4,
+            2,
+            5,
+            3,
+            10
+          ],
+          "avgEnergy": 85.3,
+          "energyTrend": "dropping",
+          "trialSentiment": "neutral",
+          "daysSinceRun": 53,
+          "drawWinPct": 5,
+          "jockeyWinPct": 7.8,
+          "trainerWinPct": 5.7,
+          "gallopCount": 2,
+          "fastWorkCount": 0
+        },
+        "rank": 5
+      },
+      {
+        "horseName": "GO GO GO",
+        "horseNo": 12,
+        "draw": 12,
+        "jockey": "K Teetan",
+        "trainer": "W Y So",
+        "combined": 49.1,
+        "composite": 46.8,
+        "valueScore": 11.5,
+        "valueBonus": 2.3,
+        "factors": {
+          "form": 38.6,
+          "energy": 36.7,
+          "jockey": 31.0,
+          "trainer": 42.2,
+          "draw": 33.5,
+          "class": 50.0,
+          "weight": 56,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 2.0,
+          "flags": 0.0,
+          "value": 2.3
+        },
+        "flags": [],
+        "valueSignals": [
+          "energy 91 (strong) | improving (79→91)",
+          "53d layoff (market discount)",
+          "peak energy 91 in harder company"
+        ],
+        "activeSignals": 3,
+        "signals": {
+          "recentForm": [
+            1,
+            10,
+            4,
+            6,
+            5
+          ],
+          "avgEnergy": 83.1,
+          "energyTrend": "improving",
+          "trialSentiment": "neutral",
+          "daysSinceRun": 53,
+          "drawWinPct": 3,
+          "jockeyWinPct": 6.2,
+          "trainerWinPct": 6.5,
+          "gallopCount": 1,
+          "fastWorkCount": 0
+        },
+        "rank": 6
+      },
+      {
+        "horseName": "DIRIYA",
+        "horseNo": 2,
+        "draw": 1,
+        "jockey": "Z Purton",
+        "trainer": "C H Yip",
+        "combined": 46.6,
+        "composite": 45.4,
+        "valueScore": 6.0,
+        "valueBonus": 1.2,
+        "factors": {
+          "form": 9.2,
+          "energy": 37.5,
+          "jockey": 100,
+          "trainer": 27.9,
+          "draw": 79.0,
+          "class": 35.0,
+          "weight": 17,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 0.0,
+          "flags": 0.0,
+          "value": 1.2
+        },
+        "flags": [],
+        "valueSignals": [
+          "NEW ride for Z Purton — jockey upgrade signal"
+        ],
+        "activeSignals": 1,
+        "signals": {
+          "recentForm": [
+            10,
+            6,
+            5,
+            4,
+            10
+          ],
+          "avgEnergy": 83.4,
+          "energyTrend": "dropping",
+          "trialSentiment": null,
+          "daysSinceRun": 28,
+          "drawWinPct": 12,
+          "jockeyWinPct": 19.9,
+          "trainerWinPct": 4.3,
+          "gallopCount": 3,
+          "fastWorkCount": 0
+        },
+        "rank": 7
+      },
+      {
+        "horseName": "SPANGLE FORTUNE",
+        "horseNo": 1,
+        "draw": 13,
+        "jockey": "M F Poon",
+        "trainer": "K L Man",
+        "combined": 46.4,
+        "composite": 45.2,
+        "valueScore": 5.8,
+        "valueBonus": 1.2,
+        "factors": {
+          "form": 10.0,
+          "energy": 30.4,
+          "jockey": 33.5,
+          "trainer": 58.5,
+          "draw": 51.5,
+          "class": 35.0,
+          "weight": 14,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 10.0,
+          "flags": 0.0,
+          "value": 1.2
+        },
+        "flags": [],
+        "valueSignals": [
+          "trial: 'kept on'",
+          "peak energy 92 in harder company"
+        ],
+        "activeSignals": 2,
+        "signals": {
+          "recentForm": [
+            13,
+            8,
+            5,
+            3,
+            8
+          ],
+          "avgEnergy": 83.7,
+          "energyTrend": "declining",
+          "trialSentiment": "positive",
+          "daysSinceRun": 17,
+          "drawWinPct": 7,
+          "jockeyWinPct": 6.7,
+          "trainerWinPct": 9.0,
+          "gallopCount": 3,
+          "fastWorkCount": 0
+        },
+        "rank": 8
+      },
+      {
+        "horseName": "VERBIER",
+        "horseNo": 9,
+        "draw": 9,
+        "jockey": "J Orman",
+        "trainer": "C Fownes",
+        "combined": 45.7,
+        "composite": 45.7,
+        "valueScore": 0.0,
+        "valueBonus": 0.0,
+        "factors": {
+          "form": 25.6,
+          "energy": 27.7,
+          "jockey": 41.0,
+          "trainer": 83.0,
+          "draw": 88.0,
+          "class": 35.0,
+          "weight": 38,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 0.0,
+          "flags": 0.0,
+          "value": 0.0
+        },
+        "flags": [],
+        "valueSignals": [],
+        "activeSignals": 0,
+        "signals": {
+          "recentForm": [
+            9,
+            1,
+            9,
+            6,
+            7
+          ],
+          "avgEnergy": 79.9,
+          "energyTrend": "dropping",
+          "trialSentiment": null,
+          "daysSinceRun": 11,
+          "drawWinPct": 14,
+          "jockeyWinPct": 8.2,
+          "trainerWinPct": 12.0,
+          "gallopCount": 1,
+          "fastWorkCount": 0
+        },
+        "rank": 9
+      },
+      {
+        "horseName": "HAILTOTHEVICTORS",
+        "horseNo": 8,
+        "draw": 2,
+        "jockey": "L Ferraris",
+        "trainer": "D Eustace",
+        "combined": 44.8,
+        "composite": 44.4,
+        "valueScore": 2.0,
+        "valueBonus": 0.4,
+        "factors": {
+          "form": 14.2,
+          "energy": 48.7,
+          "jockey": 43.0,
+          "trainer": 44.2,
+          "draw": 56.5,
+          "class": 35.0,
+          "weight": 32,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": 0.0,
+          "flags": 0.0,
+          "value": 0.4
+        },
+        "flags": [],
+        "valueSignals": [
+          "peak energy 91 in harder company"
+        ],
+        "activeSignals": 1,
+        "signals": {
+          "recentForm": [
+            8,
+            4,
+            7,
+            7,
+            2
+          ],
+          "avgEnergy": 87.4,
+          "energyTrend": "dropping",
+          "trialSentiment": null,
+          "daysSinceRun": 10,
+          "drawWinPct": 7,
+          "jockeyWinPct": 8.6,
+          "trainerWinPct": 6.8,
+          "gallopCount": 4,
+          "fastWorkCount": 0
+        },
+        "rank": 10
+      },
+      {
+        "horseName": "CONSPIRACY WITNESS",
+        "horseNo": 7,
+        "draw": 7,
+        "jockey": "B Avdulla",
+        "trainer": "D A Hayes",
+        "combined": 43.6,
+        "composite": 43.2,
+        "valueScore": 2.0,
+        "valueBonus": 0.4,
+        "factors": {
+          "form": 10.8,
+          "energy": 47.3,
+          "jockey": 20.5,
+          "trainer": 57.2,
+          "draw": 60.5,
+          "class": 35.0,
+          "weight": 32,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": 2.0,
+          "flags": 0.0,
+          "value": 0.4
+        },
+        "flags": [],
+        "valueSignals": [
+          "peak energy 91 in harder company"
+        ],
+        "activeSignals": 1,
+        "signals": {
+          "recentForm": [
+            9,
+            4,
+            6,
+            5,
+            9
+          ],
+          "avgEnergy": 86.9,
+          "energyTrend": "dropping",
+          "trialSentiment": "neutral",
+          "daysSinceRun": 21,
+          "drawWinPct": 9,
+          "jockeyWinPct": 4.1,
+          "trainerWinPct": 8.8,
+          "gallopCount": 4,
+          "fastWorkCount": 0
+        },
+        "rank": 11
+      },
+      {
+        "horseName": "ALL EYES ON ME",
+        "horseNo": 14,
+        "draw": 4,
+        "jockey": "M L Yeung",
+        "trainer": "C W Chang",
+        "combined": 39.7,
+        "composite": 39.1,
+        "valueScore": 3.0,
+        "valueBonus": 0.6,
+        "factors": {
+          "form": 22.2,
+          "energy": 23.2,
+          "jockey": 26.5,
+          "trainer": 31.2,
+          "draw": 70.0,
+          "class": 35.0,
+          "weight": 74,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 2.0,
+          "flags": 0.0,
+          "value": 0.6
+        },
+        "flags": [],
+        "valueSignals": [
+          "53d layoff (market discount)"
+        ],
+        "activeSignals": 1,
+        "signals": {
+          "recentForm": [
+            3,
+            4,
+            10,
+            11,
+            10
+          ],
+          "avgEnergy": 78.3,
+          "energyTrend": "stable",
+          "trialSentiment": "neutral",
+          "daysSinceRun": 53,
+          "drawWinPct": 10,
+          "jockeyWinPct": 5.3,
+          "trainerWinPct": 4.8,
+          "gallopCount": 2,
+          "fastWorkCount": 0
+        },
+        "rank": 12
+      },
+      {
+        "horseName": "HAPPYDEARHAPPYDEER",
+        "horseNo": 6,
+        "draw": 5,
+        "jockey": "A Badel",
+        "trainer": "A S Cruz",
+        "combined": 28.5,
+        "composite": 28.5,
+        "valueScore": 0.0,
+        "valueBonus": 0.0,
+        "factors": {
+          "form": 18.2,
+          "energy": 41.2,
+          "jockey": 33.0,
+          "trainer": 47.4,
+          "draw": 79.0,
+          "class": 35.0,
+          "weight": 26,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": 0.0,
+          "flags": -15.0,
+          "value": 0.0
+        },
+        "flags": [
+          "🔴 3 runs outside top 6"
+        ],
+        "valueSignals": [],
+        "activeSignals": 0,
+        "signals": {
+          "recentForm": [
+            9,
+            7,
+            13,
+            2,
+            2
+          ],
+          "avgEnergy": 84.7,
+          "energyTrend": "dropping",
+          "trialSentiment": null,
+          "daysSinceRun": 17,
+          "drawWinPct": 12,
+          "jockeyWinPct": 6.6,
+          "trainerWinPct": 7.3,
+          "gallopCount": 4,
+          "fastWorkCount": 0
+        },
+        "rank": 13
+      },
+      {
+        "horseName": "JOLLY JUMPER",
+        "horseNo": 11,
+        "draw": 6,
+        "jockey": "K C Leung",
+        "trainer": "W K Mo",
+        "combined": 16.4,
+        "composite": 15.9,
+        "valueScore": 2.5,
+        "valueBonus": 0.5,
+        "factors": {
+          "form": 1.6,
+          "energy": 33.9,
+          "jockey": 32.0,
+          "trainer": 53.3,
+          "draw": 74.5,
+          "class": 35.0,
+          "weight": 47,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": -8.0,
+          "flags": -15.0,
+          "value": 0.5
+        },
+        "flags": [
+          "🔴 3 runs outside top 6"
+        ],
+        "valueSignals": [
+          "improving (82→87)"
+        ],
+        "activeSignals": 1,
+        "signals": {
+          "recentForm": [
+            7,
+            7,
+            8,
+            5,
+            13
+          ],
+          "avgEnergy": 82.1,
+          "energyTrend": "improving",
+          "trialSentiment": "negative",
+          "daysSinceRun": 24,
+          "drawWinPct": 11,
+          "jockeyWinPct": 6.4,
+          "trainerWinPct": 8.2,
+          "gallopCount": 4,
+          "fastWorkCount": 0
+        },
+        "rank": 14
+      }
+    ],
+    "bets": [
+      {
+        "type": "PASS",
+        "horse": "—",
+        "stake": 0,
+        "reason": "no clear edge (gap 4.5pts)",
+        "confidence": "—"
+      }
+    ]
+  },
+  {
+    "raceNo": 3,
+    "raceName": "Sha Tin ALL WEATHER TRACK - Class 4 060-040 1650mNAM SHAN HANDICAP, 7:45 PM",
+    "venue": "Sha Tin",
+    "surface": "AWT",
+    "distance": 1650,
+    "class": 4,
+    "runners": 14,
+    "gap": 18.2,
+    "selections": [
+      {
+        "horseName": "NEVER PETER OUT",
+        "horseNo": 4,
+        "draw": 1,
+        "jockey": "Z Purton",
+        "trainer": "F C Lor",
+        "combined": 88.9,
+        "composite": 83.0,
+        "valueScore": 29.9,
+        "valueBonus": 6.0,
+        "factors": {
+          "form": 5.4,
+          "energy": 67.1,
+          "jockey": 100,
+          "trainer": 53.3,
+          "draw": 79.0,
+          "class": 35.0,
+          "weight": 29,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": 10.0,
+          "flags": 16.0,
+          "value": 6.0
+        },
+        "flags": [
+          "🟢 Near miss + strong energy",
+          "🟢 Elite jockey + improving energy"
+        ],
+        "valueSignals": [
+          "energy 94 (strong) | 3-run rising trend (88→93→94) | high effort despite 5th — under-rated",
+          "trial: 'impressive'",
+          "peak energy 94 in harder company",
+          "NEW ride for Z Purton — jockey upgrade signal"
+        ],
+        "activeSignals": 4,
+        "signals": {
+          "recentForm": [
+            5,
+            6,
+            8,
+            9,
+            8
+          ],
+          "avgEnergy": 90.4,
+          "energyTrend": "rising",
+          "trialSentiment": "positive",
+          "daysSinceRun": 29,
+          "drawWinPct": 12,
+          "jockeyWinPct": 19.9,
+          "trainerWinPct": 8.2,
+          "gallopCount": 4,
+          "fastWorkCount": 0
+        },
+        "rank": 1
+      },
+      {
+        "horseName": "FOREMOST TEDDY",
+        "horseNo": 14,
+        "draw": 11,
+        "jockey": "K Teetan",
+        "trainer": "C S Shum",
+        "combined": 70.7,
+        "composite": 67.9,
+        "valueScore": 14.1,
+        "valueBonus": 2.8,
+        "factors": {
+          "form": 39.0,
+          "energy": 46.5,
+          "jockey": 31.0,
+          "trainer": 83.0,
+          "draw": 51.5,
+          "class": 50.0,
+          "weight": 68,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": 12.0,
+          "flags": 0.0,
+          "value": 2.8
+        },
+        "flags": [],
+        "valueSignals": [
+          "energy 90 (strong) | improving (87→90)",
+          "trial: 'kept on' | 2 recent trials",
+          "peak energy 92 in harder company"
+        ],
+        "activeSignals": 3,
+        "signals": {
+          "recentForm": [
+            5,
+            7,
+            1,
+            1,
+            9
+          ],
+          "avgEnergy": 86.6,
+          "energyTrend": "improving",
+          "trialSentiment": "positive",
+          "daysSinceRun": 24,
+          "drawWinPct": 7,
+          "jockeyWinPct": 6.2,
+          "trainerWinPct": 12.0,
+          "gallopCount": 4,
+          "fastWorkCount": 0
+        },
+        "rank": 2
+      },
+      {
+        "horseName": "SUPREME AGILITY",
+        "horseNo": 1,
+        "draw": 4,
+        "jockey": "C L Chau",
+        "trainer": "P C Ng",
+        "combined": 60.5,
+        "composite": 58.2,
+        "valueScore": 11.2,
+        "valueBonus": 2.2,
+        "factors": {
+          "form": 45.8,
+          "energy": 60.0,
+          "jockey": 51.0,
+          "trainer": 36.4,
+          "draw": 70.0,
+          "class": 50.0,
+          "weight": 20,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 4.0,
+          "flags": 0.0,
+          "value": 2.2
+        },
+        "flags": [],
+        "valueSignals": [
+          "energy 92 (strong) | high effort despite 9th — under-rated",
+          "2 recent trials",
+          "peak energy 95 in harder company"
+        ],
+        "activeSignals": 3,
+        "signals": {
+          "recentForm": [
+            9,
+            1,
+            3,
+            4,
+            2
+          ],
+          "avgEnergy": 94.3,
+          "energyTrend": "declining",
+          "trialSentiment": "neutral",
+          "daysSinceRun": 11,
+          "drawWinPct": 10,
+          "jockeyWinPct": 10.2,
+          "trainerWinPct": 5.6,
+          "gallopCount": 2,
+          "fastWorkCount": 0
+        },
+        "rank": 3
+      },
+      {
+        "horseName": "BULL ATTITUDE",
+        "horseNo": 10,
+        "draw": 13,
+        "jockey": "L Hewitson",
+        "trainer": "M Newnham",
+        "combined": 55.9,
+        "composite": 55.0,
+        "valueScore": 4.5,
+        "valueBonus": 0.9,
+        "factors": {
+          "form": 16.2,
+          "energy": 57.1,
+          "jockey": 34.5,
+          "trainer": 80.4,
+          "draw": 51.5,
+          "class": 35.0,
+          "weight": 53,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 0.0,
+          "flags": 8.0,
+          "value": 0.9
+        },
+        "flags": [
+          "🟢 Near miss + strong energy"
+        ],
+        "valueSignals": [
+          "energy 93 (strong)",
+          "peak energy 93 in harder company"
+        ],
+        "activeSignals": 2,
+        "signals": {
+          "recentForm": [
+            4,
+            4,
+            9,
+            8,
+            7
+          ],
+          "avgEnergy": 90.4,
+          "energyTrend": "stable",
+          "trialSentiment": null,
+          "daysSinceRun": 29,
+          "drawWinPct": 7,
+          "jockeyWinPct": 6.9,
+          "trainerWinPct": 11.6,
+          "gallopCount": 3,
+          "fastWorkCount": 0
+        },
+        "rank": 4
+      },
+      {
+        "horseName": "NIGHT PUROSANGUE",
+        "horseNo": 13,
+        "draw": 12,
+        "jockey": "Y L Chung",
+        "trainer": "Y S Tsui",
+        "combined": 48.5,
+        "composite": 46.6,
+        "valueScore": 9.5,
+        "valueBonus": 1.9,
+        "factors": {
+          "form": 29.6,
+          "energy": 63.5,
+          "jockey": 30.0,
+          "trainer": 39.6,
+          "draw": 33.5,
+          "class": 35.0,
+          "weight": 65,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 0.0,
+          "flags": 0.0,
+          "value": 1.9
+        },
+        "flags": [],
+        "valueSignals": [
+          "energy 92 (strong) | 3-run rising trend (85→89→92)",
+          "peak energy 92 in harder company"
+        ],
+        "activeSignals": 2,
+        "signals": {
+          "recentForm": [
+            3,
+            6,
+            9,
+            2,
+            6
+          ],
+          "avgEnergy": 89.1,
+          "energyTrend": "rising",
+          "trialSentiment": null,
+          "daysSinceRun": 18,
+          "drawWinPct": 3,
+          "jockeyWinPct": 6.0,
+          "trainerWinPct": 6.1,
+          "gallopCount": 3,
+          "fastWorkCount": 0
+        },
+        "rank": 5
+      },
+      {
+        "horseName": "GOOD LUCK BABE",
+        "horseNo": 3,
+        "draw": 3,
+        "jockey": "H Bowman",
+        "trainer": "A S Cruz",
+        "combined": 47.3,
+        "composite": 45.7,
+        "valueScore": 8.0,
+        "valueBonus": 1.6,
+        "factors": {
+          "form": 2.0,
+          "energy": 54.9,
+          "jockey": 63.5,
+          "trainer": 47.4,
+          "draw": 56.0,
+          "class": 35.0,
+          "weight": 26,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": 0.0,
+          "flags": 0.0,
+          "value": 1.6
+        },
+        "flags": [],
+        "valueSignals": [
+          "peak energy 94 in harder company",
+          "NEW ride for H Bowman — jockey upgrade signal"
+        ],
+        "activeSignals": 2,
+        "signals": {
+          "recentForm": [
+            8,
+            7,
+            5,
+            8,
+            11
+          ],
+          "avgEnergy": 89.6,
+          "energyTrend": "dropping",
+          "trialSentiment": null,
+          "daysSinceRun": 17,
+          "drawWinPct": 8,
+          "jockeyWinPct": 11.7,
+          "trainerWinPct": 7.3,
+          "gallopCount": 5,
+          "fastWorkCount": 0
+        },
+        "rank": 6
+      },
+      {
+        "horseName": "LAKESHORE HERO",
+        "horseNo": 11,
+        "draw": 10,
+        "jockey": "A Atzeni",
+        "trainer": "D J Hall",
+        "combined": 47.3,
+        "composite": 46.8,
+        "valueScore": 2.5,
+        "valueBonus": 0.5,
+        "factors": {
+          "form": 13.6,
+          "energy": 44.0,
+          "jockey": 55.5,
+          "trainer": 55.7,
+          "draw": 42.5,
+          "class": 35.0,
+          "weight": 53,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": 0.0,
+          "flags": 0.0,
+          "value": 0.5
+        },
+        "flags": [],
+        "valueSignals": [
+          "improving (85→86)"
+        ],
+        "activeSignals": 1,
+        "signals": {
+          "recentForm": [
+            8,
+            8,
+            6,
+            5,
+            1
+          ],
+          "avgEnergy": 85.7,
+          "energyTrend": "improving",
+          "trialSentiment": null,
+          "daysSinceRun": 24,
+          "drawWinPct": 5,
+          "jockeyWinPct": 11.1,
+          "trainerWinPct": 7.8,
+          "gallopCount": 4,
+          "fastWorkCount": 0
+        },
+        "rank": 7
+      },
+      {
+        "horseName": "LESLIE",
+        "horseNo": 12,
+        "draw": 6,
+        "jockey": "R Kingscote",
+        "trainer": "C W Chang",
+        "combined": 33.9,
+        "composite": 33.5,
+        "valueScore": 2.0,
+        "valueBonus": 0.4,
+        "factors": {
+          "form": 6.0,
+          "energy": 37.1,
+          "jockey": 16.0,
+          "trainer": 31.2,
+          "draw": 74.5,
+          "class": 35.0,
+          "weight": 59,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 0.0,
+          "flags": 0.0,
+          "value": 0.4
+        },
+        "flags": [],
+        "valueSignals": [
+          "peak energy 92 in harder company"
+        ],
+        "activeSignals": 1,
+        "signals": {
+          "recentForm": [
+            11,
+            7,
+            4,
+            7,
+            7
+          ],
+          "avgEnergy": 86.1,
+          "energyTrend": "declining",
+          "trialSentiment": null,
+          "daysSinceRun": 32,
+          "drawWinPct": 11,
+          "jockeyWinPct": 3.2,
+          "trainerWinPct": 4.8,
+          "gallopCount": 2,
+          "fastWorkCount": 0
+        },
+        "rank": 8
+      },
+      {
+        "horseName": "BLOSSOMY",
+        "horseNo": 6,
+        "draw": 2,
+        "jockey": "M F Poon",
+        "trainer": "K L Man",
+        "combined": 26.8,
+        "composite": 26.1,
+        "valueScore": 3.5,
+        "valueBonus": 0.7,
+        "factors": {
+          "form": 0.0,
+          "energy": 53.2,
+          "jockey": 33.5,
+          "trainer": 58.5,
+          "draw": 56.5,
+          "class": 35.0,
+          "weight": 41,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 2.0,
+          "flags": -15.0,
+          "value": 0.7
+        },
+        "flags": [
+          "🔴 3 runs outside top 6"
+        ],
+        "valueSignals": [
+          "35d since last run",
+          "peak energy 90 in harder company"
+        ],
+        "activeSignals": 2,
+        "signals": {
+          "recentForm": [
+            10,
+            7,
+            13
+          ],
+          "avgEnergy": 89.0,
+          "energyTrend": "dropping",
+          "trialSentiment": "neutral",
+          "daysSinceRun": 35,
+          "drawWinPct": 7,
+          "jockeyWinPct": 6.7,
+          "trainerWinPct": 9.0,
+          "gallopCount": 3,
+          "fastWorkCount": 0
+        },
+        "rank": 9
+      },
+      {
+        "horseName": "FASHION LEGEND",
+        "horseNo": 9,
+        "draw": 14,
+        "jockey": "L Ferraris",
+        "trainer": "D Eustace",
+        "combined": 24.8,
+        "composite": 24.3,
+        "valueScore": 2.5,
+        "valueBonus": 0.5,
+        "factors": {
+          "form": 11.2,
+          "energy": 44.8,
+          "jockey": 43.0,
+          "trainer": 44.2,
+          "draw": 29.0,
+          "class": 35.0,
+          "weight": 50,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 0.0,
+          "flags": -15.0,
+          "value": 0.5
+        },
+        "flags": [
+          "🔴 3 runs outside top 6"
+        ],
+        "valueSignals": [
+          "improving (76→86)"
+        ],
+        "activeSignals": 1,
+        "signals": {
+          "recentForm": [
+            7,
+            13,
+            9,
+            2,
+            12
+          ],
+          "avgEnergy": 86.0,
+          "energyTrend": "improving",
+          "trialSentiment": null,
+          "daysSinceRun": 25,
+          "drawWinPct": 2,
+          "jockeyWinPct": 8.6,
+          "trainerWinPct": 6.8,
+          "gallopCount": 3,
+          "fastWorkCount": 0
+        },
+        "rank": 10
+      },
+      {
+        "horseName": "DAILY TROPHY",
+        "horseNo": 8,
+        "draw": 7,
+        "jockey": "J Orman",
+        "trainer": "C Fownes",
+        "combined": 22.9,
+        "composite": 22.4,
+        "valueScore": 2.5,
+        "valueBonus": 0.5,
+        "factors": {
+          "form": 0.0,
+          "energy": 25.5,
+          "jockey": 41.0,
+          "trainer": 83.0,
+          "draw": 60.5,
+          "class": 35.0,
+          "weight": 44,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 0.0,
+          "flags": -15.0,
+          "value": 0.5
+        },
+        "flags": [
+          "🔴 3 runs outside top 6"
+        ],
+        "valueSignals": [
+          "improving (68→89)"
+        ],
+        "activeSignals": 1,
+        "signals": {
+          "recentForm": [
+            7,
+            11,
+            13,
+            13,
+            8
+          ],
+          "avgEnergy": 79.1,
+          "energyTrend": "improving",
+          "trialSentiment": null,
+          "daysSinceRun": 21,
+          "drawWinPct": 9,
+          "jockeyWinPct": 8.2,
+          "trainerWinPct": 12.0,
+          "gallopCount": 2,
+          "fastWorkCount": 0
+        },
+        "rank": 11
+      },
+      {
+        "horseName": "HINOKAMI KAGURA",
+        "horseNo": 7,
+        "draw": 9,
+        "jockey": "M Chadwick",
+        "trainer": "W Y So",
+        "combined": 20.4,
+        "composite": 20.4,
+        "valueScore": 0.0,
+        "valueBonus": 0.0,
+        "factors": {
+          "form": 10.0,
+          "energy": 34.7,
+          "jockey": 18.5,
+          "trainer": 42.2,
+          "draw": 88.0,
+          "class": 35.0,
+          "weight": 41,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 0.0,
+          "flags": -15.0,
+          "value": 0.0
+        },
+        "flags": [
+          "🔴 3 runs outside top 6"
+        ],
+        "valueSignals": [],
+        "activeSignals": 0,
+        "signals": {
+          "recentForm": [
+            11,
+            11,
+            10,
+            9,
+            1
+          ],
+          "avgEnergy": 82.4,
+          "energyTrend": "dropping",
+          "trialSentiment": null,
+          "daysSinceRun": 28,
+          "drawWinPct": 14,
+          "jockeyWinPct": 3.7,
+          "trainerWinPct": 6.5,
+          "gallopCount": 2,
+          "fastWorkCount": 0
+        },
+        "rank": 12
+      },
+      {
+        "horseName": "NOVA KNIGHT",
+        "horseNo": 5,
+        "draw": 8,
+        "jockey": "M L Yeung",
+        "trainer": "D A Hayes",
+        "combined": 19.0,
+        "composite": 19.0,
+        "valueScore": 0.0,
+        "valueBonus": 0.0,
+        "factors": {
+          "form": 1.0,
+          "energy": 35.6,
+          "jockey": 26.5,
+          "trainer": 57.2,
+          "draw": 20.0,
+          "class": 35.0,
+          "weight": 32,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 2.0,
+          "flags": -15.0,
+          "value": 0.0
+        },
+        "flags": [
+          "🔴 3 runs outside top 6"
+        ],
+        "valueSignals": [],
+        "activeSignals": 0,
+        "signals": {
+          "recentForm": [
+            14,
+            11,
+            14,
+            12,
+            6
+          ],
+          "avgEnergy": 82.7,
+          "energyTrend": "dropping",
+          "trialSentiment": "neutral",
+          "daysSinceRun": 24,
+          "drawWinPct": 0,
+          "jockeyWinPct": 5.3,
+          "trainerWinPct": 8.8,
+          "gallopCount": 3,
+          "fastWorkCount": 0
+        },
+        "rank": 13
+      },
+      {
+        "horseName": "COLOURFUL GAN",
+        "horseNo": 2,
+        "draw": 5,
+        "jockey": "B Avdulla",
+        "trainer": "D J Whyte",
+        "combined": 17.7,
+        "composite": 17.3,
+        "valueScore": 2.0,
+        "valueBonus": 0.4,
+        "factors": {
+          "form": 0.0,
+          "energy": 42.8,
+          "jockey": 20.5,
+          "trainer": 30.6,
+          "draw": 79.0,
+          "class": 35.0,
+          "weight": 26,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 0.0,
+          "flags": -15.0,
+          "value": 0.4
+        },
+        "flags": [
+          "🔴 3 runs outside top 6"
+        ],
+        "valueSignals": [
+          "peak energy 91 in harder company"
+        ],
+        "activeSignals": 1,
+        "signals": {
+          "recentForm": [
+            10,
+            10,
+            9,
+            14,
+            12
+          ],
+          "avgEnergy": 85.3,
+          "energyTrend": "dropping",
+          "trialSentiment": null,
+          "daysSinceRun": 27,
+          "drawWinPct": 12,
+          "jockeyWinPct": 4.1,
+          "trainerWinPct": 4.7,
+          "gallopCount": 3,
+          "fastWorkCount": 0
+        },
+        "rank": 14
+      }
+    ],
+    "bets": [
+      {
+        "type": "WIN",
+        "horse": "#4 NEVER PETER OUT",
+        "stake": 2,
+        "reason": "clear top pick (18.2pt gap)",
+        "confidence": "HIGH"
+      }
+    ]
+  },
+  {
+    "raceNo": 4,
+    "raceName": "Sha Tin ALL WEATHER TRACK - Class 4 060-040 1200mMA TAU WAI HANDICAP, 8:15 PM",
+    "venue": "Sha Tin",
+    "surface": "AWT",
+    "distance": 1200,
+    "class": 4,
+    "runners": 12,
+    "gap": 20.6,
+    "selections": [
+      {
+        "horseName": "SPEEDY SMARTIE",
+        "horseNo": 2,
+        "draw": 8,
+        "jockey": "K Teetan",
+        "trainer": "B Crawford",
+        "combined": 80.3,
+        "composite": 76.4,
+        "valueScore": 19.5,
+        "valueBonus": 3.9,
+        "factors": {
+          "form": 73.8,
+          "energy": 71.1,
+          "jockey": 31.0,
+          "trainer": 62.2,
+          "draw": 38.0,
+          "class": 65.0,
+          "weight": 20,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": 10.0,
+          "flags": 0.0,
+          "value": 3.9
+        },
+        "flags": [],
+        "valueSignals": [
+          "energy 97 (outstanding)",
+          "trial: 'responded well'",
+          "peak energy 100 in harder company",
+          "front-runner with no pace pressure (1 other leaders)"
+        ],
+        "activeSignals": 4,
+        "signals": {
+          "recentForm": [
+            2,
+            1,
+            2,
+            4,
+            1
+          ],
+          "avgEnergy": 93.6,
+          "energyTrend": "dropping",
+          "trialSentiment": "positive",
+          "daysSinceRun": 18,
+          "drawWinPct": 4,
+          "jockeyWinPct": 6.2,
+          "trainerWinPct": 8.8,
+          "gallopCount": 4,
+          "fastWorkCount": 0
+        },
+        "rank": 1
+      },
+      {
+        "horseName": "DAY DAY VICTORY",
+        "horseNo": 6,
+        "draw": 4,
+        "jockey": "C L Chau",
+        "trainer": "C W Chang",
+        "combined": 59.7,
+        "composite": 57.6,
+        "valueScore": 10.8,
+        "valueBonus": 2.1,
+        "factors": {
+          "form": 15.0,
+          "energy": 62.7,
+          "jockey": 51.0,
+          "trainer": 31.2,
+          "draw": 97.0,
+          "class": 35.0,
+          "weight": 32,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": 0.0,
+          "flags": 8.0,
+          "value": 2.1
+        },
+        "flags": [
+          "🟢 Near miss + strong energy"
+        ],
+        "valueSignals": [
+          "energy 92 (strong) | improving (88→92) | high effort despite 5th — under-rated",
+          "peak energy 93 in harder company"
+        ],
+        "activeSignals": 2,
+        "signals": {
+          "recentForm": [
+            5,
+            8,
+            5,
+            7,
+            1
+          ],
+          "avgEnergy": 92.4,
+          "energyTrend": "improving",
+          "trialSentiment": null,
+          "daysSinceRun": 18,
+          "drawWinPct": 16,
+          "jockeyWinPct": 10.2,
+          "trainerWinPct": 4.8,
+          "gallopCount": 6,
+          "fastWorkCount": 0
+        },
+        "rank": 2
+      },
+      {
+        "horseName": "FLOWING RICHES",
+        "horseNo": 3,
+        "draw": 3,
+        "jockey": "P N Wong",
+        "trainer": "K H Ting",
+        "combined": 53.0,
+        "composite": 51.6,
+        "valueScore": 7.0,
+        "valueBonus": 1.4,
+        "factors": {
+          "form": 29.0,
+          "energy": 58.0,
+          "jockey": 39.0,
+          "trainer": 37.1,
+          "draw": 97.0,
+          "class": 35.0,
+          "weight": 44,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": 0.0,
+          "flags": 0.0,
+          "value": 1.4
+        },
+        "flags": [],
+        "valueSignals": [
+          "energy 94 (strong) | improving (91→94)",
+          "peak energy 94 in harder company"
+        ],
+        "activeSignals": 2,
+        "signals": {
+          "recentForm": [
+            3,
+            3,
+            5,
+            9,
+            8
+          ],
+          "avgEnergy": 90.7,
+          "energyTrend": "improving",
+          "trialSentiment": null,
+          "daysSinceRun": 46,
+          "drawWinPct": 16,
+          "jockeyWinPct": 7.8,
+          "trainerWinPct": 5.7,
+          "gallopCount": 4,
+          "fastWorkCount": 0
+        },
+        "rank": 3
+      },
+      {
+        "horseName": "SWAGGER BRO",
+        "horseNo": 11,
+        "draw": 6,
+        "jockey": "H Bentley",
+        "trainer": "J Richards",
+        "combined": 47.7,
+        "composite": 47.2,
+        "valueScore": 2.5,
+        "valueBonus": 0.5,
+        "factors": {
+          "form": 23.2,
+          "energy": 56.8,
+          "jockey": 39.0,
+          "trainer": 39.0,
+          "draw": 79.0,
+          "class": 35.0,
+          "weight": 65,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 0.0,
+          "flags": 0.0,
+          "value": 0.5
+        },
+        "flags": [],
+        "valueSignals": [
+          "improving (87→89)"
+        ],
+        "activeSignals": 1,
+        "signals": {
+          "recentForm": [
+            3,
+            6,
+            8,
+            4,
+            6
+          ],
+          "avgEnergy": 90.3,
+          "energyTrend": "improving",
+          "trialSentiment": null,
+          "daysSinceRun": 17,
+          "drawWinPct": 12,
+          "jockeyWinPct": 7.8,
+          "trainerWinPct": 6.0,
+          "gallopCount": 3,
+          "fastWorkCount": 0
+        },
+        "rank": 4
+      },
+      {
+        "horseName": "PI LEGEND",
+        "horseNo": 1,
+        "draw": 12,
+        "jockey": "H Y Yuen",
+        "trainer": "C H Yip",
+        "combined": 45.6,
+        "composite": 43.9,
+        "valueScore": 8.2,
+        "valueBonus": 1.7,
+        "factors": {
+          "form": 10.0,
+          "energy": 59.2,
+          "jockey": 0.0,
+          "trainer": 27.9,
+          "draw": 42.5,
+          "class": 35.0,
+          "weight": 44,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 2.0,
+          "flags": 8.0,
+          "value": 1.7
+        },
+        "flags": [
+          "🟢 Near miss + strong energy"
+        ],
+        "valueSignals": [
+          "energy 92 (strong) | high effort despite 5th — under-rated",
+          "peak energy 95 in harder company"
+        ],
+        "activeSignals": 2,
+        "signals": {
+          "recentForm": [
+            5,
+            9,
+            4,
+            8,
+            5
+          ],
+          "avgEnergy": 94.0,
+          "energyTrend": "declining",
+          "trialSentiment": "neutral",
+          "daysSinceRun": 22,
+          "drawWinPct": 5,
+          "jockeyWinPct": 0.0,
+          "trainerWinPct": 4.3,
+          "gallopCount": 2,
+          "fastWorkCount": 0
+        },
+        "rank": 5
+      },
+      {
+        "horseName": "FORTUNE WHISKEY",
+        "horseNo": 9,
+        "draw": 9,
+        "jockey": "M F Poon",
+        "trainer": "D Eustace",
+        "combined": 40.3,
+        "composite": 39.9,
+        "valueScore": 2.0,
+        "valueBonus": 0.4,
+        "factors": {
+          "form": 10.4,
+          "energy": 56.8,
+          "jockey": 33.5,
+          "trainer": 44.2,
+          "draw": 33.5,
+          "class": 35.0,
+          "weight": 41,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 0.0,
+          "flags": 0.0,
+          "value": 0.4
+        },
+        "flags": [],
+        "valueSignals": [
+          "peak energy 92 in harder company"
+        ],
+        "activeSignals": 1,
+        "signals": {
+          "recentForm": [
+            5,
+            5,
+            8,
+            8,
+            3
+          ],
+          "avgEnergy": 90.3,
+          "energyTrend": "dropping",
+          "trialSentiment": null,
+          "daysSinceRun": 21,
+          "drawWinPct": 3,
+          "jockeyWinPct": 6.7,
+          "trainerWinPct": 6.8,
+          "gallopCount": 1,
+          "fastWorkCount": 0
+        },
+        "rank": 6
+      },
+      {
+        "horseName": "NO OTHER CHOICE",
+        "horseNo": 12,
+        "draw": 1,
+        "jockey": "A Badel",
+        "trainer": "C Fownes",
+        "combined": 38.0,
+        "composite": 36.1,
+        "valueScore": 9.5,
+        "valueBonus": 1.9,
+        "factors": {
+          "form": 28.6,
+          "energy": 55.1,
+          "jockey": 33.0,
+          "trainer": 83.0,
+          "draw": 56.0,
+          "class": 35.0,
+          "weight": 71,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 0.0,
+          "flags": -15.0,
+          "value": 1.9
+        },
+        "flags": [
+          "🔴 63d layoff, no trial"
+        ],
+        "valueSignals": [
+          "energy 91 (strong) | 3-run rising trend (85→88→91)",
+          "peak energy 91 in harder company"
+        ],
+        "activeSignals": 2,
+        "signals": {
+          "recentForm": [
+            3,
+            5,
+            10,
+            2,
+            10
+          ],
+          "avgEnergy": 86.1,
+          "energyTrend": "rising",
+          "trialSentiment": null,
+          "daysSinceRun": 63,
+          "drawWinPct": 8,
+          "jockeyWinPct": 6.6,
+          "trainerWinPct": 12.0,
+          "gallopCount": 3,
+          "fastWorkCount": 0
+        },
+        "rank": 7
+      },
+      {
+        "horseName": "KING OBERON",
+        "horseNo": 4,
+        "draw": 7,
+        "jockey": "L Ferraris",
+        "trainer": "D J Whyte",
+        "combined": 32.5,
+        "composite": 31.5,
+        "valueScore": 5.0,
+        "valueBonus": 1.0,
+        "factors": {
+          "form": 26.0,
+          "energy": 57.7,
+          "jockey": 43.0,
+          "trainer": 30.6,
+          "draw": 56.0,
+          "class": 35.0,
+          "weight": 23,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 2.0,
+          "flags": -15.0,
+          "value": 1.0
+        },
+        "flags": [
+          "🔴 3 runs outside top 6"
+        ],
+        "valueSignals": [
+          "76d layoff (market discount)",
+          "peak energy 91 in harder company"
+        ],
+        "activeSignals": 2,
+        "signals": {
+          "recentForm": [
+            10,
+            13,
+            7,
+            1,
+            1
+          ],
+          "avgEnergy": 90.6,
+          "energyTrend": "dropping",
+          "trialSentiment": "neutral",
+          "daysSinceRun": 76,
+          "drawWinPct": 8,
+          "jockeyWinPct": 8.6,
+          "trainerWinPct": 4.7,
+          "gallopCount": 2,
+          "fastWorkCount": 0
+        },
+        "rank": 8
+      },
+      {
+        "horseName": "LUCKY TOGETHER",
+        "horseNo": 5,
+        "draw": 11,
+        "jockey": "M Chadwick",
+        "trainer": "F C Lor",
+        "combined": 22.0,
+        "composite": 22.0,
+        "valueScore": 0.0,
+        "valueBonus": 0.0,
+        "factors": {
+          "form": 0.0,
+          "energy": 40.3,
+          "jockey": 18.5,
+          "trainer": 53.3,
+          "draw": 47.0,
+          "class": 35.0,
+          "weight": 23,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": 2.0,
+          "flags": -15.0,
+          "value": 0.0
+        },
+        "flags": [
+          "🔴 3 runs outside top 6"
+        ],
+        "valueSignals": [],
+        "activeSignals": 0,
+        "signals": {
+          "recentForm": [
+            9,
+            9,
+            13,
+            12,
+            14
+          ],
+          "avgEnergy": 84.4,
+          "energyTrend": "stable",
+          "trialSentiment": "neutral",
+          "daysSinceRun": 25,
+          "drawWinPct": 6,
+          "jockeyWinPct": 3.7,
+          "trainerWinPct": 8.2,
+          "gallopCount": 4,
+          "fastWorkCount": 0
+        },
+        "rank": 9
+      },
+      {
+        "horseName": "RISING ELITE",
+        "horseNo": 10,
+        "draw": 2,
+        "jockey": "K C Leung",
+        "trainer": "W K Mo",
+        "combined": 22.0,
+        "composite": 21.5,
+        "valueScore": 2.5,
+        "valueBonus": 0.5,
+        "factors": {
+          "form": 0.0,
+          "energy": 28.0,
+          "jockey": 32.0,
+          "trainer": 53.3,
+          "draw": 70.0,
+          "class": 35.0,
+          "weight": 56,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 2.0,
+          "flags": -15.0,
+          "value": 0.5
+        },
+        "flags": [
+          "🔴 3 runs outside top 6"
+        ],
+        "valueSignals": [
+          "improving (70→82)"
+        ],
+        "activeSignals": 1,
+        "signals": {
+          "recentForm": [
+            10,
+            14,
+            9,
+            9
+          ],
+          "avgEnergy": 80.0,
+          "energyTrend": "improving",
+          "trialSentiment": "neutral",
+          "daysSinceRun": 18,
+          "drawWinPct": 10,
+          "jockeyWinPct": 6.4,
+          "trainerWinPct": 8.2,
+          "gallopCount": 2,
+          "fastWorkCount": 0
+        },
+        "rank": 10
+      },
+      {
+        "horseName": "STARRY SHOW",
+        "horseNo": 8,
+        "draw": 10,
+        "jockey": "M L Yeung",
+        "trainer": "D A Hayes",
+        "combined": 20.0,
+        "composite": 19.5,
+        "valueScore": 2.5,
+        "valueBonus": 0.5,
+        "factors": {
+          "form": 0.0,
+          "energy": 34.7,
+          "jockey": 26.5,
+          "trainer": 57.2,
+          "draw": 69.5,
+          "class": 35.0,
+          "weight": 38,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 0.0,
+          "flags": -15.0,
+          "value": 0.5
+        },
+        "flags": [
+          "🔴 3 runs outside top 6"
+        ],
+        "valueSignals": [
+          "improving (84→87)"
+        ],
+        "activeSignals": 1,
+        "signals": {
+          "recentForm": [
+            8,
+            9,
+            11,
+            12,
+            11
+          ],
+          "avgEnergy": 82.4,
+          "energyTrend": "improving",
+          "trialSentiment": null,
+          "daysSinceRun": 14,
+          "drawWinPct": 11,
+          "jockeyWinPct": 5.3,
+          "trainerWinPct": 8.8,
+          "gallopCount": 2,
+          "fastWorkCount": 0
+        },
+        "rank": 11
+      },
+      {
+        "horseName": "TACTICAL VICTORY",
+        "horseNo": 7,
+        "draw": 5,
+        "jockey": "H T Mo",
+        "trainer": "W Y So",
+        "combined": 10.8,
+        "composite": 10.8,
+        "valueScore": 0.0,
+        "valueBonus": 0.0,
+        "factors": {
+          "form": 0.0,
+          "energy": 0,
+          "jockey": 22.5,
+          "trainer": 42.2,
+          "draw": 33.5,
+          "class": 35.0,
+          "weight": 32,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": 0.0,
+          "flags": -15.0,
+          "value": 0.0
+        },
+        "flags": [
+          "🔴 3 runs outside top 6"
+        ],
+        "valueSignals": [],
+        "activeSignals": 0,
+        "signals": {
+          "recentForm": [
+            11,
+            10,
+            11,
+            11,
+            14
+          ],
+          "avgEnergy": 67.2,
+          "energyTrend": "dropping",
+          "trialSentiment": null,
+          "daysSinceRun": 18,
+          "drawWinPct": 3,
+          "jockeyWinPct": 4.5,
+          "trainerWinPct": 6.5,
+          "gallopCount": 4,
+          "fastWorkCount": 0
+        },
+        "rank": 12
+      }
+    ],
+    "bets": [
+      {
+        "type": "WIN",
+        "horse": "#2 SPEEDY SMARTIE",
+        "stake": 2,
+        "reason": "clear top pick (20.6pt gap)",
+        "confidence": "HIGH"
+      }
+    ]
+  },
+  {
+    "raceNo": 5,
+    "raceName": "Sha Tin ALL WEATHER TRACK - Class 4 060-040 1800mPING SHEK HANDICAP, 8:45 PM",
+    "venue": "Sha Tin",
+    "surface": "AWT",
+    "distance": 1800,
+    "class": 4,
+    "runners": 14,
+    "gap": 11.5,
+    "selections": [
+      {
+        "horseName": "CALIFORNIA STAR",
+        "horseNo": 2,
+        "draw": 10,
+        "jockey": "Z Purton",
+        "trainer": "A S Cruz",
+        "combined": 75.8,
+        "composite": 72.6,
+        "valueScore": 16.4,
+        "valueBonus": 3.3,
+        "factors": {
+          "form": 56.6,
+          "energy": 62.4,
+          "jockey": 100,
+          "trainer": 47.4,
+          "draw": 88.0,
+          "class": 50.0,
+          "weight": 23,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": 2.0,
+          "flags": 0.0,
+          "value": 3.3
+        },
+        "flags": [],
+        "valueSignals": [
+          "energy 96 (outstanding)",
+          "peak energy 96 in harder company",
+          "NEW ride for Z Purton — jockey upgrade signal"
+        ],
+        "activeSignals": 3,
+        "signals": {
+          "recentForm": [
+            2,
+            1,
+            3,
+            5,
+            8
+          ],
+          "avgEnergy": 92.3,
+          "energyTrend": "stable",
+          "trialSentiment": "neutral",
+          "daysSinceRun": 29,
+          "drawWinPct": 14,
+          "jockeyWinPct": 19.9,
+          "trainerWinPct": 7.3,
+          "gallopCount": 4,
+          "fastWorkCount": 0
+        },
+        "rank": 1
+      },
+      {
+        "horseName": "SHANGHAI STYLE",
+        "horseNo": 7,
+        "draw": 5,
+        "jockey": "H Bowman",
+        "trainer": "C S Shum",
+        "combined": 64.3,
+        "composite": 59.2,
+        "valueScore": 25.7,
+        "valueBonus": 5.1,
+        "factors": {
+          "form": 12.0,
+          "energy": 52.4,
+          "jockey": 63.5,
+          "trainer": 83.0,
+          "draw": 20.0,
+          "class": 35.0,
+          "weight": 35,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 4.0,
+          "flags": 8.0,
+          "value": 5.1
+        },
+        "flags": [
+          "🟢 Near miss + strong energy"
+        ],
+        "valueSignals": [
+          "energy 92 (strong) | improving (81→92) | high effort despite 5th — under-rated",
+          "42d since last run | 2 recent trials",
+          "peak energy 92 in harder company",
+          "NEW ride for H Bowman — jockey upgrade signal"
+        ],
+        "activeSignals": 4,
+        "signals": {
+          "recentForm": [
+            5,
+            11,
+            5,
+            10,
+            2
+          ],
+          "avgEnergy": 88.7,
+          "energyTrend": "improving",
+          "trialSentiment": "neutral",
+          "daysSinceRun": 42,
+          "drawWinPct": 0,
+          "jockeyWinPct": 11.7,
+          "trainerWinPct": 12.0,
+          "gallopCount": 3,
+          "fastWorkCount": 0
+        },
+        "rank": 2
+      },
+      {
+        "horseName": "HAPPY UNIVERSE",
+        "horseNo": 5,
+        "draw": 3,
+        "jockey": "K C Leung",
+        "trainer": "K H Ting",
+        "combined": 62.7,
+        "composite": 61.1,
+        "valueScore": 8.2,
+        "valueBonus": 1.7,
+        "factors": {
+          "form": 42.4,
+          "energy": 66.1,
+          "jockey": 32.0,
+          "trainer": 37.1,
+          "draw": 88.0,
+          "class": 50.0,
+          "weight": 29,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 0.0,
+          "flags": 8.0,
+          "value": 1.7
+        },
+        "flags": [
+          "🟢 Near miss + strong energy"
+        ],
+        "valueSignals": [
+          "energy 93 (strong) | high effort despite 6th — under-rated",
+          "peak energy 97 in harder company"
+        ],
+        "activeSignals": 2,
+        "signals": {
+          "recentForm": [
+            6,
+            2,
+            2,
+            5,
+            2
+          ],
+          "avgEnergy": 93.6,
+          "energyTrend": "dropping",
+          "trialSentiment": null,
+          "daysSinceRun": 29,
+          "drawWinPct": 14,
+          "jockeyWinPct": 6.4,
+          "trainerWinPct": 5.7,
+          "gallopCount": 3,
+          "fastWorkCount": 0
+        },
+        "rank": 3
+      },
+      {
+        "horseName": "OCEAN IMPACT",
+        "horseNo": 6,
+        "draw": 6,
+        "jockey": "L Hewitson",
+        "trainer": "D J Whyte",
+        "combined": 47.3,
+        "composite": 46.9,
+        "valueScore": 2.0,
+        "valueBonus": 0.4,
+        "factors": {
+          "form": 30.2,
+          "energy": 53.3,
+          "jockey": 34.5,
+          "trainer": 30.6,
+          "draw": 83.0,
+          "class": 50.0,
+          "weight": 35,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 0.0,
+          "flags": 0.0,
+          "value": 0.4
+        },
+        "flags": [],
+        "valueSignals": [
+          "peak energy 95 in harder company"
+        ],
+        "activeSignals": 1,
+        "signals": {
+          "recentForm": [
+            10,
+            4,
+            6,
+            1,
+            3
+          ],
+          "avgEnergy": 91.9,
+          "energyTrend": "declining",
+          "trialSentiment": null,
+          "daysSinceRun": 17,
+          "drawWinPct": 14,
+          "jockeyWinPct": 6.9,
+          "trainerWinPct": 4.7,
+          "gallopCount": 2,
+          "fastWorkCount": 0
+        },
+        "rank": 4
+      },
+      {
+        "horseName": "GLORIOUS RYDER",
+        "horseNo": 10,
+        "draw": 12,
+        "jockey": "A Badel",
+        "trainer": "D Eustace",
+        "combined": 47.1,
+        "composite": 45.2,
+        "valueScore": 9.5,
+        "valueBonus": 1.9,
+        "factors": {
+          "form": 30.0,
+          "energy": 48.1,
+          "jockey": 33.0,
+          "trainer": 44.2,
+          "draw": 25.0,
+          "class": 50.0,
+          "weight": 59,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 0.0,
+          "flags": 0.0,
+          "value": 1.9
+        },
+        "flags": [],
+        "valueSignals": [
+          "energy 91 (strong) | 3-run rising trend (71→87→91)",
+          "peak energy 91 in harder company"
+        ],
+        "activeSignals": 2,
+        "signals": {
+          "recentForm": [
+            1,
+            8,
+            12,
+            12,
+            12
+          ],
+          "avgEnergy": 83.6,
+          "energyTrend": "rising",
+          "trialSentiment": null,
+          "daysSinceRun": 27,
+          "drawWinPct": 0,
+          "jockeyWinPct": 6.6,
+          "trainerWinPct": 6.8,
+          "gallopCount": 1,
+          "fastWorkCount": 0
+        },
+        "rank": 5
+      },
+      {
+        "horseName": "NORTHERN BEAST",
+        "horseNo": 9,
+        "draw": 2,
+        "jockey": "M F Poon",
+        "trainer": "D J Hall",
+        "combined": 46.2,
+        "composite": 45.5,
+        "valueScore": 3.5,
+        "valueBonus": 0.7,
+        "factors": {
+          "form": 13.0,
+          "energy": 46.9,
+          "jockey": 33.5,
+          "trainer": 55.7,
+          "draw": 56.5,
+          "class": 35.0,
+          "weight": 53,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 4.0,
+          "flags": 0.0,
+          "value": 0.7
+        },
+        "flags": [],
+        "valueSignals": [
+          "2 recent trials",
+          "peak energy 94 in harder company"
+        ],
+        "activeSignals": 2,
+        "signals": {
+          "recentForm": [
+            10,
+            11,
+            3,
+            11,
+            4
+          ],
+          "avgEnergy": 89.6,
+          "energyTrend": "declining",
+          "trialSentiment": "neutral",
+          "daysSinceRun": 21,
+          "drawWinPct": 7,
+          "jockeyWinPct": 6.7,
+          "trainerWinPct": 7.8,
+          "gallopCount": 1,
+          "fastWorkCount": 0
+        },
+        "rank": 6
+      },
+      {
+        "horseName": "YODA'S CHOICE",
+        "horseNo": 11,
+        "draw": 7,
+        "jockey": "M L Yeung",
+        "trainer": "P C Ng",
+        "combined": 45.8,
+        "composite": 45.8,
+        "valueScore": 0.0,
+        "valueBonus": 0.0,
+        "factors": {
+          "form": 24.8,
+          "energy": 51.5,
+          "jockey": 26.5,
+          "trainer": 36.4,
+          "draw": 56.5,
+          "class": 35.0,
+          "weight": 59,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": 0.0,
+          "flags": 0.0,
+          "value": 0.0
+        },
+        "flags": [],
+        "valueSignals": [],
+        "activeSignals": 0,
+        "signals": {
+          "recentForm": [
+            9,
+            2,
+            8,
+            3,
+            8
+          ],
+          "avgEnergy": 88.4,
+          "energyTrend": "dropping",
+          "trialSentiment": null,
+          "daysSinceRun": 21,
+          "drawWinPct": 7,
+          "jockeyWinPct": 5.3,
+          "trainerWinPct": 5.6,
+          "gallopCount": 4,
+          "fastWorkCount": 0
+        },
+        "rank": 7
+      },
+      {
+        "horseName": "GLORIOUS SUCCESS",
+        "horseNo": 3,
+        "draw": 9,
+        "jockey": "C L Chau",
+        "trainer": "D Eustace",
+        "combined": 45.4,
+        "composite": 45.0,
+        "valueScore": 2.0,
+        "valueBonus": 0.4,
+        "factors": {
+          "form": 19.8,
+          "energy": 54.9,
+          "jockey": 51.0,
+          "trainer": 44.2,
+          "draw": 51.5,
+          "class": 35.0,
+          "weight": 29,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 0.0,
+          "flags": 0.0,
+          "value": 0.4
+        },
+        "flags": [],
+        "valueSignals": [
+          "peak energy 93 in harder company"
+        ],
+        "activeSignals": 1,
+        "signals": {
+          "recentForm": [
+            12,
+            2,
+            5,
+            12,
+            5
+          ],
+          "avgEnergy": 89.6,
+          "energyTrend": "dropping",
+          "trialSentiment": null,
+          "daysSinceRun": 31,
+          "drawWinPct": 7,
+          "jockeyWinPct": 10.2,
+          "trainerWinPct": 6.8,
+          "gallopCount": 2,
+          "fastWorkCount": 0
+        },
+        "rank": 8
+      },
+      {
+        "horseName": "THE LION KING",
+        "horseNo": 8,
+        "draw": 14,
+        "jockey": "J Orman",
+        "trainer": "F C Lor",
+        "combined": 45.2,
+        "composite": 44.8,
+        "valueScore": 2.0,
+        "valueBonus": 0.4,
+        "factors": {
+          "form": 23.6,
+          "energy": 57.1,
+          "jockey": 41.0,
+          "trainer": 53.3,
+          "draw": 20.0,
+          "class": 35.0,
+          "weight": 41,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 0.0,
+          "flags": 0.0,
+          "value": 0.4
+        },
+        "flags": [],
+        "valueSignals": [
+          "peak energy 92 in harder company"
+        ],
+        "activeSignals": 1,
+        "signals": {
+          "recentForm": [
+            4,
+            3,
+            10,
+            5,
+            6
+          ],
+          "avgEnergy": 90.4,
+          "energyTrend": "dropping",
+          "trialSentiment": null,
+          "daysSinceRun": 11,
+          "drawWinPct": 0,
+          "jockeyWinPct": 8.2,
+          "trainerWinPct": 8.2,
+          "gallopCount": 3,
+          "fastWorkCount": 0
+        },
+        "rank": 9
+      },
+      {
+        "horseName": "FIREFOOT",
+        "horseNo": 13,
+        "draw": 8,
+        "jockey": "K Teetan",
+        "trainer": "W Y So",
+        "combined": 43.8,
+        "composite": 43.4,
+        "valueScore": 2.0,
+        "valueBonus": 0.4,
+        "factors": {
+          "form": 22.0,
+          "energy": 58.5,
+          "jockey": 31.0,
+          "trainer": 42.2,
+          "draw": 20.0,
+          "class": 35.0,
+          "weight": 68,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 0.0,
+          "flags": 0.0,
+          "value": 0.4
+        },
+        "flags": [],
+        "valueSignals": [
+          "peak energy 93 in harder company"
+        ],
+        "activeSignals": 1,
+        "signals": {
+          "recentForm": [
+            8,
+            3,
+            3,
+            8,
+            7
+          ],
+          "avgEnergy": 90.9,
+          "energyTrend": "dropping",
+          "trialSentiment": null,
+          "daysSinceRun": 29,
+          "drawWinPct": 0,
+          "jockeyWinPct": 6.2,
+          "trainerWinPct": 6.5,
+          "gallopCount": 2,
+          "fastWorkCount": 0
+        },
+        "rank": 10
+      },
+      {
+        "horseName": "OSI HONOUR",
+        "horseNo": 1,
+        "draw": 4,
+        "jockey": "Y L Chung",
+        "trainer": "B Crawford",
+        "combined": 33.9,
+        "composite": 33.5,
+        "valueScore": 2.0,
+        "valueBonus": 0.4,
+        "factors": {
+          "form": 2.7,
+          "energy": 7.0,
+          "jockey": 30.0,
+          "trainer": 62.2,
+          "draw": 88.0,
+          "class": 35.0,
+          "weight": 20,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": 0.0,
+          "flags": 0.0,
+          "value": 0.4
+        },
+        "flags": [],
+        "valueSignals": [
+          "peak energy 92 in harder company"
+        ],
+        "activeSignals": 1,
+        "signals": {
+          "recentForm": [
+            12,
+            6,
+            12,
+            10
+          ],
+          "avgEnergy": 72.5,
+          "energyTrend": "dropping",
+          "trialSentiment": null,
+          "daysSinceRun": 29,
+          "drawWinPct": 14,
+          "jockeyWinPct": 6.0,
+          "trainerWinPct": 8.8,
+          "gallopCount": 4,
+          "fastWorkCount": 0
+        },
+        "rank": 11
+      },
+      {
+        "horseName": "SPECIAL HEDGE",
+        "horseNo": 12,
+        "draw": 11,
+        "jockey": "H T Mo",
+        "trainer": "C W Chang",
+        "combined": 33.9,
+        "composite": 33.9,
+        "valueScore": 0.0,
+        "valueBonus": 0.0,
+        "factors": {
+          "form": 2.0,
+          "energy": 42.4,
+          "jockey": 22.5,
+          "trainer": 31.2,
+          "draw": 51.5,
+          "class": 35.0,
+          "weight": 68,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 0.0,
+          "flags": 0.0,
+          "value": 0.0
+        },
+        "flags": [],
+        "valueSignals": [],
+        "activeSignals": 0,
+        "signals": {
+          "recentForm": [
+            7,
+            11,
+            6,
+            7,
+            9
+          ],
+          "avgEnergy": 88.0,
+          "energyTrend": "declining",
+          "trialSentiment": null,
+          "daysSinceRun": 29,
+          "drawWinPct": 7,
+          "jockeyWinPct": 4.5,
+          "trainerWinPct": 4.8,
+          "gallopCount": 2,
+          "fastWorkCount": 0
+        },
+        "rank": 12
+      },
+      {
+        "horseName": "ARIEL",
+        "horseNo": 4,
+        "draw": 13,
+        "jockey": "P N Wong",
+        "trainer": "D A Hayes",
+        "combined": 32.6,
+        "composite": 32.1,
+        "valueScore": 2.5,
+        "valueBonus": 0.5,
+        "factors": {
+          "form": 0.0,
+          "energy": 50.7,
+          "jockey": 39.0,
+          "trainer": 57.2,
+          "draw": 100,
+          "class": 35.0,
+          "weight": 50,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": 2.0,
+          "flags": -15.0,
+          "value": 0.5
+        },
+        "flags": [
+          "🔴 3 runs outside top 6"
+        ],
+        "valueSignals": [
+          "improving (86→88)"
+        ],
+        "activeSignals": 1,
+        "signals": {
+          "recentForm": [
+            10,
+            11,
+            10,
+            10,
+            9
+          ],
+          "avgEnergy": 88.1,
+          "energyTrend": "improving",
+          "trialSentiment": "neutral",
+          "daysSinceRun": 29,
+          "drawWinPct": 20,
+          "jockeyWinPct": 7.8,
+          "trainerWinPct": 8.8,
+          "gallopCount": 4,
+          "fastWorkCount": 0
+        },
+        "rank": 13
+      },
+      {
+        "horseName": "MEGA FORCE",
+        "horseNo": 14,
+        "draw": 1,
+        "jockey": "A Atzeni",
+        "trainer": "P C Ng",
+        "combined": 24.8,
+        "composite": 24.8,
+        "valueScore": 0.0,
+        "valueBonus": 0.0,
+        "factors": {
+          "form": 1.0,
+          "energy": 37.2,
+          "jockey": 55.5,
+          "trainer": 36.4,
+          "draw": 20.0,
+          "class": 35.0,
+          "weight": 71,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": 0.0,
+          "flags": -15.0,
+          "value": 0.0
+        },
+        "flags": [
+          "🔴 3 runs outside top 6"
+        ],
+        "valueSignals": [],
+        "activeSignals": 0,
+        "signals": {
+          "recentForm": [
+            12,
+            10,
+            7,
+            12,
+            5
+          ],
+          "avgEnergy": 83.3,
+          "energyTrend": "dropping",
+          "trialSentiment": null,
+          "daysSinceRun": 18,
+          "drawWinPct": 0,
+          "jockeyWinPct": 11.1,
+          "trainerWinPct": 5.6,
+          "gallopCount": 6,
+          "fastWorkCount": 0
+        },
+        "rank": 14
+      }
+    ],
+    "bets": [
+      {
+        "type": "PLACE",
+        "horse": "#2 CALIFORNIA STAR",
+        "stake": 1,
+        "reason": "solid pick (11.5pt gap)",
+        "confidence": "MEDIUM"
+      }
+    ]
+  },
+  {
+    "raceNo": 6,
+    "raceName": "Sha Tin ALL WEATHER TRACK - Class 4 060-040 1200mMA TAU WAI HANDICAP, 9:15 PM",
+    "venue": "Sha Tin",
+    "surface": "AWT",
+    "distance": 1200,
+    "class": 4,
+    "runners": 12,
+    "gap": 1.4,
+    "selections": [
+      {
+        "horseName": "JUICY DRAGON",
+        "horseNo": 9,
+        "draw": 12,
+        "jockey": "A Atzeni",
+        "trainer": "K L Man",
+        "combined": 64.8,
+        "composite": 62.9,
+        "valueScore": 9.5,
+        "valueBonus": 1.9,
+        "factors": {
+          "form": 48.2,
+          "energy": 60.4,
+          "jockey": 55.5,
+          "trainer": 58.5,
+          "draw": 42.5,
+          "class": 50.0,
+          "weight": 47,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": 2.0,
+          "flags": 0.0,
+          "value": 1.9
+        },
+        "flags": [],
+        "valueSignals": [
+          "energy 93 (strong) | 3-run rising trend (87→91→93)",
+          "peak energy 93 in harder company"
+        ],
+        "activeSignals": 2,
+        "signals": {
+          "recentForm": [
+            1,
+            4,
+            5,
+            3,
+            5
+          ],
+          "avgEnergy": 88.0,
+          "energyTrend": "rising",
+          "trialSentiment": "neutral",
+          "daysSinceRun": 28,
+          "drawWinPct": 5,
+          "jockeyWinPct": 11.1,
+          "trainerWinPct": 9.0,
+          "gallopCount": 4,
+          "fastWorkCount": 0
+        },
+        "rank": 1
+      },
+      {
+        "horseName": "ONE MAN SHOW",
+        "horseNo": 3,
+        "draw": 2,
+        "jockey": "Z Purton",
+        "trainer": "F C Lor",
+        "combined": 63.4,
+        "composite": 61.0,
+        "valueScore": 12.1,
+        "valueBonus": 2.4,
+        "factors": {
+          "form": 30.6,
+          "energy": 51.6,
+          "jockey": 100,
+          "trainer": 53.3,
+          "draw": 70.0,
+          "class": 50.0,
+          "weight": 20,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": 0.0,
+          "flags": 0.0,
+          "value": 2.4
+        },
+        "flags": [],
+        "valueSignals": [
+          "energy 91 (strong)",
+          "peak energy 96 in harder company",
+          "NEW ride for Z Purton — jockey upgrade signal"
+        ],
+        "activeSignals": 3,
+        "signals": {
+          "recentForm": [
+            5,
+            3,
+            2,
+            5,
+            11
+          ],
+          "avgEnergy": 91.3,
+          "energyTrend": "declining",
+          "trialSentiment": null,
+          "daysSinceRun": 28,
+          "drawWinPct": 10,
+          "jockeyWinPct": 19.9,
+          "trainerWinPct": 8.2,
+          "gallopCount": 5,
+          "fastWorkCount": 0
+        },
+        "rank": 2
+      },
+      {
+        "horseName": "ACE POWER",
+        "horseNo": 8,
+        "draw": 7,
+        "jockey": "L Ferraris",
+        "trainer": "M Newnham",
+        "combined": 60.2,
+        "composite": 58.3,
+        "valueScore": 9.8,
+        "valueBonus": 2.0,
+        "factors": {
+          "form": 41.4,
+          "energy": 56.8,
+          "jockey": 43.0,
+          "trainer": 80.4,
+          "draw": 56.0,
+          "class": 50.0,
+          "weight": 44,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 2.0,
+          "flags": 0.0,
+          "value": 2.0
+        },
+        "flags": [],
+        "valueSignals": [
+          "energy 92 (strong) | improving (86→92)",
+          "39d since last run",
+          "peak energy 92 in harder company"
+        ],
+        "activeSignals": 3,
+        "signals": {
+          "recentForm": [
+            2,
+            5,
+            3,
+            3,
+            10
+          ],
+          "avgEnergy": 90.3,
+          "energyTrend": "improving",
+          "trialSentiment": "neutral",
+          "daysSinceRun": 39,
+          "drawWinPct": 8,
+          "jockeyWinPct": 8.6,
+          "trainerWinPct": 11.6,
+          "gallopCount": 3,
+          "fastWorkCount": 0
+        },
+        "rank": 3
+      },
+      {
+        "horseName": "YEE CHEONG SPIRIT",
+        "horseNo": 12,
+        "draw": 10,
+        "jockey": "L Hewitson",
+        "trainer": "C S Shum",
+        "combined": 58.5,
+        "composite": 57.1,
+        "valueScore": 6.8,
+        "valueBonus": 1.4,
+        "factors": {
+          "form": 8.6,
+          "energy": 43.2,
+          "jockey": 34.5,
+          "trainer": 83.0,
+          "draw": 69.5,
+          "class": 35.0,
+          "weight": 68,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": 10.0,
+          "flags": 0.0,
+          "value": 1.4
+        },
+        "flags": [],
+        "valueSignals": [
+          "trial: 'led all the way'",
+          "front-runner with no pace pressure (1 other leaders)"
+        ],
+        "activeSignals": 2,
+        "signals": {
+          "recentForm": [
+            12,
+            8,
+            5,
+            6,
+            3
+          ],
+          "avgEnergy": 88.3,
+          "energyTrend": "declining",
+          "trialSentiment": "positive",
+          "daysSinceRun": 24,
+          "drawWinPct": 11,
+          "jockeyWinPct": 6.9,
+          "trainerWinPct": 12.0,
+          "gallopCount": 4,
+          "fastWorkCount": 0
+        },
+        "rank": 4
+      },
+      {
+        "horseName": "JUSTIFYING",
+        "horseNo": 4,
+        "draw": 9,
+        "jockey": "J Orman",
+        "trainer": "C Fownes",
+        "combined": 54.6,
+        "composite": 53.2,
+        "valueScore": 7.2,
+        "valueBonus": 1.5,
+        "factors": {
+          "form": 4.6,
+          "energy": 48.3,
+          "jockey": 41.0,
+          "trainer": 83.0,
+          "draw": 33.5,
+          "class": 35.0,
+          "weight": 29,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 12.0,
+          "flags": 0.0,
+          "value": 1.5
+        },
+        "flags": [],
+        "valueSignals": [
+          "trial: 'kept on' | 2 recent trials",
+          "peak energy 93 in harder company"
+        ],
+        "activeSignals": 2,
+        "signals": {
+          "recentForm": [
+            9,
+            8,
+            6,
+            5,
+            6
+          ],
+          "avgEnergy": 90.1,
+          "energyTrend": "declining",
+          "trialSentiment": "positive",
+          "daysSinceRun": 24,
+          "drawWinPct": 3,
+          "jockeyWinPct": 8.2,
+          "trainerWinPct": 12.0,
+          "gallopCount": 2,
+          "fastWorkCount": 0
+        },
+        "rank": 5
+      },
+      {
+        "horseName": "NEVER TOO SOON",
+        "horseNo": 2,
+        "draw": 11,
+        "jockey": "B Avdulla",
+        "trainer": "D J Hall",
+        "combined": 51.6,
+        "composite": 50.7,
+        "valueScore": 4.5,
+        "valueBonus": 0.9,
+        "factors": {
+          "form": 19.8,
+          "energy": 65.2,
+          "jockey": 20.5,
+          "trainer": 55.7,
+          "draw": 47.0,
+          "class": 35.0,
+          "weight": 17,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 0.0,
+          "flags": 8.0,
+          "value": 0.9
+        },
+        "flags": [
+          "🟢 Near miss + strong energy"
+        ],
+        "valueSignals": [
+          "energy 92 (strong)",
+          "peak energy 94 in harder company"
+        ],
+        "activeSignals": 2,
+        "signals": {
+          "recentForm": [
+            4,
+            4,
+            6,
+            6,
+            8
+          ],
+          "avgEnergy": 93.3,
+          "energyTrend": "dropping",
+          "trialSentiment": null,
+          "daysSinceRun": 18,
+          "drawWinPct": 6,
+          "jockeyWinPct": 4.1,
+          "trainerWinPct": 7.8,
+          "gallopCount": 3,
+          "fastWorkCount": 0
+        },
+        "rank": 6
+      },
+      {
+        "horseName": "KOL",
+        "horseNo": 6,
+        "draw": 3,
+        "jockey": "M L Yeung",
+        "trainer": "D A Hayes",
+        "combined": 50.8,
+        "composite": 49.7,
+        "valueScore": 5.2,
+        "valueBonus": 1.1,
+        "factors": {
+          "form": 25.0,
+          "energy": 50.0,
+          "jockey": 26.5,
+          "trainer": 57.2,
+          "draw": 97.0,
+          "class": 35.0,
+          "weight": 38,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 4.0,
+          "flags": 0.0,
+          "value": 1.1
+        },
+        "flags": [],
+        "valueSignals": [
+          "trial: 'comfortably' | 3 recent trials"
+        ],
+        "activeSignals": 1,
+        "signals": {
+          "recentForm": [],
+          "avgEnergy": null,
+          "energyTrend": "unknown",
+          "trialSentiment": "neutral",
+          "daysSinceRun": null,
+          "drawWinPct": 16,
+          "jockeyWinPct": 5.3,
+          "trainerWinPct": 8.8,
+          "gallopCount": 2,
+          "fastWorkCount": 0
+        },
+        "rank": 7
+      },
+      {
+        "horseName": "FUN ELITE",
+        "horseNo": 5,
+        "draw": 6,
+        "jockey": "H Bowman",
+        "trainer": "C W Chang",
+        "combined": 50.4,
+        "composite": 48.0,
+        "valueScore": 12.1,
+        "valueBonus": 2.4,
+        "factors": {
+          "form": 17.0,
+          "energy": 60.5,
+          "jockey": 63.5,
+          "trainer": 31.2,
+          "draw": 79.0,
+          "class": 35.0,
+          "weight": 38,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 0.0,
+          "flags": 0.0,
+          "value": 2.4
+        },
+        "flags": [],
+        "valueSignals": [
+          "energy 91 (strong)",
+          "peak energy 94 in harder company",
+          "NEW ride for H Bowman — jockey upgrade signal"
+        ],
+        "activeSignals": 3,
+        "signals": {
+          "recentForm": [
+            6,
+            3,
+            5,
+            8,
+            7
+          ],
+          "avgEnergy": 91.6,
+          "energyTrend": "dropping",
+          "trialSentiment": null,
+          "daysSinceRun": 17,
+          "drawWinPct": 12,
+          "jockeyWinPct": 11.7,
+          "trainerWinPct": 4.8,
+          "gallopCount": 2,
+          "fastWorkCount": 0
+        },
+        "rank": 8
+      },
+      {
+        "horseName": "TOURBILLON GOLFER",
+        "horseNo": 1,
+        "draw": 1,
+        "jockey": "H Y Yuen",
+        "trainer": "P F Yiu",
+        "combined": 46.3,
+        "composite": 44.9,
+        "valueScore": 7.0,
+        "valueBonus": 1.4,
+        "factors": {
+          "form": 20.0,
+          "energy": 64.7,
+          "jockey": 0.0,
+          "trainer": 60.9,
+          "draw": 56.0,
+          "class": 35.0,
+          "weight": 44,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": 0.0,
+          "flags": 0.0,
+          "value": 1.4
+        },
+        "flags": [],
+        "valueSignals": [
+          "energy 90 (strong) | improving (89→90)",
+          "peak energy 95 in harder company"
+        ],
+        "activeSignals": 2,
+        "signals": {
+          "recentForm": [
+            6,
+            9,
+            3,
+            11,
+            2
+          ],
+          "avgEnergy": 93.1,
+          "energyTrend": "improving",
+          "trialSentiment": null,
+          "daysSinceRun": 21,
+          "drawWinPct": 8,
+          "jockeyWinPct": 0.0,
+          "trainerWinPct": 8.6,
+          "gallopCount": 4,
+          "fastWorkCount": 0
+        },
+        "rank": 9
+      },
+      {
+        "horseName": "SAVVY WARRIOR",
+        "horseNo": 10,
+        "draw": 5,
+        "jockey": "C Y Ho",
+        "trainer": "D Eustace",
+        "combined": 46.1,
+        "composite": 44.7,
+        "valueScore": 6.9,
+        "valueBonus": 1.4,
+        "factors": {
+          "form": 11.4,
+          "energy": 49.3,
+          "jockey": 45.0,
+          "trainer": 44.2,
+          "draw": 33.5,
+          "class": 35.0,
+          "weight": 47,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 4.0,
+          "flags": 0.0,
+          "value": 1.4
+        },
+        "flags": [],
+        "valueSignals": [
+          "energy 90 (strong)",
+          "2 recent trials",
+          "peak energy 90 in harder company"
+        ],
+        "activeSignals": 3,
+        "signals": {
+          "recentForm": [
+            4,
+            5,
+            10,
+            8,
+            8
+          ],
+          "avgEnergy": 87.6,
+          "energyTrend": "stable",
+          "trialSentiment": "neutral",
+          "daysSinceRun": 21,
+          "drawWinPct": 3,
+          "jockeyWinPct": 9.0,
+          "trainerWinPct": 6.8,
+          "gallopCount": 2,
+          "fastWorkCount": 0
+        },
+        "rank": 10
+      },
+      {
+        "horseName": "NATURAL HIGH",
+        "horseNo": 7,
+        "draw": 4,
+        "jockey": "C L Chau",
+        "trainer": "C H Yip",
+        "combined": 45.8,
+        "composite": 44.4,
+        "valueScore": 7.0,
+        "valueBonus": 1.4,
+        "factors": {
+          "form": 6.0,
+          "energy": 47.9,
+          "jockey": 51.0,
+          "trainer": 27.9,
+          "draw": 97.0,
+          "class": 35.0,
+          "weight": 44,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": 0.0,
+          "flags": 0.0,
+          "value": 1.4
+        },
+        "flags": [],
+        "valueSignals": [
+          "energy 90 (strong) | improving (88→90)",
+          "peak energy 90 in harder company"
+        ],
+        "activeSignals": 2,
+        "signals": {
+          "recentForm": [
+            5,
+            7,
+            7,
+            11,
+            4
+          ],
+          "avgEnergy": 87.1,
+          "energyTrend": "improving",
+          "trialSentiment": null,
+          "daysSinceRun": 28,
+          "drawWinPct": 16,
+          "jockeyWinPct": 10.2,
+          "trainerWinPct": 4.3,
+          "gallopCount": 5,
+          "fastWorkCount": 0
+        },
+        "rank": 11
+      },
+      {
+        "horseName": "HAPPY ALLIANCE",
+        "horseNo": 11,
+        "draw": 8,
+        "jockey": "A Badel",
+        "trainer": "K W Lui",
+        "combined": 26.3,
+        "composite": 25.3,
+        "valueScore": 5.0,
+        "valueBonus": 1.0,
+        "factors": {
+          "form": 0.0,
+          "energy": 31.8,
+          "jockey": 33.0,
+          "trainer": 81.0,
+          "draw": 38.0,
+          "class": 35.0,
+          "weight": 68,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": 0.0,
+          "flags": -15.0,
+          "value": 1.0
+        },
+        "flags": [
+          "🔴 3 runs outside top 6"
+        ],
+        "valueSignals": [
+          "3-run rising trend (64→76→83)"
+        ],
+        "activeSignals": 1,
+        "signals": {
+          "recentForm": [
+            8,
+            10,
+            12,
+            9,
+            9
+          ],
+          "avgEnergy": 77.8,
+          "energyTrend": "rising",
+          "trialSentiment": null,
+          "daysSinceRun": 31,
+          "drawWinPct": 4,
+          "jockeyWinPct": 6.6,
+          "trainerWinPct": 11.7,
+          "gallopCount": 5,
+          "fastWorkCount": 0
+        },
+        "rank": 12
+      }
+    ],
+    "bets": [
+      {
+        "type": "QIN",
+        "horse": "#9 + #3",
+        "stake": 1,
+        "reason": "top 2 close and strong",
+        "confidence": "MEDIUM"
+      }
+    ]
+  },
+  {
+    "raceNo": 7,
+    "raceName": "Sha Tin ALL WEATHER TRACK - Class 4 060-040 1200mMA TAU WAI HANDICAP, 9:45 PM",
+    "venue": "Sha Tin",
+    "surface": "AWT",
+    "distance": 1200,
+    "class": 4,
+    "runners": 12,
+    "gap": 5.8,
+    "selections": [
+      {
+        "horseName": "NOTTHESILLYONE",
+        "horseNo": 2,
+        "draw": 3,
+        "jockey": "L Ferraris",
+        "trainer": "M Newnham",
+        "combined": 64.4,
+        "composite": 61.8,
+        "valueScore": 13.2,
+        "valueBonus": 2.7,
+        "factors": {
+          "form": 56.0,
+          "energy": 61.2,
+          "jockey": 43.0,
+          "trainer": 80.4,
+          "draw": 97.0,
+          "class": 50.0,
+          "weight": 17,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 0.0,
+          "flags": 0.0,
+          "value": 2.7
+        },
+        "flags": [],
+        "valueSignals": [
+          "energy 95 (outstanding) | 3-run rising trend (77→85→95)",
+          "peak energy 95 in harder company"
+        ],
+        "activeSignals": 2,
+        "signals": {
+          "recentForm": [
+            1,
+            7,
+            10,
+            1,
+            1
+          ],
+          "avgEnergy": 88.3,
+          "energyTrend": "rising",
+          "trialSentiment": null,
+          "daysSinceRun": 38,
+          "drawWinPct": 16,
+          "jockeyWinPct": 8.6,
+          "trainerWinPct": 11.6,
+          "gallopCount": 1,
+          "fastWorkCount": 0
+        },
+        "rank": 1
+      },
+      {
+        "horseName": "GOOD CHAP",
+        "horseNo": 6,
+        "draw": 5,
+        "jockey": "A Atzeni",
+        "trainer": "D J Hall",
+        "combined": 58.6,
+        "composite": 55.9,
+        "valueScore": 13.2,
+        "valueBonus": 2.7,
+        "factors": {
+          "form": 58.8,
+          "energy": 37.2,
+          "jockey": 55.5,
+          "trainer": 55.7,
+          "draw": 33.5,
+          "class": 50.0,
+          "weight": 26,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 2.0,
+          "flags": 0.0,
+          "value": 2.7
+        },
+        "flags": [],
+        "valueSignals": [
+          "energy 96 (outstanding) | 3-run rising trend (72→94→96)",
+          "peak energy 96 in harder company"
+        ],
+        "activeSignals": 2,
+        "signals": {
+          "recentForm": [
+            1,
+            1,
+            10,
+            4,
+            12
+          ],
+          "avgEnergy": 79.7,
+          "energyTrend": "rising",
+          "trialSentiment": "neutral",
+          "daysSinceRun": 28,
+          "drawWinPct": 3,
+          "jockeyWinPct": 11.1,
+          "trainerWinPct": 7.8,
+          "gallopCount": 3,
+          "fastWorkCount": 0
+        },
+        "rank": 2
+      },
+      {
+        "horseName": "MALPENSA",
+        "horseNo": 10,
+        "draw": 12,
+        "jockey": "J Orman",
+        "trainer": "W Y So",
+        "combined": 58.2,
+        "composite": 55.6,
+        "valueScore": 12.9,
+        "valueBonus": 2.6,
+        "factors": {
+          "form": 28.7,
+          "energy": 45.4,
+          "jockey": 41.0,
+          "trainer": 42.2,
+          "draw": 42.5,
+          "class": 35.0,
+          "weight": 38,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 4.0,
+          "flags": 8.0,
+          "value": 2.6
+        },
+        "flags": [
+          "🟢 Near miss + strong energy"
+        ],
+        "valueSignals": [
+          "energy 94 (strong) | high effort despite 5th — under-rated",
+          "35d since last run | 2 recent trials",
+          "peak energy 94 in harder company"
+        ],
+        "activeSignals": 3,
+        "signals": {
+          "recentForm": [
+            5,
+            2,
+            4,
+            12
+          ],
+          "avgEnergy": 86.2,
+          "energyTrend": "stable",
+          "trialSentiment": "unknown",
+          "daysSinceRun": 35,
+          "drawWinPct": 5,
+          "jockeyWinPct": 8.2,
+          "trainerWinPct": 6.5,
+          "gallopCount": 3,
+          "fastWorkCount": 0
+        },
+        "rank": 3
+      },
+      {
+        "horseName": "IGOR STRAVINSKY",
+        "horseNo": 1,
+        "draw": 1,
+        "jockey": "P N Wong",
+        "trainer": "A S Cruz",
+        "combined": 57.7,
+        "composite": 56.8,
+        "valueScore": 4.5,
+        "valueBonus": 0.9,
+        "factors": {
+          "form": 18.2,
+          "energy": 65.2,
+          "jockey": 39.0,
+          "trainer": 47.4,
+          "draw": 56.0,
+          "class": 35.0,
+          "weight": 35,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": 0.0,
+          "flags": 8.0,
+          "value": 0.9
+        },
+        "flags": [
+          "🟢 Near miss + strong energy"
+        ],
+        "valueSignals": [
+          "energy 94 (strong)",
+          "peak energy 95 in harder company"
+        ],
+        "activeSignals": 2,
+        "signals": {
+          "recentForm": [
+            4,
+            4,
+            6,
+            10,
+            7
+          ],
+          "avgEnergy": 93.3,
+          "energyTrend": "dropping",
+          "trialSentiment": null,
+          "daysSinceRun": 14,
+          "drawWinPct": 8,
+          "jockeyWinPct": 7.8,
+          "trainerWinPct": 7.3,
+          "gallopCount": 4,
+          "fastWorkCount": 0
+        },
+        "rank": 4
+      },
+      {
+        "horseName": "WOLF COMING",
+        "horseNo": 3,
+        "draw": 4,
+        "jockey": "Z Purton",
+        "trainer": "C S Shum",
+        "combined": 54.5,
+        "composite": 52.9,
+        "valueScore": 8.0,
+        "valueBonus": 1.6,
+        "factors": {
+          "form": 12.0,
+          "energy": 14.0,
+          "jockey": 100,
+          "trainer": 83.0,
+          "draw": 97.0,
+          "class": 35.0,
+          "weight": 17,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": 2.0,
+          "flags": 0.0,
+          "value": 1.6
+        },
+        "flags": [],
+        "valueSignals": [
+          "peak energy 95 in harder company",
+          "NEW ride for Z Purton — jockey upgrade signal"
+        ],
+        "activeSignals": 2,
+        "signals": {
+          "recentForm": [
+            9,
+            3,
+            11,
+            7,
+            10
+          ],
+          "avgEnergy": 75.0,
+          "energyTrend": "dropping",
+          "trialSentiment": "neutral",
+          "daysSinceRun": 24,
+          "drawWinPct": 16,
+          "jockeyWinPct": 19.9,
+          "trainerWinPct": 12.0,
+          "gallopCount": 4,
+          "fastWorkCount": 0
+        },
+        "rank": 5
+      },
+      {
+        "horseName": "LIGHT YEARS GLORY",
+        "horseNo": 5,
+        "draw": 6,
+        "jockey": "H Bowman",
+        "trainer": "W K Mo",
+        "combined": 51.8,
+        "composite": 49.4,
+        "valueScore": 12.1,
+        "valueBonus": 2.4,
+        "factors": {
+          "form": 23.8,
+          "energy": 51.5,
+          "jockey": 63.5,
+          "trainer": 53.3,
+          "draw": 79.0,
+          "class": 35.0,
+          "weight": 23,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 0.0,
+          "flags": 0.0,
+          "value": 2.4
+        },
+        "flags": [],
+        "valueSignals": [
+          "energy 90 (strong)",
+          "peak energy 95 in harder company",
+          "NEW ride for H Bowman — jockey upgrade signal"
+        ],
+        "activeSignals": 3,
+        "signals": {
+          "recentForm": [
+            7,
+            2,
+            4,
+            12,
+            6
+          ],
+          "avgEnergy": 88.4,
+          "energyTrend": "dropping",
+          "trialSentiment": null,
+          "daysSinceRun": 29,
+          "drawWinPct": 12,
+          "jockeyWinPct": 11.7,
+          "trainerWinPct": 8.2,
+          "gallopCount": 3,
+          "fastWorkCount": 0
+        },
+        "rank": 6
+      },
+      {
+        "horseName": "JOLLY COMPANION",
+        "horseNo": 9,
+        "draw": 8,
+        "jockey": "K C Leung",
+        "trainer": "K L Man",
+        "combined": 48.7,
+        "composite": 47.3,
+        "valueScore": 7.0,
+        "valueBonus": 1.4,
+        "factors": {
+          "form": 33.0,
+          "energy": 50.1,
+          "jockey": 32.0,
+          "trainer": 58.5,
+          "draw": 38.0,
+          "class": 50.0,
+          "weight": 38,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 0.0,
+          "flags": 0.0,
+          "value": 1.4
+        },
+        "flags": [],
+        "valueSignals": [
+          "energy 90 (strong) | improving (86→90)",
+          "peak energy 94 in harder company"
+        ],
+        "activeSignals": 2,
+        "signals": {
+          "recentForm": [
+            5,
+            9,
+            2,
+            1,
+            9
+          ],
+          "avgEnergy": 87.9,
+          "energyTrend": "improving",
+          "trialSentiment": null,
+          "daysSinceRun": 21,
+          "drawWinPct": 4,
+          "jockeyWinPct": 6.4,
+          "trainerWinPct": 9.0,
+          "gallopCount": 3,
+          "fastWorkCount": 0
+        },
+        "rank": 7
+      },
+      {
+        "horseName": "CONRAD THE GREAT",
+        "horseNo": 11,
+        "draw": 2,
+        "jockey": "R Kingscote",
+        "trainer": "D J Whyte",
+        "combined": 48.2,
+        "composite": 44.5,
+        "valueScore": 18.7,
+        "valueBonus": 3.7,
+        "factors": {
+          "form": 23.4,
+          "energy": 43.6,
+          "jockey": 16.0,
+          "trainer": 30.6,
+          "draw": 70.0,
+          "class": 35.0,
+          "weight": 65,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": 2.0,
+          "flags": 0.0,
+          "value": 3.7
+        },
+        "flags": [],
+        "valueSignals": [
+          "energy 92 (strong) | 3-run rising trend (83→86→92)",
+          "trial: 'comfortably' | 46d layoff (market discount)",
+          "peak energy 92 in harder company"
+        ],
+        "activeSignals": 3,
+        "signals": {
+          "recentForm": [
+            2,
+            5,
+            9,
+            12,
+            12
+          ],
+          "avgEnergy": 82.0,
+          "energyTrend": "rising",
+          "trialSentiment": "neutral",
+          "daysSinceRun": 46,
+          "drawWinPct": 10,
+          "jockeyWinPct": 3.2,
+          "trainerWinPct": 4.7,
+          "gallopCount": 4,
+          "fastWorkCount": 0
+        },
+        "rank": 8
+      },
+      {
+        "horseName": "BLASTED TALENT",
+        "horseNo": 8,
+        "draw": 10,
+        "jockey": "E C W Wong",
+        "trainer": "C Fownes",
+        "combined": 43.8,
+        "composite": 43.8,
+        "valueScore": 0.0,
+        "valueBonus": 0.0,
+        "factors": {
+          "form": 0.0,
+          "energy": 42.0,
+          "jockey": 43.0,
+          "trainer": 83.0,
+          "draw": 69.5,
+          "class": 35.0,
+          "weight": 47,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 2.0,
+          "flags": 0.0,
+          "value": 0.0
+        },
+        "flags": [],
+        "valueSignals": [],
+        "activeSignals": 0,
+        "signals": {
+          "recentForm": [
+            9
+          ],
+          "avgEnergy": 85.0,
+          "energyTrend": "unknown",
+          "trialSentiment": "neutral",
+          "daysSinceRun": null,
+          "drawWinPct": 11,
+          "jockeyWinPct": 8.6,
+          "trainerWinPct": 12.0,
+          "gallopCount": 2,
+          "fastWorkCount": 0
+        },
+        "rank": 9
+      },
+      {
+        "horseName": "SHINYU KOKOROE",
+        "horseNo": 12,
+        "draw": 11,
+        "jockey": "K Teetan",
+        "trainer": "B Crawford",
+        "combined": 38.8,
+        "composite": 38.8,
+        "valueScore": 0.0,
+        "valueBonus": 0.0,
+        "factors": {
+          "form": 2.4,
+          "energy": 29.7,
+          "jockey": 31.0,
+          "trainer": 62.2,
+          "draw": 47.0,
+          "class": 35.0,
+          "weight": 71,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": 0.0,
+          "flags": 0.0,
+          "value": 0.0
+        },
+        "flags": [],
+        "valueSignals": [],
+        "activeSignals": 0,
+        "signals": {
+          "recentForm": [
+            7,
+            5,
+            11,
+            13,
+            14
+          ],
+          "avgEnergy": 80.6,
+          "energyTrend": "dropping",
+          "trialSentiment": null,
+          "daysSinceRun": 28,
+          "drawWinPct": 6,
+          "jockeyWinPct": 6.2,
+          "trainerWinPct": 8.8,
+          "gallopCount": 4,
+          "fastWorkCount": 0
+        },
+        "rank": 10
+      },
+      {
+        "horseName": "FUN N FUN TOGETHER",
+        "horseNo": 4,
+        "draw": 9,
+        "jockey": "H Y Yuen",
+        "trainer": "F C Lor",
+        "combined": 34.6,
+        "composite": 33.7,
+        "valueScore": 4.5,
+        "valueBonus": 0.9,
+        "factors": {
+          "form": 2.4,
+          "energy": 54.9,
+          "jockey": 0.0,
+          "trainer": 53.3,
+          "draw": 33.5,
+          "class": 35.0,
+          "weight": 53,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 0.0,
+          "flags": 0.0,
+          "value": 0.9
+        },
+        "flags": [],
+        "valueSignals": [
+          "energy 90 (strong)",
+          "peak energy 90 in harder company"
+        ],
+        "activeSignals": 2,
+        "signals": {
+          "recentForm": [
+            8,
+            6,
+            7,
+            10,
+            8
+          ],
+          "avgEnergy": 89.6,
+          "energyTrend": "stable",
+          "trialSentiment": null,
+          "daysSinceRun": 14,
+          "drawWinPct": 3,
+          "jockeyWinPct": 0.0,
+          "trainerWinPct": 8.2,
+          "gallopCount": 3,
+          "fastWorkCount": 0
+        },
+        "rank": 11
+      },
+      {
+        "horseName": "LEAPING STAR",
+        "horseNo": 7,
+        "draw": 7,
+        "jockey": "M L Yeung",
+        "trainer": "D A Hayes",
+        "combined": 16.6,
+        "composite": 16.6,
+        "valueScore": 0.0,
+        "valueBonus": 0.0,
+        "factors": {
+          "form": 0.0,
+          "energy": 25.2,
+          "jockey": 26.5,
+          "trainer": 57.2,
+          "draw": 56.0,
+          "class": 35.0,
+          "weight": 35,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 0.0,
+          "flags": -15.0,
+          "value": 0.0
+        },
+        "flags": [
+          "🔴 3 runs outside top 6"
+        ],
+        "valueSignals": [],
+        "activeSignals": 0,
+        "signals": {
+          "recentForm": [
+            10,
+            11,
+            12,
+            12,
+            13
+          ],
+          "avgEnergy": 79.0,
+          "energyTrend": "stable",
+          "trialSentiment": null,
+          "daysSinceRun": 14,
+          "drawWinPct": 8,
+          "jockeyWinPct": 5.3,
+          "trainerWinPct": 8.8,
+          "gallopCount": 2,
+          "fastWorkCount": 0
+        },
+        "rank": 12
+      }
+    ],
+    "bets": [
+      {
+        "type": "QIN",
+        "horse": "#2 + #6",
+        "stake": 1,
+        "reason": "top 2 close and strong",
+        "confidence": "MEDIUM"
+      }
+    ]
+  },
+  {
+    "raceNo": 8,
+    "raceName": "Sha Tin ALL WEATHER TRACK - Class 3 085-060 1200mCHOI HUNG HANDICAP, 10:15 PM",
+    "venue": "Sha Tin",
+    "surface": "AWT",
+    "distance": 1200,
+    "class": 3,
+    "runners": 11,
+    "gap": 6.2,
+    "selections": [
+      {
+        "horseName": "VICTORY SKY",
+        "horseNo": 4,
+        "draw": 4,
+        "jockey": "Z Purton",
+        "trainer": "P F Yiu",
+        "combined": 106.4,
+        "composite": 101.7,
+        "valueScore": 23.6,
+        "valueBonus": 4.7,
+        "factors": {
+          "form": 60.4,
+          "energy": 82.3,
+          "jockey": 100,
+          "trainer": 60.9,
+          "draw": 97.0,
+          "class": 65.0,
+          "weight": 32,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": 2.0,
+          "flags": 20.0,
+          "value": 4.7
+        },
+        "flags": [
+          "🟢 Energy 101 + top-4 finish",
+          "🟢 Elite jockey + improving energy"
+        ],
+        "valueSignals": [
+          "energy 101 (exceptional) | improving (96→101)",
+          "peak energy 101 in harder company",
+          "NEW ride for Z Purton — jockey upgrade signal"
+        ],
+        "activeSignals": 3,
+        "signals": {
+          "recentForm": [
+            2,
+            5,
+            1,
+            1,
+            6
+          ],
+          "avgEnergy": 97.6,
+          "energyTrend": "improving",
+          "trialSentiment": "neutral",
+          "daysSinceRun": 28,
+          "drawWinPct": 16,
+          "jockeyWinPct": 19.9,
+          "trainerWinPct": 8.6,
+          "gallopCount": 4,
+          "fastWorkCount": 0
+        },
+        "rank": 1
+      },
+      {
+        "horseName": "ROMANTIC SON",
+        "horseNo": 1,
+        "draw": 3,
+        "jockey": "H Bentley",
+        "trainer": "D A Hayes",
+        "combined": 100.2,
+        "composite": 96.3,
+        "valueScore": 19.8,
+        "valueBonus": 4.0,
+        "factors": {
+          "form": 54.0,
+          "energy": 86.2,
+          "jockey": 39.0,
+          "trainer": 57.2,
+          "draw": 97.0,
+          "class": 50.0,
+          "weight": 14,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": 10.0,
+          "flags": 20.0,
+          "value": 4.0
+        },
+        "flags": [
+          "🟢 Energy 101 + top-4 finish",
+          "🟢 Near miss + strong energy"
+        ],
+        "valueSignals": [
+          "energy 101 (exceptional)",
+          "trial: 'hit the front' | 42d since last run",
+          "peak energy 103 in harder company"
+        ],
+        "activeSignals": 3,
+        "signals": {
+          "recentForm": [
+            4,
+            1,
+            1,
+            7,
+            5
+          ],
+          "avgEnergy": 99.0,
+          "energyTrend": "dropping",
+          "trialSentiment": "positive",
+          "daysSinceRun": 42,
+          "drawWinPct": 16,
+          "jockeyWinPct": 7.8,
+          "trainerWinPct": 8.8,
+          "gallopCount": 4,
+          "fastWorkCount": 0
+        },
+        "rank": 2
+      },
+      {
+        "horseName": "AURORA PATCH",
+        "horseNo": 5,
+        "draw": 10,
+        "jockey": "H Bowman",
+        "trainer": "K L Man",
+        "combined": 69.9,
+        "composite": 67.5,
+        "valueScore": 12.1,
+        "valueBonus": 2.4,
+        "factors": {
+          "form": 49.0,
+          "energy": 80.9,
+          "jockey": 63.5,
+          "trainer": 58.5,
+          "draw": 69.5,
+          "class": 50.0,
+          "weight": 35,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": 0.0,
+          "flags": 0.0,
+          "value": 2.4
+        },
+        "flags": [],
+        "valueSignals": [
+          "energy 91 (strong)",
+          "peak energy 101 in harder company",
+          "NEW ride for H Bowman — jockey upgrade signal"
+        ],
+        "activeSignals": 3,
+        "signals": {
+          "recentForm": [
+            7,
+            1,
+            5,
+            1,
+            2
+          ],
+          "avgEnergy": 97.1,
+          "energyTrend": "dropping",
+          "trialSentiment": null,
+          "daysSinceRun": 28,
+          "drawWinPct": 11,
+          "jockeyWinPct": 11.7,
+          "trainerWinPct": 9.0,
+          "gallopCount": 4,
+          "fastWorkCount": 0
+        },
+        "rank": 3
+      },
+      {
+        "horseName": "BLAZING WIND",
+        "horseNo": 7,
+        "draw": 1,
+        "jockey": "C L Chau",
+        "trainer": "C S Shum",
+        "combined": 67.0,
+        "composite": 65.3,
+        "valueScore": 8.6,
+        "valueBonus": 1.7,
+        "factors": {
+          "form": 46.0,
+          "energy": 63.9,
+          "jockey": 51.0,
+          "trainer": 83.0,
+          "draw": 56.0,
+          "class": 50.0,
+          "weight": 59,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 4.0,
+          "flags": 0.0,
+          "value": 1.7
+        },
+        "flags": [],
+        "valueSignals": [
+          "2 recent trials",
+          "peak energy 103 in harder company",
+          "closer in speed-heavy race (3 front-runners → pace collapse)"
+        ],
+        "activeSignals": 3,
+        "signals": {
+          "recentForm": [
+            3,
+            7,
+            1,
+            3,
+            4
+          ],
+          "avgEnergy": 93.9,
+          "energyTrend": "declining",
+          "trialSentiment": "neutral",
+          "daysSinceRun": 28,
+          "drawWinPct": 8,
+          "jockeyWinPct": 10.2,
+          "trainerWinPct": 12.0,
+          "gallopCount": 3,
+          "fastWorkCount": 0
+        },
+        "rank": 4
+      },
+      {
+        "horseName": "MR ENERGIA",
+        "horseNo": 6,
+        "draw": 2,
+        "jockey": "J Orman",
+        "trainer": "D J Hall",
+        "combined": 61.1,
+        "composite": 60.1,
+        "valueScore": 5.0,
+        "valueBonus": 1.0,
+        "factors": {
+          "form": 41.2,
+          "energy": 67.3,
+          "jockey": 41.0,
+          "trainer": 55.7,
+          "draw": 70.0,
+          "class": 50.0,
+          "weight": 41,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 4.0,
+          "flags": 0.0,
+          "value": 1.0
+        },
+        "flags": [],
+        "valueSignals": [
+          "31d since last run | 2 recent trials",
+          "peak energy 102 in harder company"
+        ],
+        "activeSignals": 2,
+        "signals": {
+          "recentForm": [
+            11,
+            10,
+            1,
+            2,
+            1
+          ],
+          "avgEnergy": 95.1,
+          "energyTrend": "declining",
+          "trialSentiment": "neutral",
+          "daysSinceRun": 31,
+          "drawWinPct": 10,
+          "jockeyWinPct": 8.2,
+          "trainerWinPct": 7.8,
+          "gallopCount": 3,
+          "fastWorkCount": 0
+        },
+        "rank": 5
+      },
+      {
+        "horseName": "MUST GO",
+        "horseNo": 8,
+        "draw": 11,
+        "jockey": "A Atzeni",
+        "trainer": "J Size",
+        "combined": 50.9,
+        "composite": 50.0,
+        "valueScore": 4.5,
+        "valueBonus": 0.9,
+        "factors": {
+          "form": 8.6,
+          "energy": 58.5,
+          "jockey": 55.5,
+          "trainer": 56.4,
+          "draw": 47.0,
+          "class": 35.0,
+          "weight": 74,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": 0.0,
+          "flags": 0.0,
+          "value": 0.9
+        },
+        "flags": [],
+        "valueSignals": [
+          "improving (85→89)",
+          "peak energy 95 in harder company"
+        ],
+        "activeSignals": 2,
+        "signals": {
+          "recentForm": [
+            13,
+            10,
+            4,
+            5,
+            5
+          ],
+          "avgEnergy": 90.9,
+          "energyTrend": "improving",
+          "trialSentiment": null,
+          "daysSinceRun": 35,
+          "drawWinPct": 6,
+          "jockeyWinPct": 11.1,
+          "trainerWinPct": 7.9,
+          "gallopCount": 4,
+          "fastWorkCount": 0
+        },
+        "rank": 6
+      },
+      {
+        "horseName": "CAPITAL DELIGHT",
+        "horseNo": 2,
+        "draw": 6,
+        "jockey": "C Y Ho",
+        "trainer": "C Fownes",
+        "combined": 49.2,
+        "composite": 47.5,
+        "valueScore": 8.6,
+        "valueBonus": 1.7,
+        "factors": {
+          "form": 2.0,
+          "energy": 59.1,
+          "jockey": 45.0,
+          "trainer": 83.0,
+          "draw": 79.0,
+          "class": 35.0,
+          "weight": 23,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 2.0,
+          "flags": 0.0,
+          "value": 1.7
+        },
+        "flags": [],
+        "valueSignals": [
+          "32d since last run",
+          "peak energy 97 in harder company",
+          "closer in speed-heavy race (3 front-runners → pace collapse)"
+        ],
+        "activeSignals": 3,
+        "signals": {
+          "recentForm": [
+            10,
+            9,
+            6,
+            12,
+            7
+          ],
+          "avgEnergy": 91.1,
+          "energyTrend": "dropping",
+          "trialSentiment": "neutral",
+          "daysSinceRun": 32,
+          "drawWinPct": 12,
+          "jockeyWinPct": 9.0,
+          "trainerWinPct": 12.0,
+          "gallopCount": 2,
+          "fastWorkCount": 0
+        },
+        "rank": 7
+      },
+      {
+        "horseName": "E HO HO",
+        "horseNo": 11,
+        "draw": 9,
+        "jockey": "P N Wong",
+        "trainer": "K L Man",
+        "combined": 43.5,
+        "composite": 42.5,
+        "valueScore": 5.0,
+        "valueBonus": 1.0,
+        "factors": {
+          "form": 2.7,
+          "energy": 44.8,
+          "jockey": 39.0,
+          "trainer": 58.5,
+          "draw": 33.5,
+          "class": 35.0,
+          "weight": 95,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 2.0,
+          "flags": 0.0,
+          "value": 1.0
+        },
+        "flags": [],
+        "valueSignals": [
+          "56d layoff (market discount)",
+          "peak energy 91 in harder company"
+        ],
+        "activeSignals": 2,
+        "signals": {
+          "recentForm": [
+            11,
+            6,
+            10,
+            12
+          ],
+          "avgEnergy": 86.0,
+          "energyTrend": "dropping",
+          "trialSentiment": "neutral",
+          "daysSinceRun": 56,
+          "drawWinPct": 3,
+          "jockeyWinPct": 7.8,
+          "trainerWinPct": 9.0,
+          "gallopCount": 3,
+          "fastWorkCount": 0
+        },
+        "rank": 8
+      },
+      {
+        "horseName": "YOUNG ARROW",
+        "horseNo": 10,
+        "draw": 5,
+        "jockey": "M L Yeung",
+        "trainer": "D J Whyte",
+        "combined": 28.1,
+        "composite": 26.2,
+        "valueScore": 9.8,
+        "valueBonus": 2.0,
+        "factors": {
+          "form": 11.2,
+          "energy": 56.3,
+          "jockey": 26.5,
+          "trainer": 30.6,
+          "draw": 33.5,
+          "class": 35.0,
+          "weight": 74,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 2.0,
+          "flags": -15.0,
+          "value": 2.0
+        },
+        "flags": [
+          "🔴 3 runs outside top 6"
+        ],
+        "valueSignals": [
+          "energy 91 (strong) | improving (82→91)",
+          "42d since last run",
+          "peak energy 91 in harder company"
+        ],
+        "activeSignals": 3,
+        "signals": {
+          "recentForm": [
+            8,
+            12,
+            13,
+            2,
+            9
+          ],
+          "avgEnergy": 90.1,
+          "energyTrend": "improving",
+          "trialSentiment": "neutral",
+          "daysSinceRun": 42,
+          "drawWinPct": 3,
+          "jockeyWinPct": 5.3,
+          "trainerWinPct": 4.7,
+          "gallopCount": 3,
+          "fastWorkCount": 0
+        },
+        "rank": 9
+      },
+      {
+        "horseName": "GIANT SPIRIT",
+        "horseNo": 9,
+        "draw": 7,
+        "jockey": "H T Mo",
+        "trainer": "Y S Tsui",
+        "combined": 25.5,
+        "composite": 22.4,
+        "valueScore": 15.5,
+        "valueBonus": 3.1,
+        "factors": {
+          "form": 0.0,
+          "energy": 43.6,
+          "jockey": 22.5,
+          "trainer": 39.6,
+          "draw": 56.0,
+          "class": 35.0,
+          "weight": 80,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 2.0,
+          "flags": -15.0,
+          "value": 3.1
+        },
+        "flags": [
+          "🔴 3 runs outside top 6"
+        ],
+        "valueSignals": [
+          "energy 90 (strong) | 3-run rising trend (71→85→90)",
+          "peak energy 90 in harder company",
+          "closer in speed-heavy race (3 front-runners → pace collapse)"
+        ],
+        "activeSignals": 3,
+        "signals": {
+          "recentForm": [
+            12,
+            13,
+            14
+          ],
+          "avgEnergy": 82.0,
+          "energyTrend": "rising",
+          "trialSentiment": "neutral",
+          "daysSinceRun": 29,
+          "drawWinPct": 8,
+          "jockeyWinPct": 4.5,
+          "trainerWinPct": 6.1,
+          "gallopCount": 3,
+          "fastWorkCount": 0
+        },
+        "rank": 10
+      },
+      {
+        "horseName": "SUPERB CAPITALIST",
+        "horseNo": 3,
+        "draw": 8,
+        "jockey": "Y L Chung",
+        "trainer": "A S Cruz",
+        "combined": 21.9,
+        "composite": 21.2,
+        "valueScore": 3.5,
+        "valueBonus": 0.7,
+        "factors": {
+          "form": 5.0,
+          "energy": 72.8,
+          "jockey": 30.0,
+          "trainer": 47.4,
+          "draw": 38.0,
+          "class": 35.0,
+          "weight": 29,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": -8.0,
+          "flags": -15.0,
+          "value": 0.7
+        },
+        "flags": [
+          "🔴 3 runs outside top 6"
+        ],
+        "valueSignals": [
+          "39d since last run",
+          "peak energy 99 in harder company"
+        ],
+        "activeSignals": 2,
+        "signals": {
+          "recentForm": [
+            7,
+            9,
+            14,
+            11,
+            3
+          ],
+          "avgEnergy": 96.0,
+          "energyTrend": "dropping",
+          "trialSentiment": "negative",
+          "daysSinceRun": 39,
+          "drawWinPct": 4,
+          "jockeyWinPct": 6.0,
+          "trainerWinPct": 7.3,
+          "gallopCount": 4,
+          "fastWorkCount": 0
+        },
+        "rank": 11
+      }
+    ],
+    "bets": [
+      {
+        "type": "QIN",
+        "horse": "#4 + #1",
+        "stake": 1,
+        "reason": "top 2 close and strong",
+        "confidence": "MEDIUM"
+      }
+    ]
+  },
+  {
+    "raceNo": 9,
+    "raceName": "Sha Tin ALL WEATHER TRACK - Class 3 085-060 1650mCHOI WAN HANDICAP, 10:50 PM",
+    "venue": "Sha Tin",
+    "surface": "AWT",
+    "distance": 1650,
+    "class": 3,
+    "runners": 14,
+    "gap": 21.7,
+    "selections": [
+      {
+        "horseName": "TALENTS AMBITION",
+        "horseNo": 2,
+        "draw": 5,
+        "jockey": "Z Purton",
+        "trainer": "M Newnham",
+        "combined": 100.6,
+        "composite": 95.9,
+        "valueScore": 23.6,
+        "valueBonus": 4.7,
+        "factors": {
+          "form": 20.6,
+          "energy": 93.5,
+          "jockey": 100,
+          "trainer": 80.4,
+          "draw": 79.0,
+          "class": 35.0,
+          "weight": 20,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 2.0,
+          "flags": 28.0,
+          "value": 4.7
+        },
+        "flags": [
+          "🟢 Energy 101 + top-4 finish",
+          "🟢 Near miss + strong energy",
+          "🟢 Elite jockey + improving energy"
+        ],
+        "valueSignals": [
+          "energy 101 (exceptional) | improving (99→101)",
+          "peak energy 103 in harder company",
+          "NEW ride for Z Purton — jockey upgrade signal"
+        ],
+        "activeSignals": 3,
+        "signals": {
+          "recentForm": [
+            4,
+            7,
+            3,
+            5,
+            10
+          ],
+          "avgEnergy": 101.6,
+          "energyTrend": "improving",
+          "trialSentiment": "neutral",
+          "daysSinceRun": 24,
+          "drawWinPct": 12,
+          "jockeyWinPct": 19.9,
+          "trainerWinPct": 11.6,
+          "gallopCount": 3,
+          "fastWorkCount": 0
+        },
+        "rank": 1
+      },
+      {
+        "horseName": "ENDEARED",
+        "horseNo": 8,
+        "draw": 3,
+        "jockey": "A Atzeni",
+        "trainer": "J Size",
+        "combined": 78.9,
+        "composite": 75.2,
+        "valueScore": 18.4,
+        "valueBonus": 3.7,
+        "factors": {
+          "form": 41.2,
+          "energy": 66.9,
+          "jockey": 55.5,
+          "trainer": 56.4,
+          "draw": 56.0,
+          "class": 50.0,
+          "weight": 71,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 4.0,
+          "flags": 12.0,
+          "value": 3.7
+        },
+        "flags": [
+          "🟢 Energy 100 + top-4 finish"
+        ],
+        "valueSignals": [
+          "energy 100 (exceptional) | improving (79→100)",
+          "2 recent trials",
+          "peak energy 100 in harder company"
+        ],
+        "activeSignals": 3,
+        "signals": {
+          "recentForm": [
+            1,
+            12,
+            7,
+            2,
+            11
+          ],
+          "avgEnergy": 92.1,
+          "energyTrend": "improving",
+          "trialSentiment": "neutral",
+          "daysSinceRun": 18,
+          "drawWinPct": 8,
+          "jockeyWinPct": 11.1,
+          "trainerWinPct": 7.9,
+          "gallopCount": 2,
+          "fastWorkCount": 0
+        },
+        "rank": 2
+      },
+      {
+        "horseName": "ROMANTIC THOR",
+        "horseNo": 7,
+        "draw": 13,
+        "jockey": "K Teetan",
+        "trainer": "C S Shum",
+        "combined": 66.2,
+        "composite": 63.6,
+        "valueScore": 13.2,
+        "valueBonus": 2.7,
+        "factors": {
+          "form": 35.0,
+          "energy": 80.8,
+          "jockey": 31.0,
+          "trainer": 83.0,
+          "draw": 51.5,
+          "class": 50.0,
+          "weight": 59,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": 2.0,
+          "flags": 0.0,
+          "value": 2.7
+        },
+        "flags": [],
+        "valueSignals": [
+          "energy 98 (outstanding) | 3-run rising trend (95→97→98)",
+          "peak energy 98 in harder company"
+        ],
+        "activeSignals": 2,
+        "signals": {
+          "recentForm": [
+            2,
+            3,
+            6,
+            9,
+            11
+          ],
+          "avgEnergy": 95.3,
+          "energyTrend": "rising",
+          "trialSentiment": "neutral",
+          "daysSinceRun": 29,
+          "drawWinPct": 7,
+          "jockeyWinPct": 6.2,
+          "trainerWinPct": 12.0,
+          "gallopCount": 4,
+          "fastWorkCount": 0
+        },
+        "rank": 3
+      },
+      {
+        "horseName": "SO YOU WILL",
+        "horseNo": 10,
+        "draw": 11,
+        "jockey": "A Badel",
+        "trainer": "C Fownes",
+        "combined": 63.7,
+        "composite": 61.0,
+        "valueScore": 13.2,
+        "valueBonus": 2.7,
+        "factors": {
+          "form": 28.7,
+          "energy": 65.4,
+          "jockey": 33.0,
+          "trainer": 83.0,
+          "draw": 51.5,
+          "class": 35.0,
+          "weight": 71,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 0.0,
+          "flags": 8.0,
+          "value": 2.7
+        },
+        "flags": [
+          "🟢 Near miss + strong energy"
+        ],
+        "valueSignals": [
+          "energy 99 (outstanding) | 3-run rising trend (76→97→99)",
+          "peak energy 99 in harder company"
+        ],
+        "activeSignals": 2,
+        "signals": {
+          "recentForm": [
+            4,
+            2,
+            14,
+            14
+          ],
+          "avgEnergy": 89.8,
+          "energyTrend": "rising",
+          "trialSentiment": null,
+          "daysSinceRun": 21,
+          "drawWinPct": 7,
+          "jockeyWinPct": 6.6,
+          "trainerWinPct": 12.0,
+          "gallopCount": 3,
+          "fastWorkCount": 0
+        },
+        "rank": 4
+      },
+      {
+        "horseName": "PACKING FIGHTER",
+        "horseNo": 12,
+        "draw": 9,
+        "jockey": "M L Yeung",
+        "trainer": "P C Ng",
+        "combined": 62.6,
+        "composite": 58.4,
+        "valueScore": 21.3,
+        "valueBonus": 4.3,
+        "factors": {
+          "form": 10.4,
+          "energy": 75.0,
+          "jockey": 26.5,
+          "trainer": 36.4,
+          "draw": 88.0,
+          "class": 35.0,
+          "weight": 74,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 4.0,
+          "flags": 8.0,
+          "value": 4.3
+        },
+        "flags": [
+          "🟢 Near miss + strong energy"
+        ],
+        "valueSignals": [
+          "energy 96 (outstanding) | 3-run rising trend (94→95→96) | high effort despite 5th — under-rated",
+          "2 recent trials",
+          "peak energy 96 in harder company"
+        ],
+        "activeSignals": 3,
+        "signals": {
+          "recentForm": [
+            5,
+            6,
+            6,
+            12,
+            4
+          ],
+          "avgEnergy": 93.2,
+          "energyTrend": "rising",
+          "trialSentiment": "neutral",
+          "daysSinceRun": 21,
+          "drawWinPct": 14,
+          "jockeyWinPct": 5.3,
+          "trainerWinPct": 5.6,
+          "gallopCount": 2,
+          "fastWorkCount": 0
+        },
+        "rank": 5
+      },
+      {
+        "horseName": "DRAGON AIR FORCE",
+        "horseNo": 3,
+        "draw": 4,
+        "jockey": "H Y Yuen",
+        "trainer": "P F Yiu",
+        "combined": 57.2,
+        "composite": 55.6,
+        "valueScore": 8.2,
+        "valueBonus": 1.7,
+        "factors": {
+          "form": 45.4,
+          "energy": 83.4,
+          "jockey": 0.0,
+          "trainer": 60.9,
+          "draw": 70.0,
+          "class": 50.0,
+          "weight": 59,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 0.0,
+          "flags": 0.0,
+          "value": 1.7
+        },
+        "flags": [],
+        "valueSignals": [
+          "energy 94 (strong) | high effort despite 11th — under-rated",
+          "peak energy 104 in harder company"
+        ],
+        "activeSignals": 2,
+        "signals": {
+          "recentForm": [
+            11,
+            2,
+            1,
+            5,
+            2
+          ],
+          "avgEnergy": 98.0,
+          "energyTrend": "dropping",
+          "trialSentiment": null,
+          "daysSinceRun": 29,
+          "drawWinPct": 10,
+          "jockeyWinPct": 0.0,
+          "trainerWinPct": 8.6,
+          "gallopCount": 2,
+          "fastWorkCount": 0
+        },
+        "rank": 6
+      },
+      {
+        "horseName": "NEZHA",
+        "horseNo": 9,
+        "draw": 12,
+        "jockey": "M F Poon",
+        "trainer": "D J Hall",
+        "combined": 47.9,
+        "composite": 44.8,
+        "valueScore": 15.8,
+        "valueBonus": 3.2,
+        "factors": {
+          "form": 45.0,
+          "energy": 54.0,
+          "jockey": 33.5,
+          "trainer": 55.7,
+          "draw": 33.5,
+          "class": 50.0,
+          "weight": 71,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": -8.0,
+          "flags": 0.0,
+          "value": 3.2
+        },
+        "flags": [],
+        "valueSignals": [
+          "energy 99 (outstanding) | improving (82→99)",
+          "85d layoff (market discount)",
+          "peak energy 99 in harder company"
+        ],
+        "activeSignals": 3,
+        "signals": {
+          "recentForm": [
+            1,
+            11,
+            2,
+            9,
+            5
+          ],
+          "avgEnergy": 89.3,
+          "energyTrend": "improving",
+          "trialSentiment": "negative",
+          "daysSinceRun": 85,
+          "drawWinPct": 3,
+          "jockeyWinPct": 6.7,
+          "trainerWinPct": 7.8,
+          "gallopCount": 3,
+          "fastWorkCount": 0
+        },
+        "rank": 7
+      },
+      {
+        "horseName": "STURDY RUBY",
+        "horseNo": 14,
+        "draw": 2,
+        "jockey": "P N Wong",
+        "trainer": "K L Man",
+        "combined": 47.5,
+        "composite": 46.1,
+        "valueScore": 7.0,
+        "valueBonus": 1.4,
+        "factors": {
+          "form": 2.0,
+          "energy": 66.4,
+          "jockey": 39.0,
+          "trainer": 58.5,
+          "draw": 56.5,
+          "class": 35.0,
+          "weight": 95,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 0.0,
+          "flags": 0.0,
+          "value": 1.4
+        },
+        "flags": [],
+        "valueSignals": [
+          "energy 91 (strong) | improving (88→91)",
+          "peak energy 94 in harder company"
+        ],
+        "activeSignals": 2,
+        "signals": {
+          "recentForm": [
+            9,
+            10,
+            6,
+            8,
+            7
+          ],
+          "avgEnergy": 93.7,
+          "energyTrend": "improving",
+          "trialSentiment": null,
+          "daysSinceRun": 29,
+          "drawWinPct": 7,
+          "jockeyWinPct": 7.8,
+          "trainerWinPct": 9.0,
+          "gallopCount": 3,
+          "fastWorkCount": 0
+        },
+        "rank": 8
+      },
+      {
+        "horseName": "TELECOM FIGHTERS",
+        "horseNo": 5,
+        "draw": 7,
+        "jockey": "Y L Chung",
+        "trainer": "Y S Tsui",
+        "combined": 47.4,
+        "composite": 45.0,
+        "valueScore": 12.0,
+        "valueBonus": 2.4,
+        "factors": {
+          "form": 18.8,
+          "energy": 64.4,
+          "jockey": 30.0,
+          "trainer": 39.6,
+          "draw": 60.5,
+          "class": 35.0,
+          "weight": 59,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 0.0,
+          "flags": 0.0,
+          "value": 2.4
+        },
+        "flags": [],
+        "valueSignals": [
+          "energy 95 (outstanding) | high effort despite 7th — under-rated",
+          "peak energy 98 in harder company"
+        ],
+        "activeSignals": 2,
+        "signals": {
+          "recentForm": [
+            7,
+            3,
+            6,
+            4,
+            11
+          ],
+          "avgEnergy": 93.0,
+          "energyTrend": "dropping",
+          "trialSentiment": null,
+          "daysSinceRun": 18,
+          "drawWinPct": 9,
+          "jockeyWinPct": 6.0,
+          "trainerWinPct": 6.1,
+          "gallopCount": 3,
+          "fastWorkCount": 0
+        },
+        "rank": 9
+      },
+      {
+        "horseName": "VOYAGE SAMURAI",
+        "horseNo": 1,
+        "draw": 6,
+        "jockey": "K C Leung",
+        "trainer": "F C Lor",
+        "combined": 33.8,
+        "composite": 31.0,
+        "valueScore": 13.7,
+        "valueBonus": 2.7,
+        "factors": {
+          "form": 1.0,
+          "energy": 67.2,
+          "jockey": 32.0,
+          "trainer": 53.3,
+          "draw": 74.5,
+          "class": 35.0,
+          "weight": 14,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 8.0,
+          "barrierTrials": 2.0,
+          "flags": -15.0,
+          "value": 2.7
+        },
+        "flags": [
+          "🔴 3 runs outside top 6"
+        ],
+        "valueSignals": [
+          "energy 91 (strong)",
+          "81d layoff (market discount)",
+          "peak energy 98 in harder company",
+          "front-runner with no pace pressure (1 other leaders)"
+        ],
+        "activeSignals": 4,
+        "signals": {
+          "recentForm": [
+            10,
+            11,
+            13,
+            9,
+            5
+          ],
+          "avgEnergy": 94.0,
+          "energyTrend": "dropping",
+          "trialSentiment": "neutral",
+          "daysSinceRun": 81,
+          "drawWinPct": 11,
+          "jockeyWinPct": 6.4,
+          "trainerWinPct": 8.2,
+          "gallopCount": 4,
+          "fastWorkCount": 0
+        },
+        "rank": 10
+      },
+      {
+        "horseName": "NOISY BOY",
+        "horseNo": 6,
+        "draw": 1,
+        "jockey": "C L Chau",
+        "trainer": "C H Yip",
+        "combined": 33.5,
+        "composite": 31.1,
+        "valueScore": 12.0,
+        "valueBonus": 2.4,
+        "factors": {
+          "form": 3.0,
+          "energy": 73.1,
+          "jockey": 51.0,
+          "trainer": 27.9,
+          "draw": 79.0,
+          "class": 35.0,
+          "weight": 65,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 0.0,
+          "flags": -15.0,
+          "value": 2.4
+        },
+        "flags": [
+          "🔴 3 runs outside top 6"
+        ],
+        "valueSignals": [
+          "energy 97 (outstanding) | high effort despite 11th — under-rated",
+          "peak energy 97 in harder company"
+        ],
+        "activeSignals": 2,
+        "signals": {
+          "recentForm": [
+            11,
+            10,
+            8,
+            9,
+            4
+          ],
+          "avgEnergy": 96.1,
+          "energyTrend": "stable",
+          "trialSentiment": null,
+          "daysSinceRun": 17,
+          "drawWinPct": 12,
+          "jockeyWinPct": 10.2,
+          "trainerWinPct": 4.3,
+          "gallopCount": 2,
+          "fastWorkCount": 0
+        },
+        "rank": 11
+      },
+      {
+        "horseName": "KEEN MOLLY",
+        "horseNo": 11,
+        "draw": 10,
+        "jockey": "M Chadwick",
+        "trainer": "D Eustace",
+        "combined": 31.5,
+        "composite": 28.1,
+        "valueScore": 17.0,
+        "valueBonus": 3.4,
+        "factors": {
+          "form": 2.6,
+          "energy": 82.8,
+          "jockey": 18.5,
+          "trainer": 44.2,
+          "draw": 42.5,
+          "class": 35.0,
+          "weight": 74,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 0.0,
+          "flags": -15.0,
+          "value": 3.4
+        },
+        "flags": [
+          "🔴 3 runs outside top 6"
+        ],
+        "valueSignals": [
+          "energy 95 (outstanding) | 3-run rising trend (92→93→95) | high effort despite 9th — under-rated",
+          "peak energy 95 in harder company"
+        ],
+        "activeSignals": 2,
+        "signals": {
+          "recentForm": [
+            9,
+            8,
+            8,
+            5,
+            6
+          ],
+          "avgEnergy": 96.0,
+          "energyTrend": "rising",
+          "trialSentiment": null,
+          "daysSinceRun": 21,
+          "drawWinPct": 5,
+          "jockeyWinPct": 3.7,
+          "trainerWinPct": 6.8,
+          "gallopCount": 2,
+          "fastWorkCount": 0
+        },
+        "rank": 12
+      },
+      {
+        "horseName": "LOCH TAY",
+        "horseNo": 4,
+        "draw": 8,
+        "jockey": "R Kingscote",
+        "trainer": "D Eustace",
+        "combined": 28.6,
+        "composite": 27.9,
+        "valueScore": 3.5,
+        "valueBonus": 0.7,
+        "factors": {
+          "form": 16.0,
+          "energy": 58.8,
+          "jockey": 16.0,
+          "trainer": 44.2,
+          "draw": 20.0,
+          "class": 35.0,
+          "weight": 53,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 4.0,
+          "flags": -15.0,
+          "value": 0.7
+        },
+        "flags": [
+          "🔴 3 runs outside top 6"
+        ],
+        "valueSignals": [
+          "2 recent trials",
+          "peak energy 94 in harder company"
+        ],
+        "activeSignals": 2,
+        "signals": {
+          "recentForm": [
+            13,
+            9,
+            9,
+            1,
+            11
+          ],
+          "avgEnergy": 91.0,
+          "energyTrend": "dropping",
+          "trialSentiment": "neutral",
+          "daysSinceRun": 11,
+          "drawWinPct": 0,
+          "jockeyWinPct": 3.2,
+          "trainerWinPct": 6.8,
+          "gallopCount": 3,
+          "fastWorkCount": 0
+        },
+        "rank": 13
+      },
+      {
+        "horseName": "JOLTIN",
+        "horseNo": 13,
+        "draw": 14,
+        "jockey": "H T Mo",
+        "trainer": "D A Hayes",
+        "combined": 17.2,
+        "composite": 16.8,
+        "valueScore": 2.0,
+        "valueBonus": 0.4,
+        "factors": {
+          "form": 0.0,
+          "energy": 24.8,
+          "jockey": 22.5,
+          "trainer": 57.2,
+          "draw": 29.0,
+          "class": 35.0,
+          "weight": 80,
+          "specialist": 50.0
+        },
+        "bonuses": {
+          "trackwork": 5.0,
+          "barrierTrials": 0.0,
+          "flags": -15.0,
+          "value": 0.4
+        },
+        "flags": [
+          "🔴 3 runs outside top 6"
+        ],
+        "valueSignals": [
+          "peak energy 91 in harder company"
+        ],
+        "activeSignals": 1,
+        "signals": {
+          "recentForm": [
+            12,
+            10,
+            8
+          ],
+          "avgEnergy": 81.7,
+          "energyTrend": "declining",
+          "trialSentiment": null,
+          "daysSinceRun": 14,
+          "drawWinPct": 2,
+          "jockeyWinPct": 4.5,
+          "trainerWinPct": 8.8,
+          "gallopCount": 3,
+          "fastWorkCount": 0
+        },
+        "rank": 14
+      }
+    ],
+    "bets": [
+      {
+        "type": "WIN",
+        "horse": "#2 TALENTS AMBITION",
+        "stake": 2,
+        "reason": "clear top pick (21.7pt gap)",
+        "confidence": "HIGH"
+      }
+    ]
+  }
+]

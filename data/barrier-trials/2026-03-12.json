@@ -1,0 +1,144 @@
+{
+  "trialDate": "12/03/2026",
+  "batches": [
+    {
+      "batchNo": 1,
+      "venue": "CONGHUA ALL WEATHER TRACK",
+      "distance": "1200m",
+      "going": "GOOD",
+      "time": "1.12.91",
+      "sectionalTimes": "27.3   23.7   21.9",
+      "horses": [
+        {
+          "name": "CHANCHENG GLORY",
+          "horseCode": "H212",
+          "jockey": "C M Thabana",
+          "trainer": "K W Lui",
+          "draw": "04",
+          "gear": "B/XB",
+          "lbw": "",
+          "runningPosition": "1 1 1",
+          "time": "1.12.91",
+          "result": "",
+          "comment": "Jumped well; fought on well to score; stayed on fairly well."
+        },
+        {
+          "name": "SPEED DRAGON",
+          "horseCode": "H380",
+          "jockey": "R Thomas",
+          "trainer": "K W Lui",
+          "draw": "02",
+          "gear": "B",
+          "lbw": "SH",
+          "runningPosition": "3 3 2",
+          "time": "1.12.92",
+          "result": "",
+          "comment": "Made progress when asked at 200m; ran on fairly well."
+        },
+        {
+          "name": "GORGEOUS WIN",
+          "horseCode": "J008",
+          "jockey": "Z Zuriman",
+          "trainer": "C S Shum",
+          "draw": "01",
+          "gear": "",
+          "lbw": "4L",
+          "runningPosition": "2 2 3",
+          "time": "1.13.54",
+          "result": "",
+          "comment": "Raced under his own steam; ran on OK."
+        },
+        {
+          "name": "HELENE FEELING",
+          "horseCode": "H215",
+          "jockey": "M Ntuli",
+          "trainer": "C S Shum",
+          "draw": "03",
+          "gear": "B",
+          "lbw": "4-1/4L",
+          "runningPosition": "4 4 4",
+          "time": "1.13.58",
+          "result": "",
+          "comment": "Raced under his own steam under big stride."
+        }
+      ]
+    },
+    {
+      "batchNo": 2,
+      "venue": "CONGHUA ALL WEATHER TRACK",
+      "distance": "1200m",
+      "going": "GOOD",
+      "time": "1.10.70",
+      "sectionalTimes": "25.0   22.3   23.4",
+      "horses": [
+        {
+          "name": "MOMENTS IN TIME",
+          "horseCode": "H474",
+          "jockey": "M Ntuli",
+          "trainer": "C S Shum",
+          "draw": "02",
+          "gear": "",
+          "lbw": "",
+          "runningPosition": "4 3 1",
+          "time": "1.10.70",
+          "result": "",
+          "comment": "Made progress under his own steam; won with plenty in hand."
+        },
+        {
+          "name": "SPANGLE FORTUNE",
+          "horseCode": "G427",
+          "jockey": "R Thomas",
+          "trainer": "K L Man",
+          "draw": "05",
+          "gear": "B",
+          "lbw": "1/2L",
+          "runningPosition": "1 1 2",
+          "time": "1.10.78",
+          "result": "Passed",
+          "comment": "Led along the rail; kept on evenly when given reminders."
+        },
+        {
+          "name": "URANUS STAR",
+          "horseCode": "K511",
+          "jockey": "C M Thabana",
+          "trainer": "K W Lui",
+          "draw": "01",
+          "gear": "XB",
+          "lbw": "1-1/2L",
+          "runningPosition": "2 2 3",
+          "time": "1.10.95",
+          "result": "",
+          "comment": "On pace in 2nd position early; finished off evenly."
+        },
+        {
+          "name": "SOUTH STAR",
+          "horseCode": "K153",
+          "jockey": "Z Zuriman",
+          "trainer": "F C Lor",
+          "draw": "04",
+          "gear": "H",
+          "lbw": "2-3/4L",
+          "runningPosition": "3 4 4",
+          "time": "1.11.15",
+          "result": "Passed",
+          "comment": "Racing wide throughout; just to stretch out."
+        },
+        {
+          "name": "SUPREME AGILITY",
+          "horseCode": "J267",
+          "jockey": "Y Salim",
+          "trainer": "P C Ng",
+          "draw": "03",
+          "gear": "",
+          "lbw": "6L",
+          "runningPosition": "5 5 5",
+          "time": "1.11.67",
+          "result": "Passed",
+          "comment": "Slightly slow to begin; raced at rear."
+        }
+      ]
+    }
+  ],
+  "totalBatches": 2,
+  "totalHorses": 9
+}

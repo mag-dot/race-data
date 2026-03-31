@@ -1,0 +1,258 @@
+{
+  "trialDate": "30/03/2026",
+  "batches": [
+    {
+      "batchNo": 1,
+      "venue": "CONGHUA TURF",
+      "distance": "800m",
+      "going": "GOOD",
+      "time": "0.45.48",
+      "sectionalTimes": "23.3   22.1",
+      "horses": [
+        {
+          "name": "BUSTLING CITY",
+          "horseCode": "L210",
+          "jockey": "M Kellady",
+          "trainer": "D A Hayes",
+          "draw": "03",
+          "gear": "",
+          "lbw": "",
+          "runningPosition": "2 1 1",
+          "time": "0.45.48",
+          "result": "Passed",
+          "comment": "Hit the front halfway; kept on to score when asked."
+        },
+        {
+          "name": "HYANNIS STAR",
+          "horseCode": "K331",
+          "jockey": "S Mutaza",
+          "trainer": "D Eustace",
+          "draw": "01",
+          "gear": "",
+          "lbw": "1/2L",
+          "runningPosition": "3 3 2",
+          "time": "0.45.57",
+          "result": "",
+          "comment": "Settled along the rail; responded well when given reminders."
+        },
+        {
+          "name": "MEGASTAR HEART",
+          "horseCode": "L056",
+          "jockey": "K H Chan",
+          "trainer": "C Fownes",
+          "draw": "05",
+          "gear": "",
+          "lbw": "5-1/2L",
+          "runningPosition": "5 5 3",
+          "time": "0.46.36",
+          "result": "Passed",
+          "comment": "Ridden conservatively; raced under his own steam."
+        },
+        {
+          "name": "HOWEVER",
+          "horseCode": "L350",
+          "jockey": "E C W Wong",
+          "trainer": "C Fownes",
+          "draw": "02",
+          "gear": "",
+          "lbw": "7-1/2L",
+          "runningPosition": "1 2 4",
+          "time": "0.46.67",
+          "result": "Passed",
+          "comment": "Gave ground abruptly at 300m; never in contention."
+        },
+        {
+          "name": "GREAT LOOKING",
+          "horseCode": "J198",
+          "jockey": "C M Thabana",
+          "trainer": "C H Yip",
+          "draw": "04",
+          "gear": "B",
+          "lbw": "7-3/4L",
+          "runningPosition": "4 4 5",
+          "time": "0.46.71",
+          "result": "Passed",
+          "comment": "Limited response when asked; not much improvement."
+        }
+      ]
+    },
+    {
+      "batchNo": 2,
+      "venue": "CONGHUA TURF",
+      "distance": "800m",
+      "going": "GOOD",
+      "time": "0.46.67",
+      "sectionalTimes": "24.2   22.4",
+      "horses": [
+        {
+          "name": "DAILY FUN",
+          "horseCode": "L231",
+          "jockey": "Z Zuriman",
+          "trainer": "F C Lor",
+          "draw": "03",
+          "gear": "",
+          "lbw": "",
+          "runningPosition": "1 1 1",
+          "time": "0.46.67",
+          "result": "Passed",
+          "comment": "Good early speed; led all the way to score."
+        },
+        {
+          "name": "DANCING BLAZE",
+          "horseCode": "L364",
+          "jockey": "E C W Wong",
+          "trainer": "C Fownes",
+          "draw": "04",
+          "gear": "",
+          "lbw": "1/2L",
+          "runningPosition": "4 2 2",
+          "time": "0.46.75",
+          "result": "Passed",
+          "comment": "Stayed on well; ran on nicely."
+        },
+        {
+          "name": "KA YING RADIANCE",
+          "horseCode": "K134",
+          "jockey": "M Kellady",
+          "trainer": "D A Hayes",
+          "draw": "05",
+          "gear": "",
+          "lbw": "2-3/4L",
+          "runningPosition": "2 3 3",
+          "time": "0.47.12",
+          "result": "",
+          "comment": "Ran on OK when given reminders."
+        },
+        {
+          "name": "SCORCHING LEGEND",
+          "horseCode": "L081",
+          "jockey": "K H Chan",
+          "trainer": "C Fownes",
+          "draw": "06",
+          "gear": "",
+          "lbw": "4-3/4L",
+          "runningPosition": "3 4 4",
+          "time": "0.47.43",
+          "result": "Passed",
+          "comment": "Raced under his own steam; under a hold thereafter."
+        },
+        {
+          "name": "SHARP PLANET",
+          "horseCode": "L308",
+          "jockey": "S H Wang",
+          "trainer": "C Fownes",
+          "draw": "01",
+          "gear": "",
+          "lbw": "13-1/4L",
+          "runningPosition": "5 5 5",
+          "time": "0.48.78",
+          "result": "Failed",
+          "comment": "Raced at rear; unimpressive."
+        },
+        {
+          "name": "SHOW ME YOUR LOVE",
+          "horseCode": "L355",
+          "jockey": "M Ntuli",
+          "trainer": "D J Whyte",
+          "draw": "02",
+          "gear": "",
+          "lbw": "14-1/2L",
+          "runningPosition": "6 6 6",
+          "time": "0.49.00",
+          "result": "Passed",
+          "comment": "Missed start; tailed off."
+        }
+      ]
+    },
+    {
+      "batchNo": 3,
+      "venue": "CONGHUA TURF",
+      "distance": "800m",
+      "going": "GOOD",
+      "time": "0.47.45",
+      "sectionalTimes": "24.3   23.1",
+      "horses": [
+        {
+          "name": "KINGDOM",
+          "horseCode": "L366",
+          "jockey": "E C W Wong",
+          "trainer": "C Fownes",
+          "draw": "01",
+          "gear": "",
+          "lbw": "",
+          "runningPosition": "1 1 1",
+          "time": "0.47.45",
+          "result": "Passed",
+          "comment": "Led along the rail; stayed on to score."
+        },
+        {
+          "name": "TARGET AUDIENCE",
+          "horseCode": "K107",
+          "jockey": "K H Chan",
+          "trainer": "C Fownes",
+          "draw": "04",
+          "gear": "",
+          "lbw": "2-1/4L",
+          "runningPosition": "2 2 2",
+          "time": "0.47.82",
+          "result": "",
+          "comment": "First to jump; on pace in 2nd position throughout."
+        },
+        {
+          "name": "SUNNY BOSS",
+          "horseCode": "L351",
+          "jockey": "M Ntuli",
+          "trainer": "D J Whyte",
+          "draw": "03",
+          "gear": "",
+          "lbw": "4L",
+          "runningPosition": "4 3 3",
+          "time": "0.48.10",
+          "result": "Passed",
+          "comment": "Raced under his own steam under big stride; ran on fairly."
+        },
+        {
+          "name": "JOLLY BONUS",
+          "horseCode": "L327",
+          "jockey": "Z Zuriman",
+          "trainer": "F C Lor",
+          "draw": "05",
+          "gear": "",
+          "lbw": "9L",
+          "runningPosition": "6 6 4",
+          "time": "0.48.89",
+          "result": "Passed",
+          "comment": "Limited response when hard ridden; finished off worse than midfield."
+        },
+        {
+          "name": "GLORIOUS HERO",
+          "horseCode": "L348",
+          "jockey": "C M Thabana",
+          "trainer": "D A Hayes",
+          "draw": "02",
+          "gear": "",
+          "lbw": "9-1/4L",
+          "runningPosition": "3 4 5",
+          "time": "0.48.92",
+          "result": "",
+          "comment": "Weakened passing halfway; needs time."
+        },
+        {
+          "name": "GOLDEN ELITE",
+          "horseCode": "L353",
+          "jockey": "M Kellady",
+          "trainer": "D A Hayes",
+          "draw": "06",
+          "gear": "",
+          "lbw": "10L",
+          "runningPosition": "5 5 6",
+          "time": "0.49.06",
+          "result": "Passed",
+          "comment": "Tardy start; not much progress when given reminders."
+        }
+      ]
+    }
+  ],
+  "totalBatches": 3,
+  "totalHorses": 17
+}

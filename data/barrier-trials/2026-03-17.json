@@ -1,0 +1,183 @@
+{
+  "trialDate": "17/03/2026",
+  "batches": [
+    {
+      "batchNo": 1,
+      "venue": "SHA TIN ALL WEATHER TRACK",
+      "distance": "1200m",
+      "going": "GOOD",
+      "time": "1.09.96",
+      "sectionalTimes": "24.3   22.3   23.3",
+      "horses": [
+        {
+          "name": "SALON S",
+          "horseCode": "K585",
+          "jockey": "M F Poon",
+          "trainer": "F C Lor",
+          "draw": "03",
+          "gear": "",
+          "lbw": "",
+          "runningPosition": "1 1 1",
+          "time": "1.09.96",
+          "result": "",
+          "comment": "Always in touch; ran on nicely."
+        },
+        {
+          "name": "FORZA TORO",
+          "horseCode": "K355",
+          "jockey": "H Bowman",
+          "trainer": "C Fownes",
+          "draw": "04",
+          "gear": "",
+          "lbw": "3/4L",
+          "runningPosition": "6 4 2",
+          "time": "1.10.09",
+          "result": "",
+          "comment": "Last to begin; fought on well when under whip at 200m."
+        },
+        {
+          "name": "POSITIVE SMILE",
+          "horseCode": "J467",
+          "jockey": "M L Yeung",
+          "trainer": "D A Hayes",
+          "draw": "02",
+          "gear": "",
+          "lbw": "2-1/2L",
+          "runningPosition": "4 5 3",
+          "time": "1.10.34",
+          "result": "",
+          "comment": "Under a hold for 3rd; impressive."
+        },
+        {
+          "name": "PRAY FOR JUSTICE",
+          "horseCode": "K473",
+          "jockey": "A Atzeni",
+          "trainer": "D Eustace",
+          "draw": "05",
+          "gear": "",
+          "lbw": "2-1/2L",
+          "runningPosition": "5 6 4",
+          "time": "1.10.35",
+          "result": "Passed",
+          "comment": "Racing wide throughout; stayed on strongly."
+        },
+        {
+          "name": "CANDLELIGHT DINNER",
+          "horseCode": "J468",
+          "jockey": "J Orman",
+          "trainer": "Y S Tsui",
+          "draw": "06",
+          "gear": "H",
+          "lbw": "4-3/4L",
+          "runningPosition": "2 2 5",
+          "time": "1.10.71",
+          "result": "",
+          "comment": "On pace early; under a hold in the Straight."
+        },
+        {
+          "name": "WINNING MACHINE",
+          "horseCode": "K239",
+          "jockey": "E C W Wong",
+          "trainer": "C Fownes",
+          "draw": "01",
+          "gear": "",
+          "lbw": "6L",
+          "runningPosition": "3 3 6",
+          "time": "1.10.90",
+          "result": "",
+          "comment": "Not quickened when asked at 200m."
+        }
+      ]
+    },
+    {
+      "batchNo": 2,
+      "venue": "SHA TIN ALL WEATHER TRACK",
+      "distance": "1200m",
+      "going": "GOOD",
+      "time": "1.10.62",
+      "sectionalTimes": "24.7   22.8   23.1",
+      "horses": [
+        {
+          "name": "JACKSON HABIT",
+          "horseCode": "L036",
+          "jockey": "H Bowman",
+          "trainer": "K H Ting",
+          "draw": "04",
+          "gear": "XB",
+          "lbw": "",
+          "runningPosition": "1 1 1",
+          "time": "1.10.62",
+          "result": "",
+          "comment": "Fought on well late to score."
+        },
+        {
+          "name": "MR ENERGIA",
+          "horseCode": "J239",
+          "jockey": "M F Poon",
+          "trainer": "D J Hall",
+          "draw": "06",
+          "gear": "B",
+          "lbw": "SH",
+          "runningPosition": "2 2 2",
+          "time": "1.10.63",
+          "result": "",
+          "comment": "Fought on well in the Straight; just missed."
+        },
+        {
+          "name": "MY FLYING ANGEL",
+          "horseCode": "J174",
+          "jockey": "A Badel",
+          "trainer": "F C Lor",
+          "draw": "01",
+          "gear": "B",
+          "lbw": "1/2L",
+          "runningPosition": "6 5 3",
+          "time": "1.10.71",
+          "result": "",
+          "comment": "Quickened for 3rd when shifted out at 200m."
+        },
+        {
+          "name": "SUPER MASTERMIND",
+          "horseCode": "K541",
+          "jockey": "B Avdulla",
+          "trainer": "J Richards",
+          "draw": "03",
+          "gear": "",
+          "lbw": "1-3/4L",
+          "runningPosition": "3 3 4",
+          "time": "1.10.89",
+          "result": "",
+          "comment": "Responded OK when asked at 200m."
+        },
+        {
+          "name": "PERFECTDAY",
+          "horseCode": "K238",
+          "jockey": "J Orman",
+          "trainer": "W Y So",
+          "draw": "05",
+          "gear": "B",
+          "lbw": "4-1/4L",
+          "runningPosition": "5 6 5",
+          "time": "1.11.29",
+          "result": "Passed",
+          "comment": "Racing wide throughout; just to pass trial."
+        },
+        {
+          "name": "HAPPY BUDDIES",
+          "horseCode": "K344",
+          "jockey": "K Teetan",
+          "trainer": "W K Mo",
+          "draw": "02",
+          "gear": "CP",
+          "lbw": "4-1/2L",
+          "runningPosition": "4 4 6",
+          "time": "1.11.32",
+          "result": "",
+          "comment": "Limited response when ridden along at turn."
+        }
+      ]
+    }
+  ],
+  "totalBatches": 2,
+  "totalHorses": 12
+}

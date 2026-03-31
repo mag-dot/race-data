@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+@page { size: A4; margin: 18mm 15mm 15mm 15mm; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; font-size: 10px; color: #1a1a1a; line-height: 1.4; }
+.page { page-break-after: always; padding: 0; }
+.page:last-child { page-break-after: avoid; }
+
+/* Header */
+.header { background: linear-gradient(135deg, #0a1628 0%, #1a3050 100%); color: #fff; padding: 20px 24px; border-radius: 8px; margin-bottom: 16px; }
+.header h1 { font-size: 22px; font-weight: 700; letter-spacing: -0.5px; }
+.header .subtitle { font-size: 11px; color: #8bb8e8; margin-top: 4px; }
+.header .meta { display: flex; gap: 20px; margin-top: 10px; font-size: 10px; color: #a0c4e8; }
+.header .meta span { background: rgba(255,255,255,0.1); padding: 3px 10px; border-radius: 4px; }
+
+/* Bankroll bar */
+.bankroll { display: flex; justify-content: space-between; background: #f0f4f8; padding: 10px 16px; border-radius: 6px; margin-bottom: 14px; font-size: 10px; }
+.bankroll .item { text-align: center; }
+.bankroll .item .label { color: #6b7280; font-size: 8px; text-transform: uppercase; letter-spacing: 0.5px; }
+.bankroll .item .value { font-size: 14px; font-weight: 700; color: #0a1628; }
+
+/* Executive summary table */
+.summary-table { width: 100%; border-collapse: collapse; margin-bottom: 14px; font-size: 9px; }
+.summary-table th { background: #0a1628; color: #fff; padding: 6px 8px; text-align: left; font-size: 8px; text-transform: uppercase; letter-spacing: 0.5px; }
+.summary-table td { padding: 5px 8px; border-bottom: 1px solid #e5e7eb; }
+.summary-table tr:nth-child(even) { background: #f9fafb; }
+.summary-table .horse { font-weight: 700; }
+.bet-win { background: #dcfce7; color: #166534; padding: 2px 6px; border-radius: 3px; font-weight: 700; font-size: 8px; }
+.bet-place { background: #dbeafe; color: #1e40af; padding: 2px 6px; border-radius: 3px; font-weight: 700; font-size: 8px; }
+.bet-qin { background: #fef3c7; color: #92400e; padding: 2px 6px; border-radius: 3px; font-weight: 700; font-size: 8px; }
+.bet-pass { background: #f3f4f6; color: #6b7280; padding: 2px 6px; border-radius: 3px; font-weight: 700; font-size: 8px; }
+.conf-high { color: #dc2626; font-weight: 700; }
+.conf-med { color: #2563eb; }
+
+/* Betting card */
+.betting-card { background: #fefce8; border: 2px solid #eab308; border-radius: 8px; padding: 14px 16px; margin-bottom: 14px; }
+.betting-card h2 { font-size: 13px; color: #854d0e; margin-bottom: 8px; }
+.betting-card table { width: 100%; border-collapse: collapse; font-size: 9px; }
+.betting-card th { text-align: left; padding: 4px 6px; border-bottom: 2px solid #eab308; font-size: 8px; text-transform: uppercase; color: #854d0e; }
+.betting-card td { padding: 4px 6px; border-bottom: 1px solid #fde68a; }
+.amount { font-weight: 700; font-size: 11px; }
+.total-row { background: #fef9c3; font-weight: 700; }
+
+/* Race cards */
+.race-card { border: 1px solid #e5e7eb; border-radius: 8px; margin-bottom: 12px; overflow: hidden; }
+.race-header { background: #1e3a5f; color: #fff; padding: 8px 12px; display: flex; justify-content: space-between; align-items: center; }
+.race-header h3 { font-size: 12px; }
+.race-header .info { font-size: 9px; color: #93c5fd; }
+.race-body { padding: 10px 12px; }
+.race-table { width: 100%; border-collapse: collapse; font-size: 8.5px; margin-bottom: 8px; }
+.race-table th { background: #f1f5f9; padding: 4px 6px; text-align: left; font-size: 7.5px; text-transform: uppercase; color: #64748b; border-bottom: 1px solid #e2e8f0; }
+.race-table td { padding: 3px 6px; border-bottom: 1px solid #f1f5f9; }
+.race-table tr:first-child td { background: #f0fdf4; font-weight: 600; }
+
+/* Pick detail */
+.pick-detail { background: #f8fafc; border-left: 3px solid #2563eb; padding: 8px 10px; margin-top: 6px; border-radius: 0 4px 4px 0; font-size: 8.5px; }
+.pick-detail .name { font-weight: 700; font-size: 11px; color: #0a1628; }
+.pick-detail .factors { display: flex; flex-wrap: wrap; gap: 4px; margin: 4px 0; }
+.pick-detail .factor { background: #e0e7ff; color: #3730a3; padding: 1px 5px; border-radius: 3px; font-size: 7.5px; }
+.pick-detail .flags { margin-top: 3px; }
+.pick-detail .flag { color: #16a34a; font-size: 8px; }
+.pick-detail .signal { color: #7c3aed; font-size: 8px; }
+
+/* Footer */
+.footer { text-align: center; color: #9ca3af; font-size: 7px; margin-top: 8px; padding-top: 6px; border-top: 1px solid #e5e7eb; }
+.section-title { font-size: 13px; font-weight: 700; color: #0a1628; margin: 12px 0 8px 0; padding-bottom: 4px; border-bottom: 2px solid #0a1628; }
+</style>
+</head>
+<body>
+
+<!-- PAGE 1: Overview -->
+<div class="page">
+<div class="header">
+  <h1>🏇 HKJC Race Report</h1>
+  <div class="subtitle">Sha Tin — All Weather Track — Wednesday 1 April 2026</div>
+  <div class="meta">
+    <span>9 Races</span>
+    <span>Composite Scoring + Value Overlay</span>
+    <span>Generated: 31 Mar 2026</span>
+  </div>
+</div>
+
+<div class="bankroll">
+  <div class="item"><div class="label">Bankroll</div><div class="value">$1,000</div></div>
+  <div class="item"><div class="label">Unit Size</div><div class="value">$25</div></div>
+  <div class="item"><div class="label">Total Staked</div><div class="value">$275</div></div>
+  <div class="item"><div class="label">Exposure</div><div class="value">27.5%</div></div>
+  <div class="item"><div class="label">Active Bets</div><div class="value">8 of 9</div></div>
+</div>
+
+<div class="section-title">📋 Executive Summary</div>
+<table class="summary-table">
+<tr><th>Race</th><th>Top Pick</th><th>Combined</th><th>Gap</th><th>Value Pick</th><th>Bet</th><th>Conf.</th></tr>
+<tr>
+  <td>R1</td>
+  <td class="horse">#3 ONLY U</td>
+  <td><strong>78.3</strong></td>
+  <td>14.6</td>
+  <td>= top pick</td>
+  <td><span class="bet-place">PLACE</span></td>
+  <td class="conf-med">MED</td>
+</tr><tr>
+  <td>R2</td>
+  <td class="horse">#10 MEEPMEEP</td>
+  <td><strong>54.8</strong></td>
+  <td>4.5</td>
+  <td>= top pick</td>
+  <td><span class="bet-pass">PASS</span></td>
+  <td class="conf-med">—</td>
+</tr><tr>
+  <td>R3</td>
+  <td class="horse">#4 NEVER PETER OUT</td>
+  <td><strong>88.9</strong></td>
+  <td>18.2</td>
+  <td>= top pick</td>
+  <td><span class="bet-win">WIN</span></td>
+  <td class="conf-high">HIGH</td>
+</tr><tr>
+  <td>R4</td>
+  <td class="horse">#2 SPEEDY SMARTIE</td>
+  <td><strong>80.3</strong></td>
+  <td>20.6</td>
+  <td>= top pick</td>
+  <td><span class="bet-win">WIN</span></td>
+  <td class="conf-high">HIGH</td>
+</tr><tr>
+  <td>R5</td>
+  <td class="horse">#2 CALIFORNIA STAR</td>
+  <td><strong>75.8</strong></td>
+  <td>11.5</td>
+  <td>SHANGHAI STYLE</td>
+  <td><span class="bet-place">PLACE</span></td>
+  <td class="conf-med">MED</td>
+</tr><tr>
+  <td>R6</td>
+  <td class="horse">#9 JUICY DRAGON</td>
+  <td><strong>64.8</strong></td>
+  <td>1.4</td>
+  <td>ONE MAN SHOW</td>
+  <td><span class="bet-qin">QIN</span></td>
+  <td class="conf-med">MED</td>
+</tr><tr>
+  <td>R7</td>
+  <td class="horse">#2 NOTTHESILLYONE</td>
+  <td><strong>64.4</strong></td>
+  <td>5.8</td>
+  <td>CONRAD THE GREAT</td>
+  <td><span class="bet-qin">QIN</span></td>
+  <td class="conf-med">MED</td>
+</tr><tr>
+  <td>R8</td>
+  <td class="horse">#4 VICTORY SKY</td>
+  <td><strong>106.4</strong></td>
+  <td>6.2</td>
+  <td>= top pick</td>
+  <td><span class="bet-qin">QIN</span></td>
+  <td class="conf-med">MED</td>
+</tr><tr>
+  <td>R9</td>
+  <td class="horse">#2 TALENTS AMBITION</td>
+  <td><strong>100.6</strong></td>
+  <td>21.7</td>
+  <td>= top pick</td>
+  <td><span class="bet-win">WIN</span></td>
+  <td class="conf-high">HIGH</td>
+</tr></table>
+
+<div class="betting-card">
+<h2>💰 Betting Card — $25/unit</h2>
+<table>
+<tr><th>Race</th><th>Type</th><th>Horse</th><th>Units</th><th>Amount</th><th>Reason</th></tr>
+<tr>
+  <td>R1</td>
+  <td><span class="bet-place">PLACE</span></td>
+  <td><strong>#3 ONLY U</strong></td>
+  <td>1u</td>
+  <td class="amount">$25</td>
+  <td>Solid 14.6pt gap</td>
+</tr><tr>
+  <td>R2</td>
+  <td><span class="bet-pass">PASS</span></td>
+  <td><strong>—</strong></td>
+  <td>0u</td>
+  <td class="amount">$0</td>
+  <td>No clear edge</td>
+</tr><tr>
+  <td>R3</td>
+  <td><span class="bet-win">WIN</span></td>
+  <td><strong>#4 NEVER PETER OUT</strong></td>
+  <td>2u</td>
+  <td class="amount">$50</td>
+  <td>18.2pt gap, rising energy</td>
+</tr><tr>
+  <td>R4</td>
+  <td><span class="bet-win">WIN</span></td>
+  <td><strong>#2 SPEEDY SMARTIE</strong></td>
+  <td>2u</td>
+  <td class="amount">$50</td>
+  <td>20.6pt gap, energy 97</td>
+</tr><tr>
+  <td>R5</td>
+  <td><span class="bet-place">PLACE</span></td>
+  <td><strong>#2 CALIFORNIA STAR</strong></td>
+  <td>1u</td>
+  <td class="amount">$25</td>
+  <td>11.5pt gap, Purton</td>
+</tr><tr>
+  <td>R6</td>
+  <td><span class="bet-qin">QIN</span></td>
+  <td><strong>#9 + #3</strong></td>
+  <td>1u</td>
+  <td class="amount">$25</td>
+  <td>Top 2 close, both strong</td>
+</tr><tr>
+  <td>R7</td>
+  <td><span class="bet-qin">QIN</span></td>
+  <td><strong>#2 + #6</strong></td>
+  <td>1u</td>
+  <td class="amount">$25</td>
+  <td>Top 2 close, both strong</td>
+</tr><tr>
+  <td>R8</td>
+  <td><span class="bet-qin">QIN</span></td>
+  <td><strong>#4 + #1</strong></td>
+  <td>1u</td>
+  <td class="amount">$25</td>
+  <td>Top 2 close, energy 101</td>
+</tr><tr>
+  <td>R9</td>
+  <td><span class="bet-win">WIN</span></td>
+  <td><strong>#2 TALENTS AMBITION</strong></td>
+  <td>2u</td>
+  <td class="amount">$50</td>
+  <td>21.7pt gap, energy 101</td>
+</tr><tr class="total-row">
+  <td colspan="3">TOTAL</td>
+  <td>11u</td>
+  <td class="amount">$275</td>
+  <td>27.5% of bankroll</td>
+</tr>
+</table>
+</div>
+
+<div class="footer">
+  Generated by Kairo Racing Intelligence • Composite scoring (8 factors) + Value overlay (6 signals) • Not financial advice
+</div>
+</div>
+
+<!-- PAGE 2+: Race-by-Race Detail -->
+<div class="race-card">
+<div class="race-header">
+  <h3>Race 1</h3>
+  <div class="info">AWT 1200m | Class 5 | 12 runners</div>
+</div>
+<div class="race-body">
+<table class="race-table">
+<tr><th>#</th><th>Horse</th><th>Combined</th><th>Composite</th><th>Value</th><th>Jockey</th><th>Draw</th><th>Signals</th></tr>
+<tr>
+  <td>#3</td>
+  <td class="horse">ONLY U</td>
+  <td><strong>78.3</strong></td>
+  <td>75.3</td>
+  <td>15 (3)</td>
+  <td>Z Purton</td>
+  <td>3</td>
+  <td style="font-size:7.5px">energy 91 (strong) | improving (89→91) | peak energy 92 i...</td>
+</tr><tr>
+  <td>#6</td>
+  <td class="horse">MACANESE MASTER</td>
+  <td><strong>63.7</strong></td>
+  <td>62.6</td>
+  <td>6 (2)</td>
+  <td>Y L Chung</td>
+  <td>8</td>
+  <td style="font-size:7.5px">trial: 'kept on' | peak energy 90 in harder company</td>
+</tr><tr>
+  <td>#11</td>
+  <td class="horse">TAIHANG SCENERY</td>
+  <td><strong>50.9</strong></td>
+  <td>50.9</td>
+  <td>0 (0)</td>
+  <td>E C W Wong</td>
+  <td>6</td>
+  <td style="font-size:7.5px">—</td>
+</tr><tr>
+  <td>#12</td>
+  <td class="horse">VIVA CHALEUR</td>
+  <td><strong>47.0</strong></td>
+  <td>46.4</td>
+  <td>3 (1)</td>
+  <td>A Atzeni</td>
+  <td>7</td>
+  <td style="font-size:7.5px">56d layoff (market discount)</td>
+</tr><tr>
+  <td>#9</td>
+  <td class="horse">DOUBLE BINGO</td>
+  <td><strong>46.7</strong></td>
+  <td>46.7</td>
+  <td>0 (0)</td>
+  <td>H Y Yuen</td>
+  <td>9</td>
+  <td style="font-size:7.5px">—</td>
+</tr></table><div class="pick-detail">
+  <div class="name">#3 ONLY U — 78.3pts</div>
+  <div class="factors">
+    <span class="factor">Form 43</span>
+    <span class="factor">Energy 55</span>
+    <span class="factor">Jockey 100</span>
+    <span class="factor">Draw 97</span>
+    <span class="factor">Trainer 62</span>
+    <span class="factor">Class 50</span>
+    <span class="factor">TW +8</span>
+    <span class="factor">BT +0</span>
+  </div>
+  <div>Form: 2/4/2/8/5 | Energy: 89.6 (improving) | Days since: 31</div><div class="flags"><span class="flag">🟢 Elite jockey + improving energy</span></div><div><span class="signal">energy 91 (strong) | improving (89→91)</span> | <span class="signal">peak energy 92 in harder company</span> | <span class="signal">NEW ride for Z Purton — jockey upgrade signal</span></div></div>
+</div>
+</div>
+<div class="race-card">
+<div class="race-header">
+  <h3>Race 2</h3>
+  <div class="info">AWT 1650m | Class 5 | 14 runners</div>
+</div>
+<div class="race-body">
+<table class="race-table">
+<tr><th>#</th><th>Horse</th><th>Combined</th><th>Composite</th><th>Value</th><th>Jockey</th><th>Draw</th><th>Signals</th></tr>
+<tr>
+  <td>#10</td>
+  <td class="horse">MEEPMEEP</td>
+  <td><strong>54.8</strong></td>
+  <td>51.3</td>
+  <td>18 (3)</td>
+  <td>H Bowman</td>
+  <td>8</td>
+  <td style="font-size:7.5px">energy 92 (strong) | 3-run rising trend (84→87→92) | peak...</td>
+</tr><tr>
+  <td>#4</td>
+  <td class="horse">TELECOM POWER</td>
+  <td><strong>50.3</strong></td>
+  <td>48.8</td>
+  <td>7 (2)</td>
+  <td>C Y Ho</td>
+  <td>11</td>
+  <td style="font-size:7.5px">trial: 'comfortably' | 35d since last run | peak energy 9...</td>
+</tr><tr>
+  <td>#5</td>
+  <td class="horse">ON THE LASH</td>
+  <td><strong>50.1</strong></td>
+  <td>49.1</td>
+  <td>5 (1)</td>
+  <td>A Atzeni</td>
+  <td>14</td>
+  <td style="font-size:7.5px">3-run rising trend (85→87→89)</td>
+</tr><tr>
+  <td>#3</td>
+  <td class="horse">CELESTIAL HARMONY</td>
+  <td><strong>49.7</strong></td>
+  <td>49.3</td>
+  <td>2 (1)</td>
+  <td>L Hewitson</td>
+  <td>3</td>
+  <td style="font-size:7.5px">peak energy 93 in harder company</td>
+</tr><tr>
+  <td>#13</td>
+  <td class="horse">PHANTOM CYCLONE</td>
+  <td><strong>49.2</strong></td>
+  <td>48.6</td>
+  <td>3 (1)</td>
+  <td>H Bentley</td>
+  <td>10</td>
+  <td style="font-size:7.5px">53d layoff (market discount)</td>
+</tr></table><div class="pick-detail">
+  <div class="name">#10 MEEPMEEP — 54.8pts</div>
+  <div class="factors">
+    <span class="factor">Form 24</span>
+    <span class="factor">Energy 54</span>
+    <span class="factor">Jockey 64</span>
+    <span class="factor">Draw 20</span>
+    <span class="factor">Trainer 56</span>
+    <span class="factor">Class 35</span>
+    <span class="factor">TW +8</span>
+    <span class="factor">BT +0</span>
+  </div>
+  <div>Form: 2/5/9/11/6 | Energy: 85.7 (rising) | Days since: 21</div><div><span class="signal">energy 92 (strong) | 3-run rising trend (84→87→92)</span> | <span class="signal">peak energy 92 in harder company</span> | <span class="signal">NEW ride for H Bowman — jockey upgrade signal</span></div></div>
+</div>
+</div>
+<div class="race-card">
+<div class="race-header">
+  <h3>Race 3</h3>
+  <div class="info">AWT 1650m | Class 4 | 14 runners</div>
+</div>
+<div class="race-body">
+<table class="race-table">
+<tr><th>#</th><th>Horse</th><th>Combined</th><th>Composite</th><th>Value</th><th>Jockey</th><th>Draw</th><th>Signals</th></tr>
+<tr>
+  <td>#4</td>
+  <td class="horse">NEVER PETER OUT</td>
+  <td><strong>88.9</strong></td>
+  <td>83.0</td>
+  <td>30 (4)</td>
+  <td>Z Purton</td>
+  <td>1</td>
+  <td style="font-size:7.5px">energy 94 (strong) | 3-run rising trend (88→93→94) | high...</td>
+</tr><tr>
+  <td>#14</td>
+  <td class="horse">FOREMOST TEDDY</td>
+  <td><strong>70.7</strong></td>
+  <td>67.9</td>
+  <td>14 (3)</td>
+  <td>K Teetan</td>
+  <td>11</td>
+  <td style="font-size:7.5px">energy 90 (strong) | improving (87→90) | trial: 'kept on'...</td>
+</tr><tr>
+  <td>#1</td>
+  <td class="horse">SUPREME AGILITY</td>
+  <td><strong>60.5</strong></td>
+  <td>58.2</td>
+  <td>11 (3)</td>
+  <td>C L Chau</td>
+  <td>4</td>
+  <td style="font-size:7.5px">energy 92 (strong) | high effort despite 9th — under-rate...</td>
+</tr><tr>
+  <td>#10</td>
+  <td class="horse">BULL ATTITUDE</td>
+  <td><strong>55.9</strong></td>
+  <td>55.0</td>
+  <td>4 (2)</td>
+  <td>L Hewitson</td>
+  <td>13</td>
+  <td style="font-size:7.5px">energy 93 (strong) | peak energy 93 in harder company</td>
+</tr><tr>
+  <td>#13</td>
+  <td class="horse">NIGHT PUROSANGUE</td>
+  <td><strong>48.5</strong></td>
+  <td>46.6</td>
+  <td>10 (2)</td>
+  <td>Y L Chung</td>
+  <td>12</td>
+  <td style="font-size:7.5px">energy 92 (strong) | 3-run rising trend (85→89→92) | peak...</td>
+</tr></table><div class="pick-detail">
+  <div class="name">#4 NEVER PETER OUT — 88.9pts</div>
+  <div class="factors">
+    <span class="factor">Form 5</span>
+    <span class="factor">Energy 67</span>
+    <span class="factor">Jockey 100</span>
+    <span class="factor">Draw 79</span>
+    <span class="factor">Trainer 53</span>
+    <span class="factor">Class 35</span>
+    <span class="factor">TW +8</span>
+    <span class="factor">BT +10</span>
+  </div>
+  <div>Form: 5/6/8/9/8 | Energy: 90.4 (rising) | Days since: 29</div><div class="flags"><span class="flag">🟢 Near miss + strong energy</span> <span class="flag">🟢 Elite jockey + improving energy</span></div><div><span class="signal">energy 94 (strong) | 3-run rising trend (88→93→94) | high effort despite 5th — under-rated</span> | <span class="signal">trial: 'impressive'</span> | <span class="signal">peak energy 94 in harder company</span></div></div>
+</div>
+</div>
+<div class="race-card">
+<div class="race-header">
+  <h3>Race 4</h3>
+  <div class="info">AWT 1200m | Class 4 | 12 runners</div>
+</div>
+<div class="race-body">
+<table class="race-table">
+<tr><th>#</th><th>Horse</th><th>Combined</th><th>Composite</th><th>Value</th><th>Jockey</th><th>Draw</th><th>Signals</th></tr>
+<tr>
+  <td>#2</td>
+  <td class="horse">SPEEDY SMARTIE</td>
+  <td><strong>80.3</strong></td>
+  <td>76.4</td>
+  <td>20 (4)</td>
+  <td>K Teetan</td>
+  <td>8</td>
+  <td style="font-size:7.5px">energy 97 (outstanding) | trial: 'responded well'</td>
+</tr><tr>
+  <td>#6</td>
+  <td class="horse">DAY DAY VICTORY</td>
+  <td><strong>59.7</strong></td>
+  <td>57.6</td>
+  <td>11 (2)</td>
+  <td>C L Chau</td>
+  <td>4</td>
+  <td style="font-size:7.5px">energy 92 (strong) | improving (88→92) | high effort desp...</td>
+</tr><tr>
+  <td>#3</td>
+  <td class="horse">FLOWING RICHES</td>
+  <td><strong>53.0</strong></td>
+  <td>51.6</td>
+  <td>7 (2)</td>
+  <td>P N Wong</td>
+  <td>3</td>
+  <td style="font-size:7.5px">energy 94 (strong) | improving (91→94) | peak energy 94 i...</td>
+</tr><tr>
+  <td>#11</td>
+  <td class="horse">SWAGGER BRO</td>
+  <td><strong>47.7</strong></td>
+  <td>47.2</td>
+  <td>2 (1)</td>
+  <td>H Bentley</td>
+  <td>6</td>
+  <td style="font-size:7.5px">improving (87→89)</td>
+</tr><tr>
+  <td>#1</td>
+  <td class="horse">PI LEGEND</td>
+  <td><strong>45.6</strong></td>
+  <td>43.9</td>
+  <td>8 (2)</td>
+  <td>H Y Yuen</td>
+  <td>12</td>
+  <td style="font-size:7.5px">energy 92 (strong) | high effort despite 5th — under-rate...</td>
+</tr></table><div class="pick-detail">
+  <div class="name">#2 SPEEDY SMARTIE — 80.3pts</div>
+  <div class="factors">
+    <span class="factor">Form 74</span>
+    <span class="factor">Energy 71</span>
+    <span class="factor">Jockey 31</span>
+    <span class="factor">Draw 38</span>
+    <span class="factor">Trainer 62</span>
+    <span class="factor">Class 65</span>
+    <span class="factor">TW +8</span>
+    <span class="factor">BT +10</span>
+  </div>
+  <div>Form: 2/1/2/4/1 | Energy: 93.6 (dropping) | Days since: 18</div><div><span class="signal">energy 97 (outstanding)</span> | <span class="signal">trial: 'responded well'</span> | <span class="signal">peak energy 100 in harder company</span></div></div>
+</div>
+</div>
+<div class="race-card">
+<div class="race-header">
+  <h3>Race 5</h3>
+  <div class="info">AWT 1800m | Class 4 | 14 runners</div>
+</div>
+<div class="race-body">
+<table class="race-table">
+<tr><th>#</th><th>Horse</th><th>Combined</th><th>Composite</th><th>Value</th><th>Jockey</th><th>Draw</th><th>Signals</th></tr>
+<tr>
+  <td>#2</td>
+  <td class="horse">CALIFORNIA STAR</td>
+  <td><strong>75.8</strong></td>
+  <td>72.6</td>
+  <td>16 (3)</td>
+  <td>Z Purton</td>
+  <td>10</td>
+  <td style="font-size:7.5px">energy 96 (outstanding) | peak energy 96 in harder company</td>
+</tr><tr>
+  <td>#7</td>
+  <td class="horse">SHANGHAI STYLE</td>
+  <td><strong>64.3</strong></td>
+  <td>59.2</td>
+  <td>26 (4)</td>
+  <td>H Bowman</td>
+  <td>5</td>
+  <td style="font-size:7.5px">energy 92 (strong) | improving (81→92) | high effort desp...</td>
+</tr><tr>
+  <td>#5</td>
+  <td class="horse">HAPPY UNIVERSE</td>
+  <td><strong>62.7</strong></td>
+  <td>61.1</td>
+  <td>8 (2)</td>
+  <td>K C Leung</td>
+  <td>3</td>
+  <td style="font-size:7.5px">energy 93 (strong) | high effort despite 6th — under-rate...</td>
+</tr><tr>
+  <td>#6</td>
+  <td class="horse">OCEAN IMPACT</td>
+  <td><strong>47.3</strong></td>
+  <td>46.9</td>
+  <td>2 (1)</td>
+  <td>L Hewitson</td>
+  <td>6</td>
+  <td style="font-size:7.5px">peak energy 95 in harder company</td>
+</tr><tr>
+  <td>#10</td>
+  <td class="horse">GLORIOUS RYDER</td>
+  <td><strong>47.1</strong></td>
+  <td>45.2</td>
+  <td>10 (2)</td>
+  <td>A Badel</td>
+  <td>12</td>
+  <td style="font-size:7.5px">energy 91 (strong) | 3-run rising trend (71→87→91) | peak...</td>
+</tr></table><div class="pick-detail">
+  <div class="name">#2 CALIFORNIA STAR — 75.8pts</div>
+  <div class="factors">
+    <span class="factor">Form 57</span>
+    <span class="factor">Energy 62</span>
+    <span class="factor">Jockey 100</span>
+    <span class="factor">Draw 88</span>
+    <span class="factor">Trainer 47</span>
+    <span class="factor">Class 50</span>
+    <span class="factor">TW +8</span>
+    <span class="factor">BT +2</span>
+  </div>
+  <div>Form: 2/1/3/5/8 | Energy: 92.3 (stable) | Days since: 29</div><div><span class="signal">energy 96 (outstanding)</span> | <span class="signal">peak energy 96 in harder company</span> | <span class="signal">NEW ride for Z Purton — jockey upgrade signal</span></div></div>
+</div>
+</div>
+<div class="race-card">
+<div class="race-header">
+  <h3>Race 6</h3>
+  <div class="info">AWT 1200m | Class 4 | 12 runners</div>
+</div>
+<div class="race-body">
+<table class="race-table">
+<tr><th>#</th><th>Horse</th><th>Combined</th><th>Composite</th><th>Value</th><th>Jockey</th><th>Draw</th><th>Signals</th></tr>
+<tr>
+  <td>#9</td>
+  <td class="horse">JUICY DRAGON</td>
+  <td><strong>64.8</strong></td>
+  <td>62.9</td>
+  <td>10 (2)</td>
+  <td>A Atzeni</td>
+  <td>12</td>
+  <td style="font-size:7.5px">energy 93 (strong) | 3-run rising trend (87→91→93) | peak...</td>
+</tr><tr>
+  <td>#3</td>
+  <td class="horse">ONE MAN SHOW</td>
+  <td><strong>63.4</strong></td>
+  <td>61.0</td>
+  <td>12 (3)</td>
+  <td>Z Purton</td>
+  <td>2</td>
+  <td style="font-size:7.5px">energy 91 (strong) | peak energy 96 in harder company</td>
+</tr><tr>
+  <td>#8</td>
+  <td class="horse">ACE POWER</td>
+  <td><strong>60.2</strong></td>
+  <td>58.3</td>
+  <td>10 (3)</td>
+  <td>L Ferraris</td>
+  <td>7</td>
+  <td style="font-size:7.5px">energy 92 (strong) | improving (86→92) | 39d since last run</td>
+</tr><tr>
+  <td>#12</td>
+  <td class="horse">YEE CHEONG SPIRIT</td>
+  <td><strong>58.5</strong></td>
+  <td>57.1</td>
+  <td>7 (2)</td>
+  <td>L Hewitson</td>
+  <td>10</td>
+  <td style="font-size:7.5px">trial: 'led all the way' | front-runner with no pace pres...</td>
+</tr><tr>
+  <td>#4</td>
+  <td class="horse">JUSTIFYING</td>
+  <td><strong>54.6</strong></td>
+  <td>53.2</td>
+  <td>7 (2)</td>
+  <td>J Orman</td>
+  <td>9</td>
+  <td style="font-size:7.5px">trial: 'kept on' | 2 recent trials | peak energy 93 in ha...</td>
+</tr></table><div class="pick-detail">
+  <div class="name">#9 JUICY DRAGON — 64.8pts</div>
+  <div class="factors">
+    <span class="factor">Form 48</span>
+    <span class="factor">Energy 60</span>
+    <span class="factor">Jockey 56</span>
+    <span class="factor">Draw 42</span>
+    <span class="factor">Trainer 58</span>
+    <span class="factor">Class 50</span>
+    <span class="factor">TW +8</span>
+    <span class="factor">BT +2</span>
+  </div>
+  <div>Form: 1/4/5/3/5 | Energy: 88.0 (rising) | Days since: 28</div><div><span class="signal">energy 93 (strong) | 3-run rising trend (87→91→93)</span> | <span class="signal">peak energy 93 in harder company</span></div></div>
+</div>
+</div>
+<div class="race-card">
+<div class="race-header">
+  <h3>Race 7</h3>
+  <div class="info">AWT 1200m | Class 4 | 12 runners</div>
+</div>
+<div class="race-body">
+<table class="race-table">
+<tr><th>#</th><th>Horse</th><th>Combined</th><th>Composite</th><th>Value</th><th>Jockey</th><th>Draw</th><th>Signals</th></tr>
+<tr>
+  <td>#2</td>
+  <td class="horse">NOTTHESILLYONE</td>
+  <td><strong>64.4</strong></td>
+  <td>61.8</td>
+  <td>13 (2)</td>
+  <td>L Ferraris</td>
+  <td>3</td>
+  <td style="font-size:7.5px">energy 95 (outstanding) | 3-run rising trend (77→85→95) |...</td>
+</tr><tr>
+  <td>#6</td>
+  <td class="horse">GOOD CHAP</td>
+  <td><strong>58.6</strong></td>
+  <td>55.9</td>
+  <td>13 (2)</td>
+  <td>A Atzeni</td>
+  <td>5</td>
+  <td style="font-size:7.5px">energy 96 (outstanding) | 3-run rising trend (72→94→96) |...</td>
+</tr><tr>
+  <td>#10</td>
+  <td class="horse">MALPENSA</td>
+  <td><strong>58.2</strong></td>
+  <td>55.6</td>
+  <td>13 (3)</td>
+  <td>J Orman</td>
+  <td>12</td>
+  <td style="font-size:7.5px">energy 94 (strong) | high effort despite 5th — under-rate...</td>
+</tr><tr>
+  <td>#1</td>
+  <td class="horse">IGOR STRAVINSKY</td>
+  <td><strong>57.7</strong></td>
+  <td>56.8</td>
+  <td>4 (2)</td>
+  <td>P N Wong</td>
+  <td>1</td>
+  <td style="font-size:7.5px">energy 94 (strong) | peak energy 95 in harder company</td>
+</tr><tr>
+  <td>#3</td>
+  <td class="horse">WOLF COMING</td>
+  <td><strong>54.5</strong></td>
+  <td>52.9</td>
+  <td>8 (2)</td>
+  <td>Z Purton</td>
+  <td>4</td>
+  <td style="font-size:7.5px">peak energy 95 in harder company | NEW ride for Z Purton ...</td>
+</tr></table><div class="pick-detail">
+  <div class="name">#2 NOTTHESILLYONE — 64.4pts</div>
+  <div class="factors">
+    <span class="factor">Form 56</span>
+    <span class="factor">Energy 61</span>
+    <span class="factor">Jockey 43</span>
+    <span class="factor">Draw 97</span>
+    <span class="factor">Trainer 80</span>
+    <span class="factor">Class 50</span>
+    <span class="factor">TW +5</span>
+    <span class="factor">BT +0</span>
+  </div>
+  <div>Form: 1/7/10/1/1 | Energy: 88.3 (rising) | Days since: 38</div><div><span class="signal">energy 95 (outstanding) | 3-run rising trend (77→85→95)</span> | <span class="signal">peak energy 95 in harder company</span></div></div>
+</div>
+</div>
+<div class="race-card">
+<div class="race-header">
+  <h3>Race 8</h3>
+  <div class="info">AWT 1200m | Class 3 | 11 runners</div>
+</div>
+<div class="race-body">
+<table class="race-table">
+<tr><th>#</th><th>Horse</th><th>Combined</th><th>Composite</th><th>Value</th><th>Jockey</th><th>Draw</th><th>Signals</th></tr>
+<tr>
+  <td>#4</td>
+  <td class="horse">VICTORY SKY</td>
+  <td><strong>106.4</strong></td>
+  <td>101.7</td>
+  <td>24 (3)</td>
+  <td>Z Purton</td>
+  <td>4</td>
+  <td style="font-size:7.5px">energy 101 (exceptional) | improving (96→101) | peak ener...</td>
+</tr><tr>
+  <td>#1</td>
+  <td class="horse">ROMANTIC SON</td>
+  <td><strong>100.2</strong></td>
+  <td>96.3</td>
+  <td>20 (3)</td>
+  <td>H Bentley</td>
+  <td>3</td>
+  <td style="font-size:7.5px">energy 101 (exceptional) | trial: 'hit the front' | 42d s...</td>
+</tr><tr>
+  <td>#5</td>
+  <td class="horse">AURORA PATCH</td>
+  <td><strong>69.9</strong></td>
+  <td>67.5</td>
+  <td>12 (3)</td>
+  <td>H Bowman</td>
+  <td>10</td>
+  <td style="font-size:7.5px">energy 91 (strong) | peak energy 101 in harder company</td>
+</tr><tr>
+  <td>#7</td>
+  <td class="horse">BLAZING WIND</td>
+  <td><strong>67.0</strong></td>
+  <td>65.3</td>
+  <td>9 (3)</td>
+  <td>C L Chau</td>
+  <td>1</td>
+  <td style="font-size:7.5px">2 recent trials | peak energy 103 in harder company</td>
+</tr><tr>
+  <td>#6</td>
+  <td class="horse">MR ENERGIA</td>
+  <td><strong>61.1</strong></td>
+  <td>60.1</td>
+  <td>5 (2)</td>
+  <td>J Orman</td>
+  <td>2</td>
+  <td style="font-size:7.5px">31d since last run | 2 recent trials | peak energy 102 in...</td>
+</tr></table><div class="pick-detail">
+  <div class="name">#4 VICTORY SKY — 106.4pts</div>
+  <div class="factors">
+    <span class="factor">Form 60</span>
+    <span class="factor">Energy 82</span>
+    <span class="factor">Jockey 100</span>
+    <span class="factor">Draw 97</span>
+    <span class="factor">Trainer 61</span>
+    <span class="factor">Class 65</span>
+    <span class="factor">TW +8</span>
+    <span class="factor">BT +2</span>
+  </div>
+  <div>Form: 2/5/1/1/6 | Energy: 97.6 (improving) | Days since: 28</div><div class="flags"><span class="flag">🟢 Energy 101 + top-4 finish</span> <span class="flag">🟢 Elite jockey + improving energy</span></div><div><span class="signal">energy 101 (exceptional) | improving (96→101)</span> | <span class="signal">peak energy 101 in harder company</span> | <span class="signal">NEW ride for Z Purton — jockey upgrade signal</span></div></div>
+</div>
+</div>
+<div class="race-card">
+<div class="race-header">
+  <h3>Race 9</h3>
+  <div class="info">AWT 1650m | Class 3 | 14 runners</div>
+</div>
+<div class="race-body">
+<table class="race-table">
+<tr><th>#</th><th>Horse</th><th>Combined</th><th>Composite</th><th>Value</th><th>Jockey</th><th>Draw</th><th>Signals</th></tr>
+<tr>
+  <td>#2</td>
+  <td class="horse">TALENTS AMBITION</td>
+  <td><strong>100.6</strong></td>
+  <td>95.9</td>
+  <td>24 (3)</td>
+  <td>Z Purton</td>
+  <td>5</td>
+  <td style="font-size:7.5px">energy 101 (exceptional) | improving (99→101) | peak ener...</td>
+</tr><tr>
+  <td>#8</td>
+  <td class="horse">ENDEARED</td>
+  <td><strong>78.9</strong></td>
+  <td>75.2</td>
+  <td>18 (3)</td>
+  <td>A Atzeni</td>
+  <td>3</td>
+  <td style="font-size:7.5px">energy 100 (exceptional) | improving (79→100) | 2 recent ...</td>
+</tr><tr>
+  <td>#7</td>
+  <td class="horse">ROMANTIC THOR</td>
+  <td><strong>66.2</strong></td>
+  <td>63.6</td>
+  <td>13 (2)</td>
+  <td>K Teetan</td>
+  <td>13</td>
+  <td style="font-size:7.5px">energy 98 (outstanding) | 3-run rising trend (95→97→98) |...</td>
+</tr><tr>
+  <td>#10</td>
+  <td class="horse">SO YOU WILL</td>
+  <td><strong>63.7</strong></td>
+  <td>61.0</td>
+  <td>13 (2)</td>
+  <td>A Badel</td>
+  <td>11</td>
+  <td style="font-size:7.5px">energy 99 (outstanding) | 3-run rising trend (76→97→99) |...</td>
+</tr><tr>
+  <td>#12</td>
+  <td class="horse">PACKING FIGHTER</td>
+  <td><strong>62.6</strong></td>
+  <td>58.4</td>
+  <td>21 (3)</td>
+  <td>M L Yeung</td>
+  <td>9</td>
+  <td style="font-size:7.5px">energy 96 (outstanding) | 3-run rising trend (94→95→96) |...</td>
+</tr></table><div class="pick-detail">
+  <div class="name">#2 TALENTS AMBITION — 100.6pts</div>
+  <div class="factors">
+    <span class="factor">Form 21</span>
+    <span class="factor">Energy 94</span>
+    <span class="factor">Jockey 100</span>
+    <span class="factor">Draw 79</span>
+    <span class="factor">Trainer 80</span>
+    <span class="factor">Class 35</span>
+    <span class="factor">TW +5</span>
+    <span class="factor">BT +2</span>
+  </div>
+  <div>Form: 4/7/3/5/10 | Energy: 101.6 (improving) | Days since: 24</div><div class="flags"><span class="flag">🟢 Energy 101 + top-4 finish</span> <span class="flag">🟢 Near miss + strong energy</span> <span class="flag">🟢 Elite jockey + improving energy</span></div><div><span class="signal">energy 101 (exceptional) | improving (99→101)</span> | <span class="signal">peak energy 103 in harder company</span> | <span class="signal">NEW ride for Z Purton — jockey upgrade signal</span></div></div>
+</div>
+</div>
+
+<div class="footer" style="margin-top: 16px; font-size: 8px; text-align: center; color: #9ca3af;">
+  <p>🏇 Kairo Racing Intelligence — Composite Scoring + Value Overlay Detection</p>
+  <p>Pipeline: scraper.py → merge.py → score.py + value_finder.py → race_report.py</p>
+  <p><strong>Disclaimer:</strong> This is a statistical model. Past performance does not guarantee future results. Bet responsibly.</p>
+</div>
+
+</body>
+</html>

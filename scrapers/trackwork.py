@@ -55,16 +55,79 @@ def parse_trackwork_entries(text: str) -> list:
         line = line.strip()
         if not line:
             continue
-        # Pattern: DD/MM: VENUE SURFACE DETAILS (RIDER) [COMPANION]
-        match = re.match(
-            r"(\d{2}/\d{2}):\s+(.+?)(?:\s+(?:AWT|Turf|Stall Test|SmT|TroR|CONGHUA|SHA TIN))?(.*)$",
-            line,
-        )
-        if match:
-            entries.append({"raw": line})
-        else:
-            entries.append({"raw": line})
+        entries.append({"raw": line})
     return entries
+
+
+def parse_gallop_string(raw: str) -> dict:
+    """Parse a gallop string like '30/03: SHA TIN AWT 29.6 24.1 (53.7) (J Orman) Wave Garden' into structured data."""
+    result = {"raw": raw}
+    
+    # Date
+    m = re.match(r"(\d{2}/\d{2}):\s*(.+)", raw)
+    if not m:
+        return result
+    result["date"] = m.group(1)
+    rest = m.group(2)
+    
+    # Venue: SHA TIN or CONGHUA
+    vm = re.match(r"(SHA TIN|CONGHUA)\s+(.+)", rest)
+    if vm:
+        result["venue"] = vm.group(1)
+        rest = vm.group(2)
+    
+    # Surface: AWT, Turf, Stall Test Turf, SmT, TroR
+    sm = re.match(r"(AWT|Turf|Stall Test Turf|Stall Test|SmT|TroR)\s*(.*)", rest)
+    if sm:
+        result["surface"] = sm.group(1)
+        rest = sm.group(2)
+    
+    # Sectional times: numbers like "29.6 24.1" and total in parens "(53.7)"
+    times = re.findall(r"(\d+\.\d+)", rest)
+    total_m = re.search(r"\((\d+\.\d+)\)", rest)
+    if total_m:
+        result["totalTime"] = float(total_m.group(1))
+        # Sectionals are the numbers before the total
+        total_str = total_m.group(1)
+        result["sectionals"] = [float(t) for t in times if t != total_str]
+    elif times:
+        result["sectionals"] = [float(t) for t in times]
+    
+    # Also capture minute:second totals like "(1.29.7)"
+    min_total = re.search(r"\((\d+\.\d+\.\d+)\)", rest)
+    if min_total:
+        result["totalTime"] = min_total.group(1)
+        # Re-extract sectionals excluding the total
+        total_parts = min_total.group(1)
+        result["sectionals"] = [float(t) for t in times if t not in total_parts.split(".")]
+    
+    # Rider in parens: (J Orman) or (R.B.) or (A.T.)
+    rider_m = re.search(r"\(([A-Z][A-Za-z. ]+)\)(?:\s|$)", rest)
+    if rider_m and not re.match(r"^\d", rider_m.group(1)):
+        result["rider"] = rider_m.group(1).strip()
+    
+    # Companion: anything after the last parens group
+    companion_m = re.search(r"\)\s+([A-Z][A-Za-z ]+)$", rest)
+    if companion_m:
+        result["companion"] = companion_m.group(1).strip()
+    
+    # Work type for trotting: "TroR Canter", "1 Round - Fast", "2 Round - Rev Fast"
+    work_m = re.search(r"(TroR Canter|\d+ Round - (?:Rev )?Fast|Treadmill[^)]*)", rest)
+    if work_m:
+        result["workType"] = work_m.group(1)
+    
+    return result
+
+
+def parse_treadmill_string(raw: str) -> dict:
+    """Parse treadmill entry like '27/03: SHA TIN Treadmill - Canter With Incline'."""
+    result = {"raw": raw}
+    m = re.match(r"(\d{2}/\d{2}):\s*(SHA TIN|CONGHUA)\s*(.*)", raw)
+    if m:
+        result["date"] = m.group(1)
+        result["venue"] = m.group(2)
+        result["description"] = m.group(3).strip()
+    return result
 
 
 def scrape_race_trackwork(page, race_date: str, racecourse: str, race_no: int) -> dict:
@@ -228,6 +291,38 @@ def scrape_race_trackwork(page, race_date: str, racecourse: str, race_no: int) -
     # Merge: prefer table_data if it has good results
     if table_data and len(table_data) > 0:
         data["horses"] = table_data
+
+    # Post-process: parse raw strings into structured data
+    for horse in data.get("horses", []):
+        # Parse gallop strings
+        if horse.get("gallops"):
+            horse["gallops"] = [parse_gallop_string(g) for g in horse["gallops"]]
+        
+        # Parse barrier trial strings  
+        if horse.get("barrierTrials"):
+            horse["barrierTrials"] = [parse_gallop_string(bt) for bt in horse["barrierTrials"]]
+        
+        # Parse trotting strings
+        if horse.get("trotting"):
+            horse["trotting"] = [parse_gallop_string(t) for t in horse["trotting"]]
+        
+        # Parse swimming (just date + venue)
+        if horse.get("swimming"):
+            horse["swimming"] = [parse_gallop_string(s) for s in horse["swimming"]]
+        
+        # Parse treadmill
+        if horse.get("treadmill"):
+            horse["treadmill"] = [parse_treadmill_string(t) for t in horse["treadmill"]]
+        
+        # Parse aqua walker
+        if horse.get("aquaWalker"):
+            horse["aquaWalker"] = [parse_gallop_string(a) for a in horse["aquaWalker"]]
+        
+        # Add computed fields
+        if horse.get("lastSixRuns"):
+            runs = [int(x) for x in horse["lastSixRuns"].split("/") if x.isdigit()]
+            horse["formNumbers"] = runs
+            horse["avgFinish"] = round(sum(runs) / len(runs), 1) if runs else None
 
     return data
 

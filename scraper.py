@@ -172,15 +172,24 @@ def scrape_single_formguide(page, race_no: int):
 
                     // Parse horse header
                     const match = firstCellText.match(/^(\\d+)\\s+(.+)/);
+                    const rawName = match ? match[2].trim() : firstCellText;
+                    
+                    // Extract horse code from link if available
+                    const horseLink = cells[0]?.querySelector('a') || row.querySelector('a[href*="horse"]');
+                    const horseHref = horseLink?.href || '';
+                    const codeMatch = horseHref.match(/horseid=([^&]+)/i) || horseHref.match(/horseno=([^&]+)/i);
+                    const horseCode = codeMatch ? codeMatch[1].replace(/^HK_\\d+_/, '') : '';
+                    
                     currentHorse = {
                         number: match ? parseInt(match[1]) : null,
-                        name: match ? match[2].trim() : firstCellText,
-                        draw: cells[1]?.textContent?.trim()?.replace(/[()]/g, '') || '',
-                        bodyWeight: cells[2]?.textContent?.trim() || '',
-                        weight: cells[3]?.textContent?.trim() || '',
+                        name: rawName,
+                        horseCode: horseCode,
+                        draw: parseInt(cells[1]?.textContent?.trim()?.replace(/[()]/g, '')) || cells[1]?.textContent?.trim()?.replace(/[()]/g, '') || '',
+                        bodyWeight: parseInt(cells[2]?.textContent?.trim()) || cells[2]?.textContent?.trim() || '',
+                        weight: parseInt(cells[3]?.textContent?.trim()) || cells[3]?.textContent?.trim() || '',
                         jockey: cells[4]?.textContent?.trim() || '',
                         trainer: cells[5]?.textContent?.trim() || '',
-                        age: cells[6]?.textContent?.trim()?.replace('Age:', '') || '',
+                        age: parseInt(cells[6]?.textContent?.trim()?.replace('Age:', '')) || cells[6]?.textContent?.trim()?.replace('Age:', '') || '',
                         form: []
                     };
                 }
@@ -188,42 +197,65 @@ def scrape_single_formguide(page, race_no: int):
                 else if (/^\\d{2}\\/\\d{2}\\/\\d{4}/.test(firstCellText) && currentHorse) {
                     const formEntry = {
                         runDate: cells[0]?.textContent?.trim() || '',
-                        daysSinceLast: cells[1]?.textContent?.trim() || '',
+                        daysSinceLast: parseInt(cells[1]?.textContent?.trim()) || cells[1]?.textContent?.trim() || '',
                         courseDistGoing: cells[2]?.textContent?.trim() || '',
-                        draw: cells[3]?.textContent?.trim() || '',
-                        bodyWeight: cells[4]?.textContent?.trim() || '',
-                        weight: cells[5]?.textContent?.trim() || '',
+                        draw: parseInt(cells[3]?.textContent?.trim()) || cells[3]?.textContent?.trim() || '',
+                        bodyWeight: parseInt(cells[4]?.textContent?.trim()) || cells[4]?.textContent?.trim() || '',
+                        weight: parseInt(cells[5]?.textContent?.trim()) || cells[5]?.textContent?.trim() || '',
                         jockey: cells[6]?.textContent?.trim() || '',
                         fpTs: cells[7]?.textContent?.trim() || '',
-                        energy: cells[8]?.textContent?.trim() || '',
-                        sectionalTimes: '',
+                        energy: parseInt(cells[8]?.textContent?.trim()) || cells[8]?.textContent?.trim() || '',
+                        sectionalTimes: [],
+                        subSplits: [],
                         comment: '',
-                        odds: cells[10]?.textContent?.trim() || ''
+                        odds: parseFloat(cells[10]?.textContent?.trim()) || cells[10]?.textContent?.trim() || ''
                     };
 
-                    // Sectional times cell has nested divs
+                    // Sectional times cell has structured divs with specific classes
                     const stCell = cells[9];
                     if (stCell) {
-                        const timeDivs = stCell.querySelectorAll('div > div');
-                        const times = [];
-                        const comments = [];
-                        timeDivs.forEach(d => {
-                            const t = d.textContent.trim();
-                            if (/^\\d+\\.\\d+/.test(t) || /^Pace/.test(t)) {
-                                if (/^Pace/.test(t) || t.length > 30) {
-                                    comments.push(t);
-                                } else {
-                                    times.push(t);
-                                }
-                            }
+                        const mainTimes = [];
+                        const subSplits = [];
+                        let comment = '';
+                        
+                        // .Sectional_Times_item = main sectional (e.g. "14.16")
+                        stCell.querySelectorAll('.Sectional_Times_item').forEach(d => {
+                            const v = parseFloat(d.textContent.trim());
+                            if (!isNaN(v)) mainTimes.push(v);
                         });
+                        
+                        // .Sectional_Times_item2 = sectional with sub-split
+                        stCell.querySelectorAll('.Sectional_Times_item2').forEach(d => {
+                            // Direct text node is the main time
+                            const directText = Array.from(d.childNodes)
+                                .filter(n => n.nodeType === 3)
+                                .map(n => n.textContent.trim())
+                                .join('');
+                            const v = parseFloat(directText);
+                            if (!isNaN(v)) mainTimes.push(v);
+                            
+                            // .Sectional_Times_sub_item = sub-split pair
+                            const sub = d.querySelector('.Sectional_Times_sub_item');
+                            if (sub) subSplits.push(sub.textContent.trim());
+                        });
+                        
+                        // Comment is in an unclassed div inside .Sectional_Times
+                        const commentDiv = stCell.querySelector('.Sectional_Times > div:not([class])');
+                        if (commentDiv) {
+                            comment = commentDiv.textContent.trim();
+                        }
+                        // Fallback: any div starting with "Pace"
+                        if (!comment) {
+                            stCell.querySelectorAll('div').forEach(d => {
+                                if (!d.className && /^Pace/.test(d.textContent.trim())) {
+                                    comment = d.textContent.trim();
+                                }
+                            });
+                        }
 
-                        // Also check for comment text directly
-                        const fullText = stCell.textContent.trim();
-                        const paceMatch = fullText.match(/(Pace .+?)$/s);
-
-                        formEntry.sectionalTimes = times.join(' | ');
-                        formEntry.comment = comments.join(' ') || (paceMatch ? paceMatch[1] : '');
+                        formEntry.sectionalTimes = mainTimes;
+                        formEntry.subSplits = subSplits;
+                        formEntry.comment = comment;
                     }
 
                     currentHorse.form.push(formEntry);
@@ -336,6 +368,14 @@ def scrape_single_result(page, race_date: str, race_no: int):
                 const horseLink = cells[2]?.querySelector('a');
                 const horseId = horseLink?.href?.match(/horseid=([^&]+)/)?.[1] || '';
 
+                // Clean running position: collapse whitespace/newlines into dash-separated
+                const rawPos = cells[9]?.textContent?.trim() || '';
+                const cleanPos = rawPos.replace(/\\s+/g, ' ').trim().split(/\\s+/).filter(x => /^\\d+$/.test(x)).join('-');
+
+                // Parse actualWeight and declaredWeight as numbers
+                const aw = cells[5]?.textContent?.trim() || '';
+                const dw = cells[6]?.textContent?.trim() || '';
+
                 result.horses.push({
                     placing: placing,
                     horseNo: cells[1]?.textContent?.trim() || '',
@@ -344,13 +384,13 @@ def scrape_single_result(page, race_date: str, race_no: int):
                     horseId: horseId,
                     jockey: cells[3]?.textContent?.trim() || '',
                     trainer: cells[4]?.textContent?.trim() || '',
-                    actualWeight: cells[5]?.textContent?.trim() || '',
-                    declaredWeight: cells[6]?.textContent?.trim() || '',
-                    draw: cells[7]?.textContent?.trim() || '',
+                    actualWeight: parseInt(aw) || aw,
+                    declaredWeight: parseInt(dw) || dw,
+                    draw: parseInt(cells[7]?.textContent?.trim()) || cells[7]?.textContent?.trim() || '',
                     lbw: cells[8]?.textContent?.trim() || '',
-                    runningPosition: cells[9]?.textContent?.trim() || '',
+                    runningPosition: cleanPos,
                     finishTime: cells[10]?.textContent?.trim() || '',
-                    winOdds: cells[11]?.textContent?.trim() || ''
+                    winOdds: parseFloat(cells[11]?.textContent?.trim()) || cells[11]?.textContent?.trim() || ''
                 });
             });
 
